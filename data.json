@@ -1,6 +1,5 @@
 {
- "generated": "2026-10-16T12:00:00+11:00",
- "baseline": true,
+ "generated": "2026-10-16T15:00:00+11:00",
  "listings": [
   {
    "key": "611blaxlandroad|eastwood",
@@ -24,7 +23,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "1bayviewstreet|tennysonpoint",
@@ -47,7 +51,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "4/31masseystreet|gladesville",
@@ -94,7 +103,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:00:00+11:00",
+     "end": "2026-10-17T09:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "3helenstreet|epping",
@@ -117,7 +135,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "6astuartstreet|ryde",
@@ -140,7 +167,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "13acolstonstreet|ryde",
@@ -164,7 +196,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T10:00:00+11:00",
+     "end": "2026-10-21T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "2aacaciastreet|eastwood",
@@ -188,7 +229,20 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T11:45:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "43primulastreet|lindfield",
@@ -211,7 +265,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-21T13:45:00+11:00",
+     "end": "2026-10-21T14:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "229vimieraroad|marsfield",
@@ -220,7 +283,7 @@
    "domainUrl": "https://www.domain.com.au/229-vimiera-road-marsfield-nsw-2122-2021224114",
    "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-marsfield-152575144",
    "img": "https://rimh2.domainstatic.com.au/UPQbGf9mWckX6YQ4qzDG8p8cw-o=/720x540/filters:format(webp):quality(85)/2021224114_1_1_261008_054955-w2047-h1364",
-   "price": "Auction | Contact Agent",
+   "price": "Auction | $2,200,000 - $2,300,000",
    "street": "229 Vimiera Road",
    "suburb": "Marsfield",
    "bed": 5,
@@ -230,11 +293,16 @@
    "landM2": null,
    "auction": "2026-10-31T16:30:00",
    "bands": [
-    "c"
+    "b"
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "4bsmallsroad|ryde",
@@ -257,7 +325,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "16burmahroad|denistone",
@@ -280,7 +353,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:15:00+11:00",
+     "end": "2026-10-17T11:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "82aeastviewavenue|northryde",
@@ -303,7 +381,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "2rexstreet|westryde",
@@ -327,7 +414,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "2hockleyroad|eastwood",
@@ -350,7 +442,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:30:00+11:00",
+     "end": "2026-10-17T17:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "47anorfolkroad|epping",
@@ -374,7 +475,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    },
+    {
+     "start": "2026-10-21T11:30:00+11:00",
+     "end": "2026-10-21T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "1napiercrescent|northryde",
@@ -397,7 +507,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "80rutledgestreet|eastwood",
@@ -420,7 +535,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "50valleyroad|epping",
@@ -466,7 +586,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "15abensonstreet|westryde",
@@ -489,7 +614,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "10aconradstreet|northryde",
@@ -512,7 +642,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "87midsonroad|epping",
@@ -558,7 +697,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "2kagaplace|marsfield",
@@ -581,7 +725,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:30:00+11:00",
+     "end": "2026-10-18T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "16cavandrive|eastwood",
@@ -627,7 +780,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "12peckhamavenue|chatswood",
@@ -697,7 +855,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-21T12:30:00+11:00",
+     "end": "2026-10-21T12:50:00+11:00"
+    }
+   ]
   },
   {
    "key": "34arthurstreet|ryde",
@@ -720,7 +887,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "44ryriestreet|northryde",
@@ -743,7 +915,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:45:00+11:00",
+     "end": "2026-10-17T11:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "2lillipillistreet|epping",
@@ -766,7 +943,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "17akulgoaavenue|ryde",
@@ -789,7 +971,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:15:00+11:00",
+     "end": "2026-10-17T09:45:00+11:00"
+    },
+    {
+     "start": "2026-10-17T09:45:00+11:00",
+     "end": "2026-10-17T10:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "29afawcettstreet|ryde",
@@ -812,7 +1003,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "96winbournestreet|westryde",
@@ -835,7 +1031,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "23richmondstreet|denistoneeast",
@@ -858,7 +1059,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T15:00:00+11:00",
+     "end": "2026-10-18T15:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "23addingtonavenue|ryde",
@@ -881,7 +1091,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T17:00:00+11:00",
+     "end": "2026-10-17T17:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T17:30:00+11:00",
+     "end": "2026-10-17T18:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "14tallwoodavenue|eastwood",
@@ -904,7 +1123,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:30:00+11:00",
+     "end": "2026-10-17T15:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "5fayplace|marsfield",
@@ -927,7 +1151,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "62winbournestreeteast|westryde",
@@ -950,7 +1179,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T15:30:00+11:00",
+     "end": "2026-10-17T16:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "16bmyraavenue|ryde",
@@ -973,7 +1207,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "12gladstoneavenue|ryde",
@@ -996,7 +1235,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "29cooneystreet|northryde",
@@ -1019,7 +1263,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "29moiraavenue|denistonewest",
@@ -1043,7 +1292,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "106bridgeroad|ryde",
@@ -1066,7 +1320,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "55amorsheadstreet|northryde",
@@ -1089,7 +1348,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "55anorthroad|ryde",
@@ -1112,7 +1376,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "3aorchardstreet|epping",
@@ -1158,7 +1427,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:45:00+11:00",
+     "end": "2026-10-17T13:15:00+11:00"
+    },
+    {
+     "start": "2026-10-18T14:45:00+11:00",
+     "end": "2026-10-18T15:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "10apaulstreet|northryde",
@@ -1227,7 +1505,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "14atunksstreet|ryde",
@@ -1250,7 +1537,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "7deborahplace|eastwood",
@@ -1273,7 +1565,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T15:30:00+11:00",
+     "end": "2026-10-17T16:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "6aalbertstreet|gladesville",
@@ -1319,7 +1620,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:00:00+11:00",
+     "end": "2026-10-18T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "6smallsroad|ryde",
@@ -1342,7 +1652,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "13awillandrastreet|ryde",
@@ -1388,7 +1703,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:30:00+11:00",
+     "end": "2026-10-17T14:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:30:00+11:00",
+     "end": "2026-10-18T13:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "111carlingfordroad|epping",
@@ -1412,7 +1736,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "113acarlingfordroad|epping",
@@ -1436,7 +1769,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "102achapmanavenue|beecroft",
@@ -1459,7 +1801,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "17wilshireavenue|carlingford",
@@ -1483,7 +1830,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-21T13:45:00+11:00",
+     "end": "2026-10-21T14:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "1lyndelleplace|carlingford",
@@ -1507,7 +1863,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "2simpsonstreet|dundasvalley",
@@ -1530,7 +1891,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:40:00+11:00"
+    }
+   ]
   },
   {
    "key": "2cardinalavenue|beecroft",
@@ -1553,7 +1919,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T14:45:00+11:00",
+     "end": "2026-10-17T15:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "16imlayavenue|carlingford",
@@ -1576,7 +1951,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "24warrowaavenue|westpymble",
@@ -1600,7 +1980,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:15:00+11:00",
+     "end": "2026-10-17T09:45:00+11:00"
+    },
+    {
+     "start": "2026-10-21T09:15:00+11:00",
+     "end": "2026-10-21T09:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "57wallalongcrescent|westpymble",
@@ -1623,7 +2012,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "20coraltreedrive|carlingford",
@@ -1646,7 +2040,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:40:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:40:00+11:00"
+    }
+   ]
   },
   {
    "key": "8macarthurstreet|ermington",
@@ -1669,7 +2072,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T13:00:00+11:00",
+     "end": "2026-10-18T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "12ravenhillroad|turramurra",
@@ -1693,7 +2105,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T12:00:00+11:00",
+     "end": "2026-10-21T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "14tristaniaway|beecroft",
@@ -1716,7 +2137,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "1abuyumastreet|carlingford",
@@ -1740,7 +2166,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:30:00+11:00",
+     "end": "2026-10-18T13:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "10lynetteavenue|carlingford",
@@ -1763,7 +2198,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "9aecclesstreet|ermington",
@@ -1787,7 +2231,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:45:00+11:00",
+     "end": "2026-10-17T10:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "84coraltreedrive|carlingford",
@@ -1810,7 +2259,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T17:00:00+11:00",
+     "end": "2026-10-17T17:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T17:30:00+11:00",
+     "end": "2026-10-17T18:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "3atkinsroad|ermington",
@@ -1833,7 +2291,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:30:00+11:00",
+     "end": "2026-10-17T10:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "49dandarbongavenue|carlingford",
@@ -1857,7 +2324,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "7cassandraplace|carlingford",
@@ -1881,7 +2353,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "10cornwallavenue|turramurra",
@@ -1904,7 +2381,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T10:00:00+11:00",
+     "end": "2026-10-21T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "2/66dandarbongavenue|carlingford",
@@ -1927,7 +2413,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "169parkroad|dundas",
@@ -1950,7 +2441,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "1mobbslane|carlingford",
@@ -1996,7 +2492,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "48raimonderoad|carlingford",
@@ -2019,7 +2520,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "103asouthstreet|ermington",
@@ -2042,7 +2548,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "8camelotcourt|carlingford",
@@ -2088,7 +2599,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:45:00+11:00",
+     "end": "2026-10-17T15:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "5mornaplace|turramurra",
@@ -2111,7 +2627,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "31blackwoodclose|beecroft",
@@ -2134,7 +2655,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "32hartstreet|dundasvalley",
@@ -2157,7 +2683,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "16fullartonstreet|telopea",
@@ -2181,7 +2712,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "10ahorsfallstreet|ermington",
@@ -2204,7 +2744,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "41baldwinstreet|gordon",
@@ -2227,7 +2772,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "34amarsdenroad|ermington",
@@ -2250,7 +2800,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:15:00+11:00",
+     "end": "2026-10-17T14:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "14mobbslane|carlingford",
@@ -2274,7 +2829,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:45:00+11:00",
+     "end": "2026-10-17T13:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "id:2020335250",
@@ -2320,7 +2880,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "4/66dandarbongavenue|carlingford",
@@ -2343,7 +2908,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:00:00+11:00",
+     "end": "2026-10-18T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "60parkinsonavenue|turramurra",
@@ -2366,7 +2940,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "1sinfieldstreet|ermington",
@@ -2412,7 +2991,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:30:00+11:00",
+     "end": "2026-10-17T15:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "177aaddertonrd|carlingford",
@@ -2458,7 +3042,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "33fitzgeraldroad|ermington",
@@ -2481,7 +3070,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "22adelawareroad|ermington",
@@ -2504,7 +3098,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "12awassellstreet|dundas",
@@ -2527,7 +3126,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "19ahilderroad|ermington",
@@ -2573,7 +3177,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "5ajervisstreet|ermington",
@@ -2619,7 +3228,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "9alancasteravenue|melrosepark",
@@ -2666,7 +3280,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "4jervisstreet|ermington",
@@ -2690,7 +3309,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "8denhamplace|dundas",
@@ -2713,7 +3337,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "6atrumperstreet|ermington",
@@ -2737,7 +3366,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "24murdochstreet|ermington",
@@ -2761,7 +3395,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "19atkinsroad|ermington",
@@ -2785,7 +3424,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T09:30:00+11:00",
+     "end": "2026-10-17T10:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "694victoriard|ermington",
@@ -2808,7 +3452,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "5/12chaseavenue|rosevillechase",
@@ -2900,7 +3549,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "23aphilliproad|putney",
@@ -2947,7 +3605,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "85melbadrive|eastryde",
@@ -3016,7 +3679,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:45:00+11:00",
+     "end": "2026-10-18T13:15:00+11:00"
+    }
+   ]
   },
   {
    "key": "8abyronavenue|ryde",
@@ -3039,7 +3711,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
   },
   {
    "key": "25amyraavenue|ryde",
@@ -3062,7 +3739,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "136wicksroad|northryde",
@@ -3108,7 +3790,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
   },
   {
    "key": "1/35bmidsonroad|eastwood",
@@ -3155,7 +3842,16 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T15:00:00+11:00",
+     "end": "2026-10-17T15:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "42valleyroad|epping",
@@ -3178,7 +3874,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
   },
   {
    "key": "35farringtonparade|northryde",
@@ -3201,7 +3902,12 @@
    ],
    "isNew": false,
    "firstSeen": "2026-10-16",
-   "inspections": []
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
   }
  ]
 }

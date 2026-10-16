@@ -1,0 +1,3913 @@
+{
+ "generated": "2026-10-16T15:00:00+11:00",
+ "listings": [
+  {
+   "key": "611blaxlandroad|eastwood",
+   "domainId": "2020667460",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-150537328",
+   "domainUrl": "https://www.domain.com.au/611-blaxland-road-eastwood-nsw-2122-2020667460",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-150537328",
+   "img": "https://rimh2.domainstatic.com.au/GO2KSlHrRzgRtWwa4i2oVMdn0P4=/720x540/filters:format(webp):quality(85)/2020667460_1_1_260316_025521-w3240-h2160",
+   "price": "For Sale - $2,100,000 - $2,200,000",
+   "street": "611 Blaxland Road",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 307,
+   "auction": null,
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1bayviewstreet|tennysonpoint",
+   "domainId": "2021238542",
+   "reaSlug": "house-nsw-tennyson+point-152623428",
+   "domainUrl": "https://www.domain.com.au/1-bayview-street-tennyson-point-nsw-2111-2021238542",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-tennyson+point-152623428",
+   "img": "https://rimh2.domainstatic.com.au/WCUvychh26vSEkvQ1OKBoEHSjec=/720x540/filters:format(webp):quality(85)/2021238542_1_1_261014_012408-w4143-h2761",
+   "price": "FOR SALE, Contact Agent",
+   "street": "1 Bayview Street",
+   "suburb": "Tennyson Point",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "4/31masseystreet|gladesville",
+   "domainId": "2021227326",
+   "reaSlug": "house-nsw-gladesville-152585852",
+   "domainUrl": "https://www.domain.com.au/4-31-massey-street-gladesville-nsw-2111-2021227326",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-gladesville-152585852",
+   "img": "https://rimh2.domainstatic.com.au/m44LZBAzBk9pd01moNNjBvq2gCc=/720x540/filters:format(webp):quality(85)/2021227326_1_1_261009_041940-w3866-h2581",
+   "price": "Contact Agent",
+   "street": "4/31 Massey Street",
+   "suburb": "Gladesville",
+   "bed": 4,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": "2026-10-29T18:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "160carlingfordroad|epping",
+   "domainId": "2021201371",
+   "reaSlug": "duplex+semi-detached-nsw-epping-152496412",
+   "domainUrl": "https://www.domain.com.au/160-carlingford-road-epping-nsw-2121-2021201371",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-152496412",
+   "img": "https://rimh2.domainstatic.com.au/RgrXCybkh_Cg_CHtbIVbgv9fqmk=/720x540/filters:format(webp):quality(85)/2021201371_1_1_261001_011759-w2000-h1333",
+   "price": "Auction",
+   "street": "160 Carlingford Road",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 348,
+   "auction": "2026-11-04T18:00:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:00:00+11:00",
+     "end": "2026-10-17T09:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "3helenstreet|epping",
+   "domainId": "2021176576",
+   "reaSlug": "house-nsw-epping-152413856",
+   "domainUrl": "https://www.domain.com.au/3-helen-street-epping-nsw-2121-2021176576",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-epping-152413856",
+   "img": "https://rimh2.domainstatic.com.au/q3hJEZXRMw1NacJO55UYrojh750=/720x540/filters:format(webp):quality(85)/2021176576_1_1_260922_070052-w2100-h1400",
+   "price": "Auction (If not sold prior)",
+   "street": "3 Helen Street",
+   "suburb": "Epping",
+   "bed": 6,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 746,
+   "auction": "2026-10-21T18:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "6astuartstreet|ryde",
+   "domainId": "2021161021",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152361056",
+   "domainUrl": "https://www.domain.com.au/6a-stuart-street-ryde-nsw-2112-2021161021",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152361056",
+   "img": "https://rimh2.domainstatic.com.au/CFLOowqnY8tbtVWejEi3M0IGOWU=/720x540/filters:format(webp):quality(85)/2021161021_1_1_260916_055639-w2048-h1368",
+   "price": "Contact Agent",
+   "street": "6A Stuart Street",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": "2026-10-31T12:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "13acolstonstreet|ryde",
+   "domainId": "2021089474",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152109832",
+   "domainUrl": "https://www.domain.com.au/13a-colston-street-ryde-nsw-2112-2021089474",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152109832",
+   "img": "https://rimh2.domainstatic.com.au/oo1W53oaTZBftmtTuL-lVuoOUMQ=/720x540/filters:format(webp):quality(85)/2021089474_1_1_260820_085355-w1600-h1067",
+   "price": "Price Guide $2,000,000",
+   "street": "13A Colston Street",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T10:00:00+11:00",
+     "end": "2026-10-21T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2aacaciastreet|eastwood",
+   "domainId": "2020911629",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-151470700",
+   "domainUrl": "https://www.domain.com.au/2a-acacia-street-eastwood-nsw-2122-2020911629",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-151470700",
+   "img": "https://rimh2.domainstatic.com.au/LKjSU-Z6Byv7EExg4EfmhaMkVNY=/720x540/filters:format(webp):quality(85)/2020911629_3_1_260612_010533-w3872-h2581",
+   "price": "Auction",
+   "street": "2A Acacia Street",
+   "suburb": "Eastwood",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 330,
+   "auction": "2026-10-21T18:30:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T11:45:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "43primulastreet|lindfield",
+   "domainId": "2020498887",
+   "reaSlug": "house-nsw-lindfield-149910016",
+   "domainUrl": "https://www.domain.com.au/43-primula-street-lindfield-nsw-2070-2020498887",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-lindfield-149910016",
+   "img": "https://rimh2.domainstatic.com.au/HoEL2beUvivShYUvSre-txA1qJg=/720x540/filters:format(webp):quality(85)/2020498887_1_1_251223_123935-w6952-h4639",
+   "price": "Auction Guide: $2,200,000",
+   "street": "43 Primula Street",
+   "suburb": "Lindfield",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 834,
+   "auction": "2026-10-31T16:00:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-21T13:45:00+11:00",
+     "end": "2026-10-21T14:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "229vimieraroad|marsfield",
+   "domainId": "2021224114",
+   "reaSlug": "duplex+semi-detached-nsw-marsfield-152575144",
+   "domainUrl": "https://www.domain.com.au/229-vimiera-road-marsfield-nsw-2122-2021224114",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-marsfield-152575144",
+   "img": "https://rimh2.domainstatic.com.au/UPQbGf9mWckX6YQ4qzDG8p8cw-o=/720x540/filters:format(webp):quality(85)/2021224114_1_1_261008_054955-w2047-h1364",
+   "price": "Auction | $2,200,000 - $2,300,000",
+   "street": "229 Vimiera Road",
+   "suburb": "Marsfield",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-31T16:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "4bsmallsroad|ryde",
+   "domainId": "2021223774",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152574068",
+   "domainUrl": "https://www.domain.com.au/4b-smalls-road-ryde-nsw-2112-2021223774",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152574068",
+   "img": "https://rimh2.domainstatic.com.au/VDFvV0GvkUM6eUha3kkPpBuveIY=/720x540/filters:format(webp):quality(85)/2021223774_1_1_261008_051624-w2048-h1365",
+   "price": "Contact Agent",
+   "street": "4B Smalls Road",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 3,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": "2026-11-07T14:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "16burmahroad|denistone",
+   "domainId": "2021216252",
+   "reaSlug": "house-nsw-denistone-152548904",
+   "domainUrl": "https://www.domain.com.au/16-burmah-road-denistone-nsw-2114-2021216252",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-denistone-152548904",
+   "img": "https://rimh2.domainstatic.com.au/ZhtvYWdsPz2FAnE3iBDkWtJDUm8=/720x540/filters:format(webp):quality(85)/2021216252_1_1_261006_114423-w4134-h2756",
+   "price": "Contact Agent",
+   "street": "16 Burmah Road",
+   "suburb": "Denistone",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 863,
+   "auction": "2026-11-07T14:15:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:15:00+11:00",
+     "end": "2026-10-17T11:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "82aeastviewavenue|northryde",
+   "domainId": "2021215145",
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152545584",
+   "domainUrl": "https://www.domain.com.au/82a-eastview-avenue-north-ryde-nsw-2113-2021215145",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152545584",
+   "img": "https://rimh2.domainstatic.com.au/UVjaL4T4HS-k9j4O_zdlnbopUIw=/720x540/filters:format(webp):quality(85)/2021215145_1_1_261006_070359-w2000-h1333",
+   "price": "Auction",
+   "street": "82A Eastview Avenue",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-11-07T16:00:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2rexstreet|westryde",
+   "domainId": "2021183405",
+   "reaSlug": "house-nsw-west+ryde-152436944",
+   "domainUrl": "https://www.domain.com.au/2-rex-street-west-ryde-nsw-2114-2021183405",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-west+ryde-152436944",
+   "img": "https://rimh2.domainstatic.com.au/tCnnzs32DGAvPFsEVztwQUM-J8s=/720x540/filters:format(webp):quality(85)/2021183405_1_1_260924_042150-w1536-h1024",
+   "price": "Contact Agent",
+   "street": "2 Rex Street",
+   "suburb": "West Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 338,
+   "auction": "2026-10-24T10:30:00",
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2hockleyroad|eastwood",
+   "domainId": "2021181924",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152377340",
+   "domainUrl": "https://www.domain.com.au/2-hockley-road-eastwood-nsw-2122-2021181924",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152377340",
+   "img": "https://rimh2.domainstatic.com.au/gcpnBx92f5un9FERYAVLZea2qR0=/720x540/filters:format(webp):quality(85)/2021181924_1_1_260924_124053-w2000-h1333",
+   "price": "Auction",
+   "street": "2 Hockley Road",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 491,
+   "auction": "2026-10-17T16:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:30:00+11:00",
+     "end": "2026-10-17T17:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "47anorfolkroad|epping",
+   "domainId": "2021146318",
+   "reaSlug": "house-nsw-epping-152307248",
+   "domainUrl": "https://www.domain.com.au/47a-norfolk-road-epping-nsw-2121-2021146318",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-epping-152307248",
+   "img": "https://rimh2.domainstatic.com.au/ecr493LeFbdH2AKuB5ke6C_wU00=/720x540/filters:format(webp):quality(85)/2021146318_2_1_260910_050936-w2560-h1705",
+   "price": "Asking price $2,390,000",
+   "street": "47A Norfolk Road",
+   "suburb": "Epping",
+   "bed": 6,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 1053,
+   "auction": null,
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    },
+    {
+     "start": "2026-10-21T11:30:00+11:00",
+     "end": "2026-10-21T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1napiercrescent|northryde",
+   "domainId": "2021141714",
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152290904",
+   "domainUrl": "https://www.domain.com.au/1-napier-crescent-north-ryde-nsw-2113-2021141714",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152290904",
+   "img": "https://rimh2.domainstatic.com.au/HjPxerhWH0o_BILcvg-TaT0j5k4=/720x540/filters:format(webp):quality(85)/2021141714_1_1_260909_041405-w1500-h1001",
+   "price": "For Sale- Guide $2,500,000",
+   "street": "1 Napier Crescent",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 336,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "80rutledgestreet|eastwood",
+   "domainId": "2021131285",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152241452",
+   "domainUrl": "https://www.domain.com.au/80-rutledge-street-eastwood-nsw-2122-2021131285",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152241452",
+   "img": "https://rimh2.domainstatic.com.au/XuNq7yauBmCViT3jBdVWMkrJ5fk=/720x540/filters:format(webp):quality(85)/2021131285_1_1_260904_075145-w1500-h1000",
+   "price": "Auction Guide $2,500,000",
+   "street": "80 Rutledge Street",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-31T16:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "50valleyroad|epping",
+   "domainId": "2021098651",
+   "reaSlug": "duplex+semi-detached-nsw-epping-152142120",
+   "domainUrl": "https://www.domain.com.au/50-valley-road-epping-nsw-2121-2021098651",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-152142120",
+   "img": "https://rimh2.domainstatic.com.au/66LbcCLHAxafJ7AkmYBVlPSiB5U=/720x540/filters:format(webp):quality(85)/2021098651_1_1_260825_043016-w6000-h4000",
+   "price": "Contact Agent",
+   "street": "50 Valley Road",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "9acolstonstreet|ryde",
+   "domainId": "2021067755",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152028468",
+   "domainUrl": "https://www.domain.com.au/9a-colston-street-ryde-nsw-2112-2021067755",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152028468",
+   "img": "https://rimh2.domainstatic.com.au/FcMIVYxp1LqqZkEM1Ey4xejI46E=/720x540/filters:format(webp):quality(85)/2021067755_1_1_260812_044002-w1534-h1025",
+   "price": "For Sale $2,080,000 - $2,150,000",
+   "street": "9A Colston Street",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "15abensonstreet|westryde",
+   "domainId": "2021066282",
+   "reaSlug": "duplex+semi-detached-nsw-west+ryde-152022544",
+   "domainUrl": "https://www.domain.com.au/15a-benson-street-west-ryde-nsw-2114-2021066282",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-west+ryde-152022544",
+   "img": "https://rimh2.domainstatic.com.au/gcQTtEV8wcnvrUzROwDhl9cWDuk=/720x540/filters:format(webp):quality(85)/2021066282_1_1_260811_114348-w1920-h1280",
+   "price": "For Sale $2,500,000",
+   "street": "15A Benson Street",
+   "suburb": "West Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": 405,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "10aconradstreet|northryde",
+   "domainId": "2021057238",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/10a-conrad-street-north-ryde-nsw-2113-2021057238",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/gYKdN8Cjct9Pl6TYExzTMnbXrG8=/720x540/filters:format(webp):quality(85)/2021057238_14_1_260807_042422-w2000-h1333",
+   "price": "For Sale- $2,600,000",
+   "street": "10A Conrad Street",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 5,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "87midsonroad|epping",
+   "domainId": "2020958989",
+   "reaSlug": "house-nsw-epping-151642668",
+   "domainUrl": "https://www.domain.com.au/87-midson-road-epping-nsw-2121-2020958989",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-epping-151642668",
+   "img": "https://rimh2.domainstatic.com.au/fd80WJYTUZL3AljwKSj9jPBGsiE=/720x540/filters:format(webp):quality(85)/2020958989_2_1_260704_122719-w3874-h2584",
+   "price": "CONTACT AGENT",
+   "street": "87 Midson Road",
+   "suburb": "Epping",
+   "bed": 4,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 766,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "25kuppard|ryde",
+   "domainId": "2020946771",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-151603228",
+   "domainUrl": "https://www.domain.com.au/25-kuppa-rd-ryde-nsw-2112-2020946771",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-151603228",
+   "img": "https://rimh2.domainstatic.com.au/Hj8tmMBZccRJwKB7oA8o4J_sO0I=/720x540/filters:format(webp):quality(85)/2020946771_1_1_260626_030212-w1500-h1002",
+   "price": "Just listed",
+   "street": "25 Kuppa Rd",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 417,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2kagaplace|marsfield",
+   "domainId": "2020925505",
+   "reaSlug": "duplex+semi-detached-nsw-marsfield-151527772",
+   "domainUrl": "https://www.domain.com.au/2-kaga-place-marsfield-nsw-2122-2020925505",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-marsfield-151527772",
+   "img": "https://rimh2.domainstatic.com.au/um5TS5HQBy6XT9y9-vsrjqydzjE=/720x540/filters:format(webp):quality(85)/2020925505_28_1_260618_031312-w2000-h1333",
+   "price": "Auction Guide $2,350,000",
+   "street": "2 Kaga Place",
+   "suburb": "Marsfield",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-25T16:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:30:00+11:00",
+     "end": "2026-10-18T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "16cavandrive|eastwood",
+   "domainId": "2020879774",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/16-cavan-drive-eastwood-nsw-2122-2020879774",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/qiY3pA4b1cA9BhSdN7BcJUe5SOA=/720x540/filters:format(webp):quality(85)/2020879774_1_1_260529_051946-w1200-h799",
+   "price": "For Sale | Contact Agent",
+   "street": "16 Cavan Drive",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 361,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "1/19deakinstreet|westryde",
+   "domainId": "2020817370",
+   "reaSlug": "house-nsw-west+ryde-151109032",
+   "domainUrl": "https://www.domain.com.au/1-19-deakin-street-west-ryde-nsw-2114-2020817370",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-west+ryde-151109032",
+   "img": "https://rimh2.domainstatic.com.au/Pnjk5kgrRwP1olAoMf4tBSW-S1I=/720x540/filters:format(webp):quality(85)/2020817370_1_1_260506_111311-w2048-h1365",
+   "price": "Contact Agent",
+   "street": "1/19 Deakin Street",
+   "suburb": "West Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "12peckhamavenue|chatswood",
+   "domainId": "2020599507",
+   "reaSlug": "house-nsw-chatswood-150276888",
+   "domainUrl": "https://www.domain.com.au/12-peckham-avenue-chatswood-nsw-2067-2020599507",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-chatswood-150276888",
+   "img": "https://rimh2.domainstatic.com.au/U1Fg9-8q69AZ0Qx-qhqYx_YJo8A=/720x540/filters:format(webp):quality(85)/2020599507_1_1_260212_013939-w2803-h1869",
+   "price": "For Sale - Contact Agent",
+   "street": "12 Peckham Avenue",
+   "suburb": "Chatswood",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": 888,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "id:2018939320",
+   "domainId": "2018939320",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/denistone-east-nsw-2112-2018939320",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/B5eqyXxPRfi8enYM6LlnM8diSU8=/720x540/filters:format(webp):quality(85)/2018939320_1_1_240701_103945-w1379-h919",
+   "price": "Contact Agent",
+   "street": "",
+   "suburb": "Denistone East",
+   "bed": 6,
+   "bath": 3,
+   "car": 7,
+   "type": "House",
+   "landM2": 948,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "14herringroad|marsfield",
+   "domainId": "2021204300",
+   "reaSlug": "house-nsw-marsfield-152505880",
+   "domainUrl": "https://www.domain.com.au/14-herring-road-marsfield-nsw-2122-2021204300",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-marsfield-152505880",
+   "img": "https://rimh2.domainstatic.com.au/8UayCrL7eb0yQbDSzuc_ZeNd7dM=/720x540/filters:format(webp):quality(85)/2021204300_1_1_261001_074148-w2048-h1373",
+   "price": "Contact Agent",
+   "street": "14 Herring Road",
+   "suburb": "Marsfield",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-21T12:30:00+11:00",
+     "end": "2026-10-21T12:50:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "34arthurstreet|ryde",
+   "domainId": "2021203751",
+   "reaSlug": "house-nsw-ryde-152505856",
+   "domainUrl": "https://www.domain.com.au/34-arthur-street-ryde-nsw-2112-2021203751",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-ryde-152505856",
+   "img": "https://rimh2.domainstatic.com.au/nN3_qURP-T2ErhCPKjYa8gUTmXg=/720x540/filters:format(webp):quality(85)/2021203751_1_1_261001_063537-w1920-h1278",
+   "price": "Auction Guide | $2,500,000",
+   "street": "34 Arthur Street",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": 312,
+   "auction": "2026-10-24T09:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "44ryriestreet|northryde",
+   "domainId": "2021202755",
+   "reaSlug": "house-nsw-north+ryde-152501960",
+   "domainUrl": "https://www.domain.com.au/44-ryrie-street-north-ryde-nsw-2113-2021202755",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-north+ryde-152501960",
+   "img": "https://rimh2.domainstatic.com.au/0GHZFPdMA3vgVSxG7CmRX9OJBYE=/720x540/filters:format(webp):quality(85)/2021202755_1_1_261001_044808-w2048-h1365",
+   "price": "Contact Agent",
+   "street": "44 Ryrie Street",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 315,
+   "auction": "2026-10-31T12:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:45:00+11:00",
+     "end": "2026-10-17T11:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2lillipillistreet|epping",
+   "domainId": "2021202258",
+   "reaSlug": "house-nsw-epping-152499920",
+   "domainUrl": "https://www.domain.com.au/2-lilli-pilli-street-epping-nsw-2121-2021202258",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-epping-152499920",
+   "img": "https://rimh2.domainstatic.com.au/P6abvDOqO4n3eA76i3w7fHiVQ5Q=/720x540/filters:format(webp):quality(85)/2021202258_1_1_261001_034129-w1920-h1280",
+   "price": "Auction Unless Sold Prior",
+   "street": "2 Lilli Pilli Street",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 574,
+   "auction": "2026-10-28T18:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "17akulgoaavenue|ryde",
+   "domainId": "2021197452",
+   "reaSlug": "house-nsw-ryde-152483056",
+   "domainUrl": "https://www.domain.com.au/17a-kulgoa-avenue-ryde-nsw-2112-2021197452",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-ryde-152483056",
+   "img": "https://rimh2.domainstatic.com.au/IpVsjV4XotP9NXK3wIlU3zdXMF8=/720x540/filters:format(webp):quality(85)/2021197452_1_1_260930_034953-w4134-h2756",
+   "price": "Contact Agent",
+   "street": "17a Kulgoa Avenue",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": 796,
+   "auction": "2026-10-17T09:45:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:15:00+11:00",
+     "end": "2026-10-17T09:45:00+11:00"
+    },
+    {
+     "start": "2026-10-17T09:45:00+11:00",
+     "end": "2026-10-17T10:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "29afawcettstreet|ryde",
+   "domainId": "2021193014",
+   "reaSlug": "house-nsw-ryde-152467500",
+   "domainUrl": "https://www.domain.com.au/29a-fawcett-street-ryde-nsw-2112-2021193014",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-ryde-152467500",
+   "img": "https://rimh2.domainstatic.com.au/KIy1tRMeRLUGQHJZf-eXtt6WbK4=/720x540/filters:format(webp):quality(85)/2021193014_1_1_260929_023135-w4134-h2756",
+   "price": "Guide $2,400,000",
+   "street": "29a Fawcett Street",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": "2026-11-07T13:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "96winbournestreet|westryde",
+   "domainId": "2021190995",
+   "reaSlug": "house-nsw-west+ryde-152460760",
+   "domainUrl": "https://www.domain.com.au/96-winbourne-street-west-ryde-nsw-2114-2021190995",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-west+ryde-152460760",
+   "img": "https://rimh2.domainstatic.com.au/SZCn-QH93pt6El2Bcb20jWgcBTE=/720x540/filters:format(webp):quality(85)/17627335_2_1_250618_052107-w1620-h1080",
+   "price": "Contact Agent",
+   "street": "96 Winbourne Street",
+   "suburb": "West Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 531,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "23richmondstreet|denistoneeast",
+   "domainId": "2021166252",
+   "reaSlug": "duplex+semi-detached-nsw-denistone+east-152378304",
+   "domainUrl": "https://www.domain.com.au/23-richmond-street-denistone-east-nsw-2112-2021166252",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-denistone+east-152378304",
+   "img": "https://rimh2.domainstatic.com.au/EdaGctPvZsXVQ1x5OXXedqqd1H4=/720x540/filters:format(webp):quality(85)/2021166252_1_1_260917_073941-w3872-h2581",
+   "price": "Auction",
+   "street": "23 Richmond Street",
+   "suburb": "Denistone East",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-24T11:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T15:00:00+11:00",
+     "end": "2026-10-18T15:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "23addingtonavenue|ryde",
+   "domainId": "2021165607",
+   "reaSlug": "house-nsw-ryde-152375948",
+   "domainUrl": "https://www.domain.com.au/23-addington-avenue-ryde-nsw-2112-2021165607",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-ryde-152375948",
+   "img": "https://rimh2.domainstatic.com.au/92CJAOHpZy35p1hGdnxttqS5t1o=/720x540/filters:format(webp):quality(85)/2021165607_1_1_260917_061204-w4528-h3019",
+   "price": "Onsite Auction - Sat 17 October at 5:30pm",
+   "street": "23 Addington Avenue",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 727,
+   "auction": "2026-10-17T17:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T17:00:00+11:00",
+     "end": "2026-10-17T17:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T17:30:00+11:00",
+     "end": "2026-10-17T18:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "14tallwoodavenue|eastwood",
+   "domainId": "2021160426",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/14-tallwood-avenue-eastwood-nsw-2122-2021160426",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/hIXgNTowCvqstyaipe1e362E13Q=/720x540/filters:format(webp):quality(85)/2021160426_1_1_260916_045225-w4500-h3000",
+   "price": "For Sale $2,600,000-$2,650,000",
+   "street": "14 Tallwood Avenue",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 348,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:30:00+11:00",
+     "end": "2026-10-17T15:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "5fayplace|marsfield",
+   "domainId": "2021119316",
+   "reaSlug": "house-nsw-marsfield-152212552",
+   "domainUrl": "https://www.domain.com.au/5-fay-place-marsfield-nsw-2122-2021119316",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-marsfield-152212552",
+   "img": "https://rimh2.domainstatic.com.au/nun38-P5X6ykEEQyg831FP9b3ig=/720x540/filters:format(webp):quality(85)/2021119316_1_1_260901_105444-w7000-h4696",
+   "price": "Auction (if not sold prior)",
+   "street": "5 Fay Place",
+   "suburb": "Marsfield",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 581,
+   "auction": "2026-10-28T18:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "62winbournestreeteast|westryde",
+   "domainId": "2021089771",
+   "reaSlug": "duplex+semi-detached-nsw-west+ryde-152110536",
+   "domainUrl": "https://www.domain.com.au/62-winbourne-street-east-west-ryde-nsw-2114-2021089771",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-west+ryde-152110536",
+   "img": "https://rimh2.domainstatic.com.au/5LyVQF96GezI1mRWk3_zN-eWag4=/720x540/filters:format(webp):quality(85)/2021089771_2_1_260820_113544-w2000-h1333",
+   "price": "Auction Guide $2,300,000",
+   "street": "62 Winbourne Street East",
+   "suburb": "West Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 491,
+   "auction": "2026-10-28T18:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T15:30:00+11:00",
+     "end": "2026-10-17T16:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "16bmyraavenue|ryde",
+   "domainId": "2021083348",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/16b-myra-avenue-ryde-nsw-2112-2021083348",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/imMUtkJSLivFy7SWjujwEhcWm1A=/720x540/filters:format(webp):quality(85)/2021083348_1_1_260819_020038-w2048-h1529",
+   "price": "For Sale $2,550,000",
+   "street": "16B Myra Avenue",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 349,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "12gladstoneavenue|ryde",
+   "domainId": "2021080509",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152076704",
+   "domainUrl": "https://www.domain.com.au/12-gladstone-avenue-ryde-nsw-2112-2021080509",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152076704",
+   "img": "https://rimh2.domainstatic.com.au/B7DnihaAcXJKHJYE9HI2OQuYDlo=/720x540/filters:format(webp):quality(85)/2021080509_1_1_260818_034950-w1500-h1000",
+   "price": "Contact Agent",
+   "street": "12 Gladstone Avenue",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "29cooneystreet|northryde",
+   "domainId": "2021076364",
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152060652",
+   "domainUrl": "https://www.domain.com.au/29-cooney-street-north-ryde-nsw-2113-2021076364",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152060652",
+   "img": "https://rimh2.domainstatic.com.au/TMopEwNTdwbjWJDOgTrgUnzv4OE=/720x540/filters:format(webp):quality(85)/2021076364_1_1_260817_120949-w960-h720",
+   "price": "Torrens Title, contact agent",
+   "street": "29 Cooney Street",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "29moiraavenue|denistonewest",
+   "domainId": "2021056097",
+   "reaSlug": "duplex+semi-detached-nsw-denistone+west-151984932",
+   "domainUrl": "https://www.domain.com.au/29-moira-avenue-denistone-west-nsw-2114-2021056097",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-denistone+west-151984932",
+   "img": "https://rimh2.domainstatic.com.au/mrBV2rR4eg8o5sSnWvEZ8ev3T4o=/720x540/filters:format(webp):quality(85)/2021056097_1_1_260806_115002-w3872-h2581",
+   "price": "For Sale $2,000,000",
+   "street": "29 Moira Avenue",
+   "suburb": "Denistone West",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 468,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "106bridgeroad|ryde",
+   "domainId": "2021055473",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-151984036",
+   "domainUrl": "https://www.domain.com.au/106-bridge-road-ryde-nsw-2112-2021055473",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-151984036",
+   "img": "https://rimh2.domainstatic.com.au/9j2_3tPoC3OcomMATDG3O1a1Wuw=/720x540/filters:format(webp):quality(85)/2021055473_2_1_260806_081350-w4000-h2663",
+   "price": "Contact Agent",
+   "street": "106 Bridge Road",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "55amorsheadstreet|northryde",
+   "domainId": "2021017336",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/55a-morshead-street-north-ryde-nsw-2113-2021017336",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Na3bgjj3J2GkhKKBsgkQhvhrYB4=/720x540/filters:format(webp):quality(85)/2021017336_1_1_260723_124856-w1536-h1024",
+   "price": "For Sale $2,550,000",
+   "street": "55A Morshead Street",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 375,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "55anorthroad|ryde",
+   "domainId": "2020984684",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-151727492",
+   "domainUrl": "https://www.domain.com.au/55a-north-road-ryde-nsw-2112-2020984684",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-151727492",
+   "img": "https://rimh2.domainstatic.com.au/82KjDxIqpFZGIx2ApQIEscV1zmk=/720x540/filters:format(webp):quality(85)/2020984684_14_1_260709_065541-w2100-h1397",
+   "price": "For Sale Contact Agent",
+   "street": "55A North Road",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "3aorchardstreet|epping",
+   "domainId": "2020897436",
+   "reaSlug": "duplex+semi-detached-nsw-epping-151413816",
+   "domainUrl": "https://www.domain.com.au/3a-orchard-street-epping-nsw-2121-2020897436",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-151413816",
+   "img": "https://rimh2.domainstatic.com.au/HPBcqV-zRsfj9fGSRd0jNvwb3b8=/720x540/filters:format(webp):quality(85)/2020897436_1_1_260726_095337-w2000-h1333",
+   "price": "Auction unless Sold Prior",
+   "street": "3A Orchard Street",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 325,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "27secondavenue|eastwood",
+   "domainId": "2020896052",
+   "reaSlug": "house-nsw-eastwood-151408280",
+   "domainUrl": "https://www.domain.com.au/27-second-avenue-eastwood-nsw-2122-2020896052",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-eastwood-151408280",
+   "img": "https://rimh2.domainstatic.com.au/DmdyRZQB4JgBAIWO47N_Lq7oMbw=/720x540/filters:format(webp):quality(85)/2020896052_4_1_260605_123730-w2000-h1333",
+   "price": "For Sale -$2,400,000",
+   "street": "27 Second Avenue",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": 730,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:45:00+11:00",
+     "end": "2026-10-17T13:15:00+11:00"
+    },
+    {
+     "start": "2026-10-18T14:45:00+11:00",
+     "end": "2026-10-18T15:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "10apaulstreet|northryde",
+   "domainId": "2020573474",
+   "reaSlug": "house-nsw-north+ryde-150173004",
+   "domainUrl": "https://www.domain.com.au/10a-paul-street-north-ryde-nsw-2113-2020573474",
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-north+ryde-150173004",
+   "img": "https://rimh2.domainstatic.com.au/Mm0Uv5EvARtFRXNVlP-xjyfry6k=/720x540/filters:format(webp):quality(85)/2020573474_1_1_260220_010814-w1920-h1280",
+   "price": "$2,200,000",
+   "street": "10A Paul Street",
+   "suburb": "North Ryde",
+   "bed": 4,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "17adriverstreet|denistonewest",
+   "domainId": "2020304252",
+   "reaSlug": "duplex+semi-detached-nsw-denistone+west-149174404",
+   "domainUrl": "https://www.domain.com.au/17a-driver-street-denistone-west-nsw-2114-2020304252",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-denistone+west-149174404",
+   "img": "https://rimh2.domainstatic.com.au/RQdvSnVs-70Ey0RKDiWfsiXzZgE=/720x540/filters:format(webp):quality(85)/2020304252_1_1_250929_013005-w1500-h1001",
+   "price": "Contact Agent",
+   "street": "17a Driver Street",
+   "suburb": "Denistone West",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "5ahuntsavenue|eastwood",
+   "domainId": "2021223278",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152572656",
+   "domainUrl": "https://www.domain.com.au/5a-hunts-avenue-eastwood-nsw-2122-2021223278",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152572656",
+   "img": "https://rimh2.domainstatic.com.au/a27etB3e5qaux5yLbURLKDu6ZbE=/720x540/filters:format(webp):quality(85)/2021223278_3_1_261008_043153-w1536-h1024",
+   "price": "Pre-Auction: Contact Agent",
+   "street": "5A Hunts Avenue",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 408,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T10:00:00+11:00",
+     "end": "2026-10-18T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "14atunksstreet|ryde",
+   "domainId": "2021216484",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/14a-tunks-street-ryde-nsw-2112-2021216484",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/pBEyeCulDI6ldsYw6nelY9lxNpI=/720x540/filters:format(webp):quality(85)/2021216484_34_1_261007_112003-w1920-h1280",
+   "price": "FOR SALE | $2,620,000 - $2,680,000",
+   "street": "14a Tunks Street",
+   "suburb": "Ryde",
+   "bed": 6,
+   "bath": 5,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 465,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "7deborahplace|eastwood",
+   "domainId": "2021139848",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152283484",
+   "domainUrl": "https://www.domain.com.au/7-deborah-place-eastwood-nsw-2122-2021139848",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152283484",
+   "img": "https://rimh2.domainstatic.com.au/AFEOJbgdkc2IHLWx551JfTUdakA=/720x540/filters:format(webp):quality(85)/2021139848_9_1_260908_103340-w3872-h2581",
+   "price": "Auction | Guide $2,350,000",
+   "street": "7 Deborah Place",
+   "suburb": "Eastwood",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-17T16:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T15:30:00+11:00",
+     "end": "2026-10-17T16:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "6aalbertstreet|gladesville",
+   "domainId": "2021117734",
+   "reaSlug": "duplex+semi-detached-nsw-gladesville-152206632",
+   "domainUrl": "https://www.domain.com.au/6a-albert-street-gladesville-nsw-2111-2021117734",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-gladesville-152206632",
+   "img": "https://rimh2.domainstatic.com.au/Q3bK5wv-ZXWod8XPdgpTNhTvCXQ=/720x540/filters:format(webp):quality(85)/2021117734_1_1_260901_024015-w1920-h1334",
+   "price": "Open 7 Days",
+   "street": "6A Albert Street",
+   "suburb": "Gladesville",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 458,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "49okeefecrescent|eastwood",
+   "domainId": "2021107965",
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152174660",
+   "domainUrl": "https://www.domain.com.au/49-o-keefe-crescent-eastwood-nsw-2122-2021107965",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152174660",
+   "img": "https://rimh2.domainstatic.com.au/wh3kaBydXDICdhw9R5KEftJZs_g=/720x540/filters:format(webp):quality(85)/2021107965_1_1_260827_072940-w2000-h1333",
+   "price": "Auction",
+   "street": "49 O'Keefe Crescent",
+   "suburb": "Eastwood",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:00:00+11:00",
+     "end": "2026-10-18T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "6smallsroad|ryde",
+   "domainId": "2021082744",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152084044",
+   "domainUrl": "https://www.domain.com.au/6-smalls-road-ryde-nsw-2112-2021082744",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152084044",
+   "img": "https://rimh2.domainstatic.com.au/MnE4fkOS-oVVHYJhq7EneY3eUHk=/720x540/filters:format(webp):quality(85)/2021082744_2_1_260818_115803-w5480-h3653",
+   "price": "GUIDE | $2,450,000",
+   "street": "6 Smalls Road",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "Semi-Detached",
+   "landM2": 446,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "13awillandrastreet|ryde",
+   "domainId": "2020896135",
+   "reaSlug": "duplex+semi-detached-nsw-ryde-151409608",
+   "domainUrl": "https://www.domain.com.au/13a-willandra-street-ryde-nsw-2112-2020896135",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-151409608",
+   "img": "https://rimh2.domainstatic.com.au/PrTMtViKsWEiLX9aOl0UhFOHLPo=/720x540/filters:format(webp):quality(85)/2020896135_3_1_260605_125910-w1537-h1023",
+   "price": "Contact Agent",
+   "street": "13A Willandra Street",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 535,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "20atennysonroad|gladesville",
+   "domainId": "2021104482",
+   "reaSlug": "duplex+semi-detached-nsw-gladesville-152163564",
+   "domainUrl": "https://www.domain.com.au/20a-tennyson-road-gladesville-nsw-2111-2021104482",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-gladesville-152163564",
+   "img": "https://rimh2.domainstatic.com.au/LExXbhJuFSd2FPXzvzvEVBrnHbc=/720x540/filters:format(webp):quality(85)/2021104482_1_1_260826_040823-w1500-h1003",
+   "price": "$2,400,000 to $2,600,000",
+   "street": "20A Tennyson Road",
+   "suburb": "Gladesville",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 314,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:30:00+11:00",
+     "end": "2026-10-17T14:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:30:00+11:00",
+     "end": "2026-10-18T13:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "111carlingfordroad|epping",
+   "domainId": "2021082245",
+   "reaSlug": "duplex+semi-detached-nsw-epping-152082672",
+   "domainUrl": "https://www.domain.com.au/111-carlingford-road-epping-nsw-2121-2021082245",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-152082672",
+   "img": "https://rimh2.domainstatic.com.au/PHGB-az3EKTFjr2mr2x_eQYLIfI=/720x540/filters:format(webp):quality(85)/2021082245_1_1_260818_111942-w1500-h1000",
+   "price": "$2,000,000 to $2,100,000",
+   "street": "111 Carlingford Road",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 379,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "113acarlingfordroad|epping",
+   "domainId": "2021027025",
+   "reaSlug": "duplex+semi-detached-nsw-epping-151882308",
+   "domainUrl": "https://www.domain.com.au/113a-carlingford-road-epping-nsw-2121-2021027025",
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-151882308",
+   "img": "https://rimh2.domainstatic.com.au/B2oGoS5Fr9aA5WIlTnGBDOOqhNs=/720x540/filters:format(webp):quality(85)/2021027025_1_1_260727_035034-w1500-h1000",
+   "price": "$2,000,000 to $2,200,000",
+   "street": "113A Carlingford Road",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "Duplex",
+   "landM2": 380,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T11:15:00+11:00",
+     "end": "2026-10-18T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "102achapmanavenue|beecroft",
+   "domainId": "2021242966",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/102a-chapman-avenue-beecroft-nsw-2119-2021242966",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/ebnGypVUc8CKRQecmbSb9p6pJfk=/720x540/filters:format(webp):quality(85)/2021242966_1_1_261015_122741-w2000-h1333",
+   "price": "Premiere Showing",
+   "street": "102A Chapman Avenue",
+   "suburb": "Beecroft",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 714,
+   "auction": "2026-11-07T14:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "17wilshireavenue|carlingford",
+   "domainId": "2021240711",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/17-wilshire-avenue-carlingford-nsw-2118-2021240711",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/dVH2JX-jhHZ-jHG22OkSalAsm7Q=/720x540/filters:format(webp):quality(85)/2021240711_1_1_261014_055628-w2000-h1333",
+   "price": "Auction 14 Nov 2.15pm (unless sold prior)",
+   "street": "17 Wilshire Avenue",
+   "suburb": "Carlingford",
+   "bed": 6,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": "2026-11-14T14:15:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:45:00+11:00",
+     "end": "2026-10-17T14:15:00+11:00"
+    },
+    {
+     "start": "2026-10-21T13:45:00+11:00",
+     "end": "2026-10-21T14:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1lyndelleplace|carlingford",
+   "domainId": "2021225583",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/1-lyndelle-place-carlingford-nsw-2118-2021225583",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/s_QuqBPLdQmWdjMoHFmKaUBFqZs=/720x540/filters:format(webp):quality(85)/2021225583_1_1_261008_105002-w2047-h1364",
+   "price": "Auction",
+   "street": "1 Lyndelle Place",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 739,
+   "auction": "2026-10-31T16:30:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2simpsonstreet|dundasvalley",
+   "domainId": "2021224873",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/2-simpson-street-dundas-valley-nsw-2117-2021224873",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/5ey95uKsc9o626OBBoX6VL5m-No=/720x540/filters:format(webp):quality(85)/2021224873_1_1_261008_085320-w1079-h722",
+   "price": "Auction Guide $1,550,000",
+   "street": "2 Simpson Street",
+   "suburb": "Dundas Valley",
+   "bed": 6,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": "2026-10-24T12:00:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:40:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2cardinalavenue|beecroft",
+   "domainId": "2021223694",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/2-cardinal-avenue-beecroft-nsw-2119-2021223694",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Vi3TqBbHY0qJ_uN6Rz058JQV7lQ=/720x540/filters:format(webp):quality(85)/2021223694_1_1_261008_050846-w3809-h2539",
+   "price": "Auction Guide $1,900,000",
+   "street": "2 Cardinal Avenue",
+   "suburb": "Beecroft",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 509,
+   "auction": "2026-10-31T11:45:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T14:45:00+11:00",
+     "end": "2026-10-17T15:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "16imlayavenue|carlingford",
+   "domainId": "2021216985",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/16-imlay-avenue-carlingford-nsw-2118-2021216985",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/x-55LmbRhctOKzImzBNEu3IDWCQ=/720x540/filters:format(webp):quality(85)/2021216985_1_1_261007_014412-w4134-h2756",
+   "price": "Auction",
+   "street": "16 Imlay Avenue",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 900,
+   "auction": "2026-10-31T15:45:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "24warrowaavenue|westpymble",
+   "domainId": "2021174571",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/24-warrowa-avenue-west-pymble-nsw-2073-2021174571",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/pPuF9R3grVr3EHYePT3Ylg4uUF8=/720x540/filters:format(webp):quality(85)/2021174571_12_1_260922_010400-w2803-h1869",
+   "price": "Auction - Contact Agent",
+   "street": "24 Warrowa Avenue",
+   "suburb": "West Pymble",
+   "bed": 4,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": 923,
+   "auction": "2026-10-24T16:00:00",
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:15:00+11:00",
+     "end": "2026-10-17T09:45:00+11:00"
+    },
+    {
+     "start": "2026-10-21T09:15:00+11:00",
+     "end": "2026-10-21T09:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "57wallalongcrescent|westpymble",
+   "domainId": "2021127569",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/57-wallalong-crescent-west-pymble-nsw-2073-2021127569",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/4DnM_A3FiEsZ5wRRbHbrEQLlN1U=/720x540/filters:format(webp):quality(85)/2021127569_1_1_260903_070006-w3237-h2162",
+   "price": "Auction | Bidders Guide $2,400,000",
+   "street": "57 Wallalong Crescent",
+   "suburb": "West Pymble",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 1024,
+   "auction": "2026-11-07T09:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "20coraltreedrive|carlingford",
+   "domainId": "2021212323",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/20-coral-tree-drive-carlingford-nsw-2118-2021212323",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/CaZflzv4iC97QElT9G1zXi-ZtiY=/720x540/filters:format(webp):quality(85)/2021212323_1_1_261006_121102-w1200-h800",
+   "price": "Auction Guide $1,950,000",
+   "street": "20 Coral Tree Drive",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 923,
+   "auction": "2026-10-31T11:30:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:40:00+11:00"
+    },
+    {
+     "start": "2026-10-17T16:00:00+11:00",
+     "end": "2026-10-17T16:40:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "8macarthurstreet|ermington",
+   "domainId": "2021110897",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/8-macarthur-street-ermington-nsw-2115-2021110897",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/moMAXt3q_hJEjRCyOvlcxjoR-Ww=/720x540/filters:format(webp):quality(85)/2021110897_1_1_260828_051930-w2000-h1333",
+   "price": "For Sale $2,350,000",
+   "street": "8 MacArthur Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 4,
+   "car": 4,
+   "type": "Semi-Detached",
+   "landM2": 354,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T13:00:00+11:00",
+     "end": "2026-10-18T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "12ravenhillroad|turramurra",
+   "domainId": "2021223043",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/12-ravenhill-road-turramurra-nsw-2074-2021223043",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/gmqBrUhKp0Eqg03ro1WR7_CTw2c=/720x540/filters:format(webp):quality(85)/2021223043_1_1_261008_035802-w1800-h1200",
+   "price": "Auction (Unless Sold Prior)",
+   "street": "12 Ravenhill Road",
+   "suburb": "Turramurra",
+   "bed": 6,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 937,
+   "auction": "2026-11-07T13:00:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T12:00:00+11:00",
+     "end": "2026-10-21T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "14tristaniaway|beecroft",
+   "domainId": "2020823964",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/14-tristania-way-beecroft-nsw-2119-2020823964",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/FGFhk7Hjvu87QZLuTnBDNUYv6B8=/720x540/filters:format(webp):quality(85)/2020823964_3_1_260507_051920-w2000-h1333",
+   "price": "Premiere Showing",
+   "street": "14 Tristania Way",
+   "suburb": "Beecroft",
+   "bed": 4,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": 1012,
+   "auction": "2026-10-31T11:00:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1abuyumastreet|carlingford",
+   "domainId": "2021207509",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/1a-buyuma-street-carlingford-nsw-2118-2021207509",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/sG7FP1Are8WJfitc39UWl44zuo4=/720x540/filters:format(webp):quality(85)/2021207509_1_1_261002_061409-w1536-h1024",
+   "price": "Auction",
+   "street": "1A Buyuma Street",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 5,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 480,
+   "auction": "2026-10-31T15:00:00",
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:30:00+11:00",
+     "end": "2026-10-18T13:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "10lynetteavenue|carlingford",
+   "domainId": "2021183210",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/10-lynette-avenue-carlingford-nsw-2118-2021183210",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/RsHQYS_BezySYFrHkc0B0se9_uk=/720x540/filters:format(webp):quality(85)/2021183210_1_1_260924_035758-w2000-h1335",
+   "price": "Auction",
+   "street": "10 Lynette Avenue",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 942,
+   "auction": "2026-10-17T10:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "9aecclesstreet|ermington",
+   "domainId": "2021181751",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/9a-eccles-street-ermington-nsw-2115-2021181751",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/vFQuLtIVUNLb_6ZIMmt2-h6wC0Y=/720x540/filters:format(webp):quality(85)/2021181751_1_1_260924_121352-w4134-h2756",
+   "price": "Contact Agent",
+   "street": "9A Eccles Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": 337,
+   "auction": "2026-10-24T14:45:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:45:00+11:00",
+     "end": "2026-10-17T10:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "84coraltreedrive|carlingford",
+   "domainId": "2021180557",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/84-coral-tree-drive-carlingford-nsw-2118-2021180557",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/EgyQNkIed2xMCtEfxZvYUzYH8jE=/720x540/filters:format(webp):quality(85)/2021180557_1_1_260923_065929-w5280-h3956",
+   "price": "Auction | Guide $1,950,000",
+   "street": "84 Coral Tree Drive",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 1242,
+   "auction": "2026-10-17T17:30:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T17:00:00+11:00",
+     "end": "2026-10-17T17:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T17:30:00+11:00",
+     "end": "2026-10-17T18:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "3atkinsroad|ermington",
+   "domainId": "2021167633",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/3-atkins-road-ermington-nsw-2115-2021167633",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/zJGFen4apreaPifC8sudmPIkWak=/720x540/filters:format(webp):quality(85)/2021167633_2_1_260918_020948-w2000-h1334",
+   "price": "Auction on site 10am Saturday",
+   "street": "3 Atkins Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": "2026-10-17T10:00:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:30:00+11:00",
+     "end": "2026-10-17T10:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "49dandarbongavenue|carlingford",
+   "domainId": "2021133903",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/49-dandarbong-avenue-carlingford-nsw-2118-2021133903",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/xv92Urto-gAU0Tz1p-PvQG3dcaM=/720x540/filters:format(webp):quality(85)/2021133903_1_1_260907_033938-w2000-h1333",
+   "price": "Price Guide: $2,000,000 - $2,100,000",
+   "street": "49 Dandarbong Avenue",
+   "suburb": "Carlingford",
+   "bed": 6,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 470,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "7cassandraplace|carlingford",
+   "domainId": "2020301501",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/7-cassandra-place-carlingford-nsw-2118-2020301501",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/VFThMGbgoN7ChKcJfBc7Cc49GrY=/720x540/filters:format(webp):quality(85)/2020301501_1_1_260909_094149-w3334-h2501",
+   "price": "Price Guide $2,000,000 plus",
+   "street": "7 Cassandra Place",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 708,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "10cornwallavenue|turramurra",
+   "domainId": "2021036345",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/10-cornwall-avenue-turramurra-nsw-2074-2021036345",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/XKX6XI9PyYHlzccjfTItgRmPcDo=/720x540/filters:format(webp):quality(85)/2021036345_1_1_260730_064653-w4134-h2756",
+   "price": "For Sale $2,500,000",
+   "street": "10 Cornwall Avenue",
+   "suburb": "Turramurra",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 923,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T10:00:00+11:00",
+     "end": "2026-10-21T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "2/66dandarbongavenue|carlingford",
+   "domainId": "2021033992",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/2-66-dandarbong-avenue-carlingford-nsw-2118-2021033992",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/KGPyurRa38uVVQFp82npSN38jVI=/720x540/filters:format(webp):quality(85)/2021033992_1_1_260729_111957-w2000-h1334",
+   "price": "Price Guide: $2,400,000",
+   "street": "2/66 Dandarbong Avenue",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "169parkroad|dundas",
+   "domainId": "2021031923",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/169-park-road-dundas-nsw-2117-2021031923",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/HN9uo4eZ88iUX9UR-Yw1QoyFp3g=/720x540/filters:format(webp):quality(85)/2021031923_1_1_260729_051346-w2000-h1333",
+   "price": "Auction | Guide $2,500,000",
+   "street": "169 Park Road",
+   "suburb": "Dundas",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 696,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1mobbslane|carlingford",
+   "domainId": "2021021215",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/1-mobbs-lane-carlingford-nsw-2118-2021021215",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/RoyT1mD4JhGICkL-dRsL9ZhWGqk=/720x540/filters:format(webp):quality(85)/2021021215_10_1_260724_014749-w2000-h1333",
+   "price": "Inspection by appointment",
+   "street": "1 Mobbs Lane",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 534,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "34hunterfordcrescent|oatlands",
+   "domainId": "2020987980",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/34-hunterford-crescent-oatlands-nsw-2117-2020987980",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/NfumZgO5tVCajT5Yrqx1U3inBmY=/720x540/filters:format(webp):quality(85)/2019482007_2_1_240910_061450-w2048-h1365",
+   "price": "$1,700,000",
+   "street": "34 Hunterford Crescent",
+   "suburb": "Oatlands",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "48raimonderoad|carlingford",
+   "domainId": "2020986704",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/48-raimonde-road-carlingford-nsw-2118-2020986704",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Y-KYkCm7gwp5jx2iyLE2A5mGMI0=/720x540/filters:format(webp):quality(85)/2020986704_1_1_260710_051020-w2100-h1397",
+   "price": "For Sale Contact Agent",
+   "street": "48 Raimonde Road",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": 1010,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "103asouthstreet|ermington",
+   "domainId": "2020985708",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/103a-south-street-ermington-nsw-2115-2020985708",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/FKaSoJX0YaK6NVXK7e50B6HZk_c=/720x540/filters:format(webp):quality(85)/2020985708_1_1_260710_124930-w1500-h1001",
+   "price": "$2,050,000 - $2,150,000",
+   "street": "103A South Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "8camelotcourt|carlingford",
+   "domainId": "2020916430",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/8-camelot-court-carlingford-nsw-2118-2020916430",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/JGGvVVIkdkK7Zm_9MOQdokUqFjE=/720x540/filters:format(webp):quality(85)/2020916430_1_1_260629_094906-w1068-h800",
+   "price": "Guide $2,000,000 - $2,100,000",
+   "street": "8 Camelot Court",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 746,
+   "auction": "2026-07-25T15:00:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "22sinfieldstreet|ermington",
+   "domainId": "2020824052",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/22-sinfield-street-ermington-nsw-2115-2020824052",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/tWcgR9eOiXP8lqG1Lxz6fSbmaQA=/720x540/filters:format(webp):quality(85)/2020824052_1_1_260507_052756-w6000-h4000",
+   "price": "Contact Agent",
+   "street": "22 Sinfield Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:45:00+11:00",
+     "end": "2026-10-17T15:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "5mornaplace|turramurra",
+   "domainId": "2021203859",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/5-morna-place-turramurra-nsw-2074-2021203859",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/WkrAEtEcmB4i2AnI-gdgNEVPwik=/720x540/filters:format(webp):quality(85)/2021203859_2_1_261001_064819-w5475-h3652",
+   "price": "Auction in rooms",
+   "street": "5 Morna Place",
+   "suburb": "Turramurra",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 923,
+   "auction": "2026-10-24T16:00:00",
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:15:00+11:00",
+     "end": "2026-10-17T12:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "31blackwoodclose|beecroft",
+   "domainId": "2021203682",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/31-blackwood-close-beecroft-nsw-2119-2021203682",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Qr5rDjCUnoEAVHn2AuNrGg9x3V4=/720x540/filters:format(webp):quality(85)/2021203682_1_1_261001_062830-w1920-h1280",
+   "price": "Auction Guide $2,200,000 - $2,400,000",
+   "street": "31 Blackwood Close",
+   "suburb": "Beecroft",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 746,
+   "auction": "2026-10-24T12:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "32hartstreet|dundasvalley",
+   "domainId": "2021201020",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/32-hart-street-dundas-valley-nsw-2117-2021201020",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/cyPr40TvxhFS7sCNUx8w0KuvhcQ=/720x540/filters:format(webp):quality(85)/2021201020_1_1_261001_121450-w1200-h800",
+   "price": "$1,900,000-$1,990,000",
+   "street": "32 Hart Street",
+   "suburb": "Dundas Valley",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 326,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "16fullartonstreet|telopea",
+   "domainId": "2021194542",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/16-fullarton-street-telopea-nsw-2117-2021194542",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/IiiwZI28M8k8757VP8eBetw7ulw=/720x540/filters:format(webp):quality(85)/2021194542_1_1_260929_061810-w2100-h1409",
+   "price": "Auction (If not sold prior)",
+   "street": "16 Fullarton Street",
+   "suburb": "Telopea",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Duplex",
+   "landM2": 319,
+   "auction": "2026-10-21T18:30:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    },
+    {
+     "start": "2026-10-21T18:30:00+11:00",
+     "end": "2026-10-21T19:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "10ahorsfallstreet|ermington",
+   "domainId": "2021088985",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/10a-horsfall-street-ermington-nsw-2115-2021088985",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/CDtSWsMUzq78uXlu7CrMJqdhL-k=/720x540/filters:format(webp):quality(85)/2021088985_1_1_260918_021151-w4096-h2730",
+   "price": "$1,500,000 - $1,600,000",
+   "street": "10a Horsfall Street",
+   "suburb": "Ermington",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": 326,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "41baldwinstreet|gordon",
+   "domainId": "2021053127",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/41-baldwin-street-gordon-nsw-2072-2021053127",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/XM6BjCMOWRo3ukeudDe42PyTkwM=/720x540/filters:format(webp):quality(85)/2021053127_1_1_260806_025657-w3873-h2585",
+   "price": "Auction Guide $2,500,000 - $2,750,000",
+   "street": "41 Baldwin Street",
+   "suburb": "Gordon",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 955,
+   "auction": "2026-10-31T16:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "34amarsdenroad|ermington",
+   "domainId": "2020867843",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/34a-marsden-road-ermington-nsw-2115-2020867843",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/ni6bGOn2BLbkcESr5pCKBUq6y-g=/720x540/filters:format(webp):quality(85)/2020867843_20_1_260525_092710-w2048-h1365",
+   "price": "Guide $1,900,000 - $1,950,000",
+   "street": "34a Marsden Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:15:00+11:00",
+     "end": "2026-10-17T14:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "14mobbslane|carlingford",
+   "domainId": "2020646689",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/14-mobbs-lane-carlingford-nsw-2118-2020646689",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/-A6av1oyB7vTYk6Z3PDrGatltec=/720x540/filters:format(webp):quality(85)/2020646689_1_1_260526_045131-w1599-h1066",
+   "price": "For Sale | $2,200,000",
+   "street": "14 Mobbs Lane",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 466,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:45:00+11:00",
+     "end": "2026-10-17T13:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "id:2020335250",
+   "domainId": "2020335250",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/carlingford-nsw-2118-2020335250",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/tl1JvUhj1wGzfldRfdswKyjU8cI=/720x540/filters:format(webp):quality(85)/2020335250_2_1_251010_073627-w5799-h3866",
+   "price": "For Sale - Motivated Seller",
+   "street": "",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 3,
+   "type": "House",
+   "landM2": 954,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "8adandarbongavenue|carlingford",
+   "domainId": "2021117862",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/8a-dandarbong-avenue-carlingford-nsw-2118-2021117862",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/E8JdWoUx9oiwhrYoUig_uTuNCHA=/720x540/filters:format(webp):quality(85)/2021117862_1_1_260901_030614-w5390-h3593",
+   "price": "Contact Agent",
+   "street": "8A Dandarbong Avenue",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 4,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "4/66dandarbongavenue|carlingford",
+   "domainId": "2021168964",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/4-66-dandarbong-avenue-carlingford-nsw-2118-2021168964",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/6lA92LM9AahxYYMSfIYbVXzf2sU=/720x540/filters:format(webp):quality(85)/2021168964_1_1_260918_055852-w1600-h1200",
+   "price": "Contact Agent",
+   "street": "4/66 Dandarbong Avenue",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:00:00+11:00",
+     "end": "2026-10-18T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "60parkinsonavenue|turramurra",
+   "domainId": "2021159015",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/60-parkinson-avenue-turramurra-nsw-2074-2021159015",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/HBKUqoRFv5QX75qrKfIZU4Eeqt4=/720x540/filters:format(webp):quality(85)/2021159015_9_1_260916_123831-w4134-h2758",
+   "price": "For Sale - Contact Agent",
+   "street": "60 Parkinson Avenue",
+   "suburb": "Turramurra",
+   "bed": 4,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": 1012,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1sinfieldstreet|ermington",
+   "domainId": "2020862265",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/1-sinfield-street-ermington-nsw-2115-2020862265",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/vCoCzzT65rIfFwRPhfo9etEWjA4=/720x540/filters:format(webp):quality(85)/2020193029_3_1_250813_122648-w1600-h1067",
+   "price": "Price Guide $1,680,000 - $1,780,000",
+   "street": "1 Sinfield Street",
+   "suburb": "Ermington",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "7olindacrescent|carlingford",
+   "domainId": "2020859832",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/7-olinda-crescent-carlingford-nsw-2118-2020859832",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/jJvaFb8f-DYKAPDvlkNX_EHSSlQ=/720x540/filters:format(webp):quality(85)/2020859832_16_1_260521_042348-w2000-h1333",
+   "price": "Asking price $2,650,000",
+   "street": "7 Olinda Crescent",
+   "suburb": "Carlingford",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 696,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:30:00+11:00",
+     "end": "2026-10-17T15:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "177aaddertonrd|carlingford",
+   "domainId": "2020786348",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/177a-adderton-rd-carlingford-nsw-2118-2020786348",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Ick10vQ3cUYOwkHwgWvbDA0OZOU=/720x540/filters:format(webp):quality(85)/2020786348_1_1_260423_105433-w2000-h1333",
+   "price": "Contact Agent",
+   "street": "177A Adderton Rd",
+   "suburb": "Carlingford",
+   "bed": 4,
+   "bath": 3,
+   "car": 3,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "19riverroad|ermington",
+   "domainId": "2020380262",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/19-river-road-ermington-nsw-2115-2020380262",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/WyRbd22uMST0hPrCygxn53aTncw=/720x540/filters:format(webp):quality(85)/2020380262_3_1_251029_043254-w1599-h1067",
+   "price": "Price Guide $1,820,000 to $1,920,000",
+   "street": "19 River Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "33fitzgeraldroad|ermington",
+   "domainId": "2021240765",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/33-fitzgerald-road-ermington-nsw-2115-2021240765",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/5PKSPrmfHG2UlFq_EuqXE0TFU4k=/720x540/filters:format(webp):quality(85)/2021240765_1_1_261014_060220-w3872-h2581",
+   "price": "For Sale | Offers Invited",
+   "street": "33 Fitzgerald Road",
+   "suburb": "Ermington",
+   "bed": 6,
+   "bath": 5,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 472,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "22adelawareroad|ermington",
+   "domainId": "2021199403",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/22a-delaware-road-ermington-nsw-2115-2021199403",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/x2u2Km1Dg1mqrGyOuYpUZx9VVdA=/720x540/filters:format(webp):quality(85)/2021199403_2_1_260930_071550-w3872-h2581",
+   "price": "For Sale | Offers Invited",
+   "street": "22A Delaware Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 5,
+   "car": 2,
+   "type": "House",
+   "landM2": 421,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "12awassellstreet|dundas",
+   "domainId": "2021196503",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/12a-wassell-street-dundas-nsw-2117-2021196503",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/MbbN-58cgQc273KNwdI1fnRLpP0=/720x540/filters:format(webp):quality(85)/2021196503_27_1_260930_012605-w3872-h2581",
+   "price": "For Sale | $1,880,000 - $1,950,000",
+   "street": "12a Wassell Street",
+   "suburb": "Dundas",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "19ahilderroad|ermington",
+   "domainId": "2021179531",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/19a-hilder-road-ermington-nsw-2115-2021179531",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/iLpx2Mm2pTTN2J4zejcSOKcN1Oc=/720x540/filters:format(webp):quality(85)/2021179531_1_1_260923_050922-w3872-h2581",
+   "price": "Under contract",
+   "street": "19A Hilder Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": 337,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "18amonroestreet|ermington",
+   "domainId": "2021142862",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/18a-monroe-street-ermington-nsw-2115-2021142862",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/4msbI_mR8KK17wSaGhYdb_73UZU=/720x540/filters:format(webp):quality(85)/2021142862_2_1_260909_063328-w3872-h2581",
+   "price": "For Sale | $1,720,000 - $1,780,000",
+   "street": "18a Monroe Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": 396,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "5ajervisstreet|ermington",
+   "domainId": "2021134440",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/5a-jervis-street-ermington-nsw-2115-2021134440",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/9Mf7qM-GGhf4RPwnsRbpcjtGqbQ=/720x540/filters:format(webp):quality(85)/2021134440_1_1_260908_050438-w1536-h1024",
+   "price": "For Sale | $2,000,000",
+   "street": "5a Jervis Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "6cowellslane|ermington",
+   "domainId": "2021071926",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/6-cowells-lane-ermington-nsw-2115-2021071926",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/JT1zAzHyvFARSxYrbGD-43C_mZI=/720x540/filters:format(webp):quality(85)/2021071926_1_1_261014_055222-w1536-h1024",
+   "price": "For Sale | Contact Agent",
+   "street": "6 Cowells Lane",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 468,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:30:00+11:00",
+     "end": "2026-10-17T13:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "9alancasteravenue|melrosepark",
+   "domainId": "2021068811",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/9a-lancaster-avenue-melrose-park-nsw-2114-2021068811",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/EVuk5_Xi-JMhA7uMryn1QRf-Uf4=/720x540/filters:format(webp):quality(85)/2021068811_2_1_260812_111948-w1024-h687",
+   "price": "For Sale | Contact Agent",
+   "street": "9a Lancaster Avenue",
+   "suburb": "Melrose Park",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "4narruncrescent|telopea",
+   "domainId": "2021016219",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/4-narrun-crescent-telopea-nsw-2117-2021016219",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/fZFRzkdf9E17gctlhWfBafvgga4=/720x540/filters:format(webp):quality(85)/2021016219_12_1_260722_070153-w3872-h2581",
+   "price": "For Sale | $1,850,000 - $1,920,000",
+   "street": "4 Narrun Crescent",
+   "suburb": "Telopea",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 506,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:45:00+11:00",
+     "end": "2026-10-17T12:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "4jervisstreet|ermington",
+   "domainId": "2020910618",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/4-jervis-street-ermington-nsw-2115-2020910618",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/gN1wnK1fXC9_FBqkE0Fl5HHBkxI=/720x540/filters:format(webp):quality(85)/2020910618_1_1_260611_071526-w3872-h2581",
+   "price": "For Sale | $2,350,000 - $2,400,000",
+   "street": "4 Jervis Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 3,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T11:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "8denhamplace|dundas",
+   "domainId": "2020908460",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/8-denham-place-dundas-nsw-2117-2020908460",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/AoAEnPVnfafNxKemp558YKM1nT0=/720x540/filters:format(webp):quality(85)/2020118618_1_1_250709_063455-w1600-h1066",
+   "price": "For Sale | $1,750,000 - $1,800,000",
+   "street": "8 Denham Place",
+   "suburb": "Dundas",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 771,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "6atrumperstreet|ermington",
+   "domainId": "2020892078",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/6a-trumper-street-ermington-nsw-2115-2020892078",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Ufv_hp1MTnnfNap_EeWy0hNcOuE=/720x540/filters:format(webp):quality(85)/2020892078_25_1_260604_125629-w3872-h2581",
+   "price": "For Sale | $2,300,000 - $2,380,000",
+   "street": "6A Trumper Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 416,
+   "auction": null,
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "24murdochstreet|ermington",
+   "domainId": "2020860540",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/24-murdoch-street-ermington-nsw-2115-2020860540",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/pksopHDhPIi42FGCWR_ChSghebY=/720x540/filters:format(webp):quality(85)/2020860540_4_1_260521_061124-w3872-h2581",
+   "price": "For Sale | Contact Agent",
+   "street": "24 Murdoch Street",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "19atkinsroad|ermington",
+   "domainId": "2020756720",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/19-atkins-road-ermington-nsw-2115-2020756720",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/1QGa0oqPBgin6Act145Ubot_Pdo=/720x540/filters:format(webp):quality(85)/2019971013_4_1_250505_075914-w1598-h1067",
+   "price": "For Sale | $2,000,000",
+   "street": "19 Atkins Road",
+   "suburb": "Ermington",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T09:30:00+11:00",
+     "end": "2026-10-17T10:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "694victoriard|ermington",
+   "domainId": "2020078353",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/694-victoria-rd-ermington-nsw-2115-2020078353",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/etbGKvV8L0Ag_zK9ZXvwIzqfzPk=/720x540/filters:format(webp):quality(85)/16698684_1_1_231015_020453-w3333-h2500",
+   "price": "Buyer's guide $1.5M - $1.65M",
+   "street": "694 Victoria Rd",
+   "suburb": "Ermington",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Semi-Detached",
+   "landM2": 364,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "5/12chaseavenue|rosevillechase",
+   "domainId": "2021057551",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/5-12-chase-avenue-roseville-chase-nsw-2069-2021057551",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/JgRcYztNweZZvWtOaLe__J5HZBI=/720x540/filters:format(webp):quality(85)/2020842248_10_1_260807_050424-w2000-h1414",
+   "price": "$1,580,000",
+   "street": "5/12 Chase Avenue",
+   "suburb": "Roseville Chase",
+   "bed": 4,
+   "bath": 5,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "4/12chaseavenue|rosevillechase",
+   "domainId": "2021056999",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/4-12-chase-avenue-roseville-chase-nsw-2069-2021056999",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/gwDU-I4hAE_PUGyHNBD8f_VtB1A=/720x540/filters:format(webp):quality(85)/2020842248_8_1_260514_045031-w2000-h1414",
+   "price": "$1,350,000",
+   "street": "4/12 Chase Avenue",
+   "suburb": "Roseville Chase",
+   "bed": 4,
+   "bath": 5,
+   "car": 2,
+   "type": "House",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "1/12chaseavenue|rosevillechase",
+   "domainId": "2021014603",
+   "reaSlug": null,
+   "domainUrl": "https://www.domain.com.au/1-12-chase-avenue-roseville-chase-nsw-2069-2021014603",
+   "reaUrl": null,
+   "img": "https://rimh2.domainstatic.com.au/Qh6L5FnXztg3iFrsARRbQM-R9tY=/720x540/filters:format(webp):quality(85)/2020842248_2_1_260514_045031-w2000-h1414",
+   "price": "$2,180,000",
+   "street": "1/12 Chase Avenue",
+   "suburb": "Roseville Chase",
+   "bed": 4,
+   "bath": 5,
+   "car": 2,
+   "type": "House",
+   "landM2": 729,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "6milhamavenue|eastwood",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-152629660",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-152629660",
+   "img": "https://i2.au.reastatic.net/800x600/49cff4bed2ba4d927a07250c0ee3d9ce3b38d17e7ca66f347f3f9d95dddca75c/image.jpg",
+   "price": "Contact agent",
+   "street": "6 Milham Avenue",
+   "suburb": "Eastwood",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 505,
+   "auction": "2026-11-07T14:00:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-17T14:00:00+11:00",
+     "end": "2026-10-17T14:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "23aphilliproad|putney",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-putney-152564932",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-putney-152564932",
+   "img": "https://i2.au.reastatic.net/800x600/d987172f8ab3e45cc95c8786b036528cc82ac8aa81f09e13c9a08b84df2e4606/image.jpg",
+   "price": "Auction",
+   "street": "23A Phillip Road",
+   "suburb": "Putney",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 348,
+   "auction": "2026-11-07T10:30:00",
+   "bands": [
+    "a",
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "3atrevittroad|northryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152544896",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152544896",
+   "img": "https://i2.au.reastatic.net/800x600/a1440c030c19d1b43134726560579df103a3c90318856ba6e56242df75592010/image.jpg",
+   "price": "Auction",
+   "street": "3A Trevitt Road",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": null,
+   "auction": "2026-10-31T13:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:00:00+11:00",
+     "end": "2026-10-17T13:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "85melbadrive|eastryde",
+   "domainId": null,
+   "reaSlug": "house-nsw-east+ryde-151694200",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-east+ryde-151694200",
+   "img": "https://i2.au.reastatic.net/800x600/e7b6a0f11676b1bb5a8a91319376b11ac12beb35f7efb9a37731c254c895b6f3/image.jpg",
+   "price": "Contact agent",
+   "street": "85 Melba Drive",
+   "suburb": "East Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "House",
+   "landM2": 879,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "319321blaxlandroad|ryde",
+   "domainId": null,
+   "reaSlug": "house-nsw-ryde-149271496",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-house-nsw-ryde-149271496",
+   "img": "https://i2.au.reastatic.net/800x600/e3471fa6ad67afbd1dd2d3bbb240371a8332539f8f1ed65848e63a1bcc7c7b18/image.jpg",
+   "price": "Contact agent",
+   "street": "319-321 Blaxland Road",
+   "suburb": "Ryde",
+   "bed": 6,
+   "bath": 3,
+   "car": 4,
+   "type": "House",
+   "landM2": 1663,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "20afarringtonparade|northryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152385092",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152385092",
+   "img": "https://i2.au.reastatic.net/800x600/3ca7f2280dcef9622a7fb624ff2315cb70b72f418df3484fdf39809fb32eb847/image.jpg",
+   "price": "Auction",
+   "street": "20A Farrington Parade",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 300,
+   "auction": "2026-10-24T10:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:00:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    },
+    {
+     "start": "2026-10-18T12:45:00+11:00",
+     "end": "2026-10-18T13:15:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "8abyronavenue|ryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-ryde-151941856",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-151941856",
+   "img": "https://i2.au.reastatic.net/800x600/c75a9c1e6fce8e7ffe8835697d5def52d08b865fe03ad48521ca39d0ecd4454b/image.jpg",
+   "price": "For Sale $2,099,000 - $2,140,000",
+   "street": "8A Byron Avenue",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 395,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T13:15:00+11:00",
+     "end": "2026-10-17T13:45:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "25amyraavenue|ryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-ryde-152504800",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-152504800",
+   "img": "https://i2.au.reastatic.net/800x600/0242cd034cf827a8dd528a71c87fa444b7c3f8c417109ce2600dde96a24be867/image.jpg",
+   "price": "Contact agent",
+   "street": "25A Myra Avenue",
+   "suburb": "Ryde",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 441,
+   "auction": null,
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:30:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "136wicksroad|northryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152070988",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152070988",
+   "img": "https://i2.au.reastatic.net/800x600/db7c51b427b4569167bb7765564e59387efcd2c03a8b49d02a537da09d930548/image.jpg",
+   "price": "Contact agent",
+   "street": "136 Wicks Road",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 240,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "8anorthroad|ryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-ryde-148383124",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-148383124",
+   "img": "https://i2.au.reastatic.net/800x600/d2212db480eca7279aee7d0d0ca4d61bc78f8de67d86918dc43ec5946b6e2845/image.jpg",
+   "price": "$2,480,000 - $2,720,000",
+   "street": "8A North Road",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 4,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 331,
+   "auction": null,
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T11:00:00+11:00",
+     "end": "2026-10-17T12:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "1/35bmidsonroad|eastwood",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-eastwood-146001148",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-eastwood-146001148",
+   "img": "https://i2.au.reastatic.net/800x600/b44ff3569d149a5139aed73ff14df0834851760c2d54ba315c3c0d2c626c7a9d/image.jpg",
+   "price": "Contact agent",
+   "street": "1/35B Midson Road",
+   "suburb": "Eastwood",
+   "bed": 4,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": null,
+   "auction": null,
+   "bands": [
+    "a"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": []
+  },
+  {
+   "key": "99anorthroad|ryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-ryde-150640592",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-ryde-150640592",
+   "img": "https://i2.au.reastatic.net/800x600/5a6065ccf715ea1d74d6023becdce3e5be0258d3fe51d038573baf5440658f1a/image.jpg",
+   "price": "Auction | Guide $2,250,000",
+   "street": "99A North Road",
+   "suburb": "Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 317,
+   "auction": "2026-10-24T13:30:00",
+   "bands": [
+    "b",
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:30:00+11:00",
+     "end": "2026-10-17T11:00:00+11:00"
+    },
+    {
+     "start": "2026-10-17T15:00:00+11:00",
+     "end": "2026-10-17T15:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "42valleyroad|epping",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-epping-152639916",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-epping-152639916",
+   "img": "https://i2.au.reastatic.net/800x600/badb5964edc4b65652c5859aaea8692f87b468b09d0278f0cbfcdb0fc6bbc3b9/image.jpg",
+   "price": "Auction | Guide $2,400,000",
+   "street": "42 Valley Road",
+   "suburb": "Epping",
+   "bed": 5,
+   "bath": 5,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 325,
+   "auction": "2026-11-07T16:30:00",
+   "bands": [
+    "c"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T12:00:00+11:00",
+     "end": "2026-10-17T12:30:00+11:00"
+    }
+   ]
+  },
+  {
+   "key": "35farringtonparade|northryde",
+   "domainId": null,
+   "reaSlug": "duplex+semi-detached-nsw-north+ryde-152368328",
+   "domainUrl": null,
+   "reaUrl": "https://www.realestate.com.au/property-duplex+semi-detached-nsw-north+ryde-152368328",
+   "img": "https://i2.au.reastatic.net/800x600/561d9e35e9d4da1d8fbf97c489aee40c9718a5a39c9e5f6dceefe913227f46c8/image.jpg",
+   "price": "Auction Guide | $2,200,000",
+   "street": "35 Farrington Parade",
+   "suburb": "North Ryde",
+   "bed": 5,
+   "bath": 3,
+   "car": 2,
+   "type": "Duplex/semi-detached",
+   "landM2": 312,
+   "auction": "2026-10-17T10:30:00",
+   "bands": [
+    "b"
+   ],
+   "isNew": false,
+   "firstSeen": "2026-10-16",
+   "inspections": [
+    {
+     "start": "2026-10-17T10:15:00+11:00",
+     "end": "2026-10-17T10:30:00+11:00"
+    }
+   ]
+  }
+ ]
+}
