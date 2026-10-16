@@ -9,17 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Layout: filter bar on top, responsive grid of listing cards, photo-led */
+/* Layout: summary + inspections first, then filter bar and a responsive grid of listing cards */
 :root {
-  --bg: #f3f5f4;
-  --surface: #ffffff;
-  --fg: #17211e;
-  --muted: #5d6b66;
-  --line: #d8dfdc;
-  --accent: #1f6f5c;
-  --accent-soft: #e1efea;
-  --warn: #9a5b00;
-  --warn-soft: #fbefd9;
+  --bg: #f3f5f4; --surface: #ffffff; --fg: #17211e; --muted: #5d6b66; --line: #d8dfdc;
+  --accent: #1f6f5c; --accent-soft: #e1efea; --warn: #9a5b00; --warn-soft: #fbefd9; --new: #b4235a; --new-soft: #fbe3ec;
   --font-display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
   --font-body: "IBM Plex Sans", "Segoe UI", Roboto, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -28,55 +21,69 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #111715; --surface: #1a2220; --fg: #e6ece9; --muted: #98a6a0; --line: #2c3633;
-    --accent: #6cc3a8; --accent-soft: #1f322c; --warn: #f0b860; --warn-soft: #3a2c14; color-scheme: dark;
+    --accent: #6cc3a8; --accent-soft: #1f322c; --warn: #f0b860; --warn-soft: #3a2c14; --new: #f58fb5; --new-soft: #3d1a28; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #111715; --surface: #1a2220; --fg: #e6ece9; --muted: #98a6a0; --line: #2c3633;
-  --accent: #6cc3a8; --accent-soft: #1f322c; --warn: #f0b860; --warn-soft: #3a2c14; color-scheme: dark;
+  --accent: #6cc3a8; --accent-soft: #1f322c; --warn: #f0b860; --warn-soft: #3a2c14; --new: #f58fb5; --new-soft: #3d1a28; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
-  margin: 0; background: var(--bg); color: var(--fg);
-  font: 15px/1.5 var(--font-body);
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 28px 48px;
+  margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 48px;
 }
 .wrap { max-width: 1240px; margin: 0 auto; display: grid; gap: 22px; }
 header { display: grid; gap: 6px; }
 h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.7rem, 3.4vw, 2.4rem); line-height: 1.1; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
-.sub { color: var(--muted); margin: 0; max-width: 70ch; }
+h2 { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; margin: 0; }
+.sub { color: var(--muted); margin: 0; max-width: 72ch; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+.stats b { color: var(--fg); font-weight: 500; }
+.stats .newc b { color: var(--new); }
+details.insp { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+details.insp summary { cursor: pointer; font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; }
+.days { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-top: 12px; }
+.day h3 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.day ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.day li { display: grid; grid-template-columns: 7.5em 1fr; gap: 8px; font-size: 14px; min-width: 0; }
+.day li .t { font-family: var(--font-mono); font-size: 13px; color: var(--accent); font-variant-numeric: tabular-nums; }
+.day li a { color: var(--fg); text-decoration: none; }
+.day li a:hover { text-decoration: underline; }
+.day li .nw { color: var(--new); font-weight: 600; font-size: 12px; margin-left: 4px; }
+.muted { color: var(--muted); }
 .controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
 .ctl { display: grid; gap: 4px; min-width: 0; }
-.ctl label, .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+.ctl label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
 select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; max-width: 100%; }
-select:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+select:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .chk { display: flex; gap: 6px; align-items: center; font-size: 14px; padding-block: 7px; }
 .count { margin-left: auto; font-family: var(--font-mono); font-size: 13px; color: var(--muted); align-self: center; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; transition: border-color .15s; }
 .card:hover { border-color: var(--accent); }
+.card.isnew { border-color: var(--new); }
 @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
 .photo { position: relative; display: block; aspect-ratio: 4 / 3; background: var(--line); max-width: 100%; }
-.links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding: 0 14px 14px; }
-.links a { font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; }
-.links a:hover { border-color: var(--accent); background: var(--accent-soft); }
-.badge.rea { background: var(--fg); color: var(--surface); }
 .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .badges { position: absolute; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
 .badge { font-size: 11px; font-weight: 600; letter-spacing: 0.04em; padding: 3px 8px; border-radius: 999px; background: var(--surface); color: var(--fg); }
+.badge.new { background: var(--new); color: #fff; }
 .badge.warn { background: var(--warn-soft); color: var(--warn); }
 .badge.near { background: var(--accent-soft); color: var(--accent); }
+.badge.rea { background: var(--fg); color: var(--surface); }
 .body { padding: 12px 14px 14px; display: grid; gap: 6px; min-width: 0; }
 .price { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; line-height: 1.25; }
-.addr { color: var(--fg); font-weight: 500; }
+.band { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.band.key { color: var(--fg); font-weight: 600; background: var(--accent-soft); border-radius: 4px; padding: 2px 8px; justify-self: start; }
+.addr { font-weight: 500; }
 .addr span { color: var(--muted); font-weight: 400; }
 .spec { display: flex; flex-wrap: wrap; gap: 4px 14px; font-family: var(--font-mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .spec b { color: var(--fg); font-weight: 500; }
 .when { font-size: 13px; color: var(--accent); font-weight: 600; }
-.band { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.band.key { color: var(--fg); font-weight: 600; background: var(--accent-soft); border-radius: 4px; padding: 2px 8px; justify-self: start; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding: 0 14px 14px; }
+.links a { font-size: 13px; font-weight: 600; color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; }
+.links a:hover { border-color: var(--accent); background: var(--accent-soft); }
 .empty { padding: 40px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 10px; }
 footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
 </style>
@@ -85,8 +92,14 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
 <div class="wrap">
   <header>
     <h1>4+ bed houses &amp; duplexes, Ryde and North Shore</h1>
-    <p class="sub">Listed on Domain and realestate.com.au under $2.5m with at least 4 bedrooms, 3 bathrooms and 2 car spaces. Captured Friday 16 October 2026. Click a photo to open the listing, or use the links under each card to see it on either site.</p>
+    <p class="sub">Listed on Domain and realestate.com.au under $2.5m with at least 4 bedrooms, 3 bathrooms and 2 car spaces. <span id="updated"></span></p>
+    <div class="stats" id="stats"></div>
   </header>
+
+  <details class="insp" id="inspBox" open>
+    <summary id="inspTitle">Inspections this week</summary>
+    <div class="days" id="days"></div>
+  </details>
 
   <div class="controls">
     <div class="ctl"><label for="area">Area</label>
@@ -95,332 +108,145 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
         <option value="all">Include nearby suburbs</option>
         <option value="near">Nearby suburbs only</option>
       </select></div>
-    <div class="ctl"><label for="suburb">Suburb</label>
-      <select id="suburb"><option value="">All suburbs</option></select></div>
+    <div class="ctl"><label for="suburb">Suburb</label><select id="suburb"><option value="">All suburbs</option></select></div>
     <div class="ctl"><label for="ptype">Type</label>
       <select id="ptype"><option value="">House, duplex or semi</option><option value="House">House</option><option value="Duplex">Duplex</option><option value="Semi-Detached">Semi-detached</option></select></div>
-    <div class="ctl"><label for="sort">Sort</label>
-      <select id="sort"><option value="list">Domain order</option><option value="plow">Price guide, low to high</option><option value="auction">Next auction first</option><option value="land">Largest land</option></select></div>
     <div class="ctl"><label for="band">Search price</label>
       <select id="band"><option value="">Any band</option><option value="a">Under $2m</option><option value="b">$2m – $2.25m</option><option value="c">$2.25m – $2.5m</option></select></div>
+    <div class="ctl"><label for="sort">Sort</label>
+      <select id="sort"><option value="new">New first</option><option value="plow">Price, low to high</option><option value="auction">Next auction first</option><option value="land">Largest land</option></select></div>
+    <label class="chk" for="newonly"><input type="checkbox" id="newonly"> New this week only</label>
     <label class="chk" for="nopriceonly"><input type="checkbox" id="nopriceonly"> No public price only</label>
     <label class="chk" for="hideover"><input type="checkbox" id="hideover"> Hide guides over $2.5m</label>
     <div class="count" id="count" aria-live="polite"></div>
   </div>
 
-  <div class="grid" id="grid"></div>
+  <div class="grid" id="grid"><div class="empty">Loading listings…</div></div>
 
-  <footer>"Search price" is the hidden price the agent entered for search filters, worked out by re-running both searches in three bands: under $2m, $2m–$2.25m and $2.25m–$2.5m. A listing that matched two bands has a search range spanning both. It is the agent's estimate, not a reserve, and auctions can go higher. Domain includes listings whose search price sits under $2.5m even when the advertised guide is higher. Those are tagged "Guide over $2.5m". Most "Contact Agent" listings have no public price. Listings on both sites appear once, with a link to each. Photos load from Domain and realestate.com.au, so you need an internet connection.</footer>
+  <footer>"Search price" is the hidden price the agent entered for search filters, worked out by re-running both searches in three bands: under $2m, $2m–$2.25m and $2.25m–$2.5m. It is the agent's estimate, not a reserve, and auctions can go higher. Listings on both sites appear once, with a link to each. "New" means the listing wasn't in the previous week's search. Inspection times come from the listing pages, so check with the agent before you go.</footer>
 </div>
 
 <script>
-const RAW = `2020667460~611-blaxland-road-eastwood-nsw-2122-2020667460~GO2KSlHrRzgRtWwa4i2oVMdn0P4=|2020667460_1_1_260316_025521-w3240-h2160~For Sale - $2,100,000 - $2,200,000~611 Blaxland Road~Eastwood~5~4~2~Duplex~307m²~~New
-2021238542~1-bayview-street-tennyson-point-nsw-2111-2021238542~WCUvychh26vSEkvQ1OKBoEHSjec=|2021238542_1_1_261014_012408-w4143-h2761~FOR SALE, Contact Agent~1 Bayview Street~Tennyson Point~4~3~2~House~~~New
-2021227326~4-31-massey-street-gladesville-nsw-2111-2021227326~m44LZBAzBk9pd01moNNjBvq2gCc=|2021227326_1_1_261009_041940-w3866-h2581~Contact Agent~4/31 Massey Street~Gladesville~4~4~2~House~~2026-10-29T18:00:00~New
-2021201371~160-carlingford-road-epping-nsw-2121-2021201371~RgrXCybkh_Cg_CHtbIVbgv9fqmk=|2021201371_1_1_261001_011759-w2000-h1333~Auction~160 Carlingford Road~Epping~5~4~2~Semi-Detached~348m²~2026-11-04T18:00:00~Updated
-2021176576~3-helen-street-epping-nsw-2121-2021176576~q3hJEZXRMw1NacJO55UYrojh750=|2021176576_1_1_260922_070052-w2100-h1400~Auction (If not sold prior)~3 Helen Street~Epping~6~3~3~House~746m²~2026-10-21T18:30:00~
-2021161021~6a-stuart-street-ryde-nsw-2112-2021161021~CFLOowqnY8tbtVWejEi3M0IGOWU=|2021161021_1_1_260916_055639-w2048-h1368~Contact Agent~6A Stuart Street~Ryde~5~3~2~Duplex~~2026-10-31T12:00:00~Updated
-2021089474~13a-colston-street-ryde-nsw-2112-2021089474~oo1W53oaTZBftmtTuL-lVuoOUMQ=|2021089474_1_1_260820_085355-w1600-h1067~Price Guide $2,000,000~13A Colston Street~Ryde~4~3~2~Duplex~~~Updated
-2020911629~2a-acacia-street-eastwood-nsw-2122-2020911629~LKjSU-Z6Byv7EExg4EfmhaMkVNY=|2020911629_3_1_260612_010533-w3872-h2581~Auction~2A Acacia Street~Eastwood~4~3~2~Semi-Detached~330m²~2026-10-21T18:30:00~
-2020498887~43-primula-street-lindfield-nsw-2070-2020498887~HoEL2beUvivShYUvSre-txA1qJg=|2020498887_1_1_251223_123935-w6952-h4639~Auction Guide: $2,200,000~43 Primula Street~Lindfield~4~3~2~House~834m²~2026-10-31T16:00:00~
-2021224114~229-vimiera-road-marsfield-nsw-2122-2021224114~UPQbGf9mWckX6YQ4qzDG8p8cw-o=|2021224114_1_1_261008_054955-w2047-h1364~Auction | Contact Agent~229 Vimiera Road~Marsfield~5~4~2~Semi-Detached~~2026-10-31T16:30:00~
-2021223774~4b-smalls-road-ryde-nsw-2112-2021223774~VDFvV0GvkUM6eUha3kkPpBuveIY=|2021223774_1_1_261008_051624-w2048-h1365~Contact Agent~4B Smalls Road~Ryde~5~4~3~Duplex~~2026-11-07T14:00:00~
-2021216252~16-burmah-road-denistone-nsw-2114-2021216252~ZhtvYWdsPz2FAnE3iBDkWtJDUm8=|2021216252_1_1_261006_114423-w4134-h2756~Contact Agent~16 Burmah Road~Denistone~4~3~2~House~863m²~2026-11-07T14:15:00~
-2021215145~82a-eastview-avenue-north-ryde-nsw-2113-2021215145~UVjaL4T4HS-k9j4O_zdlnbopUIw=|2021215145_1_1_261006_070359-w2000-h1333~Auction~82A Eastview Avenue~North Ryde~5~4~2~Semi-Detached~~2026-11-07T16:00:00~
-2021183405~2-rex-street-west-ryde-nsw-2114-2021183405~tCnnzs32DGAvPFsEVztwQUM-J8s=|2021183405_1_1_260924_042150-w1536-h1024~Contact Agent~2 Rex Street~West Ryde~5~3~3~House~338m²~2026-10-24T10:30:00~
-2021181924~2-hockley-road-eastwood-nsw-2122-2021181924~gcpnBx92f5un9FERYAVLZea2qR0=|2021181924_1_1_260924_124053-w2000-h1333~Auction~2 Hockley Road~Eastwood~5~3~2~Semi-Detached~491m²~2026-10-17T16:30:00~
-2021146318~47a-norfolk-road-epping-nsw-2121-2021146318~ecr493LeFbdH2AKuB5ke6C_wU00=|2021146318_2_1_260910_050936-w2560-h1705~Asking price $2,390,000~47A Norfolk Road~Epping~6~3~2~House~1053m²~~
-2021141714~1-napier-crescent-north-ryde-nsw-2113-2021141714~HjPxerhWH0o_BILcvg-TaT0j5k4=|2021141714_1_1_260909_041405-w1500-h1001~For Sale- Guide $2,500,000~1 Napier Crescent~North Ryde~5~4~2~Semi-Detached~336m²~~
-2021131285~80-rutledge-street-eastwood-nsw-2122-2021131285~XuNq7yauBmCViT3jBdVWMkrJ5fk=|2021131285_1_1_260904_075145-w1500-h1000~Auction Guide $2,500,000~80 Rutledge Street~Eastwood~5~4~2~Semi-Detached~~2026-10-31T16:00:00~
-2021098651~50-valley-road-epping-nsw-2121-2021098651~66LbcCLHAxafJ7AkmYBVlPSiB5U=|2021098651_1_1_260825_043016-w6000-h4000~Contact Agent~50 Valley Road~Epping~5~3~2~Duplex~~~
-2021067755~9a-colston-street-ryde-nsw-2112-2021067755~FcMIVYxp1LqqZkEM1Ey4xejI46E=|2021067755_1_1_260812_044002-w1534-h1025~For Sale $2,080,000 - $2,150,000~9A Colston Street~Ryde~5~3~2~Duplex~~~
-2021066282~15a-benson-street-west-ryde-nsw-2114-2021066282~gcQTtEV8wcnvrUzROwDhl9cWDuk=|2021066282_1_1_260811_114348-w1920-h1280~For Sale $2,500,000~15A Benson Street~West Ryde~5~3~3~Semi-Detached~405m²~~
-2021057238~10a-conrad-street-north-ryde-nsw-2113-2021057238~gYKdN8Cjct9Pl6TYExzTMnbXrG8=|2021057238_14_1_260807_042422-w2000-h1333~For Sale- $2,600,000~10A Conrad Street~North Ryde~5~4~5~Semi-Detached~~~
-2020958989~87-midson-road-epping-nsw-2121-2020958989~fd80WJYTUZL3AljwKSj9jPBGsiE=|2020958989_2_1_260704_122719-w3874-h2584~CONTACT AGENT~87 Midson Road~Epping~4~3~3~House~766m²~~
-2020946771~25-kuppa-rd-ryde-nsw-2112-2020946771~Hj8tmMBZccRJwKB7oA8o4J_sO0I=|2020946771_1_1_260626_030212-w1500-h1002~Just listed~25 Kuppa Rd~Ryde~5~3~2~Duplex~417m²~~
-2020925505~2-kaga-place-marsfield-nsw-2122-2020925505~um5TS5HQBy6XT9y9-vsrjqydzjE=|2020925505_28_1_260618_031312-w2000-h1333~Auction Guide $2,350,000~2 Kaga Place~Marsfield~5~4~2~Semi-Detached~~2026-10-25T16:00:00~
-2020879774~16-cavan-drive-eastwood-nsw-2122-2020879774~qiY3pA4b1cA9BhSdN7BcJUe5SOA=|2020879774_1_1_260529_051946-w1200-h799~For Sale | Contact Agent~16 Cavan Drive~Eastwood~5~3~2~Duplex~361m²~~
-2020817370~1-19-deakin-street-west-ryde-nsw-2114-2020817370~Pnjk5kgrRwP1olAoMf4tBSW-S1I=|2020817370_1_1_260506_111311-w2048-h1365~Contact Agent~1/19 Deakin Street~West Ryde~5~3~2~House~~~
-2020599507~12-peckham-avenue-chatswood-nsw-2067-2020599507~U1Fg9-8q69AZ0Qx-qhqYx_YJo8A=|2020599507_1_1_260212_013939-w2803-h1869~For Sale - Contact Agent~12 Peckham Avenue~Chatswood~5~3~4~House~888m²~~
-2018939320~denistone-east-nsw-2112-2018939320~B5eqyXxPRfi8enYM6LlnM8diSU8=|2018939320_1_1_240701_103945-w1379-h919~Contact Agent~~Denistone East~6~3~7~House~948m²~~
-2021204300~14-herring-road-marsfield-nsw-2122-2021204300~8UayCrL7eb0yQbDSzuc_ZeNd7dM=|2021204300_1_1_261001_074148-w2048-h1373~Contact Agent~14 Herring Road~Marsfield~5~3~2~House~~~
-2021203751~34-arthur-street-ryde-nsw-2112-2021203751~nN3_qURP-T2ErhCPKjYa8gUTmXg=|2021203751_1_1_261001_063537-w1920-h1278~Auction Guide | $2,500,000~34 Arthur Street~Ryde~5~4~2~House~312m²~2026-10-24T09:30:00~New home
-2021202755~44-ryrie-street-north-ryde-nsw-2113-2021202755~0GHZFPdMA3vgVSxG7CmRX9OJBYE=|2021202755_1_1_261001_044808-w2048-h1365~Contact Agent~44 Ryrie Street~North Ryde~5~3~2~House~315m²~2026-10-31T12:00:00~
-2021202258~2-lilli-pilli-street-epping-nsw-2121-2021202258~P6abvDOqO4n3eA76i3w7fHiVQ5Q=|2021202258_1_1_261001_034129-w1920-h1280~Auction Unless Sold Prior~2 Lilli Pilli Street~Epping~5~3~2~House~574m²~2026-10-28T18:00:00~
-2021197452~17a-kulgoa-avenue-ryde-nsw-2112-2021197452~IpVsjV4XotP9NXK3wIlU3zdXMF8=|2021197452_1_1_260930_034953-w4134-h2756~Contact Agent~17a Kulgoa Avenue~Ryde~5~3~4~House~796m²~2026-10-17T09:45:00~
-2021193014~29a-fawcett-street-ryde-nsw-2112-2021193014~KIy1tRMeRLUGQHJZf-eXtt6WbK4=|2021193014_1_1_260929_023135-w4134-h2756~Guide $2,400,000~29a Fawcett Street~Ryde~5~3~2~House~~2026-11-07T13:30:00~
-2021190995~96-winbourne-street-west-ryde-nsw-2114-2021190995~SZCn-QH93pt6El2Bcb20jWgcBTE=|17627335_2_1_250618_052107-w1620-h1080~Contact Agent~96 Winbourne Street~West Ryde~4~3~2~House~531m²~~
-2021166252~23-richmond-street-denistone-east-nsw-2112-2021166252~EdaGctPvZsXVQ1x5OXXedqqd1H4=|2021166252_1_1_260917_073941-w3872-h2581~Auction~23 Richmond Street~Denistone East~5~4~2~Semi-Detached~~2026-10-24T11:00:00~
-2021165607~23-addington-avenue-ryde-nsw-2112-2021165607~92CJAOHpZy35p1hGdnxttqS5t1o=|2021165607_1_1_260917_061204-w4528-h3019~Onsite Auction - Sat 17 October at 5:30pm~23 Addington Avenue~Ryde~4~3~2~House~727m²~2026-10-17T17:30:00~
-2021160426~14-tallwood-avenue-eastwood-nsw-2122-2021160426~hIXgNTowCvqstyaipe1e362E13Q=|2021160426_1_1_260916_045225-w4500-h3000~For Sale $2,600,000-$2,650,000~14 Tallwood Avenue~Eastwood~5~4~2~Semi-Detached~348m²~~
-2021119316~5-fay-place-marsfield-nsw-2122-2021119316~nun38-P5X6ykEEQyg831FP9b3ig=|2021119316_1_1_260901_105444-w7000-h4696~Auction (if not sold prior)~5 Fay Place~Marsfield~5~3~3~House~581m²~2026-10-28T18:30:00~
-2021089771~62-winbourne-street-east-west-ryde-nsw-2114-2021089771~5LyVQF96GezI1mRWk3_zN-eWag4=|2021089771_2_1_260820_113544-w2000-h1333~Auction Guide $2,300,000~62 Winbourne Street East~West Ryde~5~4~2~Semi-Detached~491m²~2026-10-28T18:30:00~
-2021083348~16b-myra-avenue-ryde-nsw-2112-2021083348~imMUtkJSLivFy7SWjujwEhcWm1A=|2021083348_1_1_260819_020038-w2048-h1529~For Sale $2,550,000~16B Myra Avenue~Ryde~5~3~2~Duplex~349m²~~
-2021080509~12-gladstone-avenue-ryde-nsw-2112-2021080509~B7DnihaAcXJKHJYE9HI2OQuYDlo=|2021080509_1_1_260818_034950-w1500-h1000~Contact Agent~12 Gladstone Avenue~Ryde~4~3~2~Semi-Detached~~~
-2021076364~29-cooney-street-north-ryde-nsw-2113-2021076364~TMopEwNTdwbjWJDOgTrgUnzv4OE=|2021076364_1_1_260817_120949-w960-h720~Torrens Title, contact agent~29 Cooney Street~North Ryde~5~4~2~Semi-Detached~~~
-2021056097~29-moira-avenue-denistone-west-nsw-2114-2021056097~mrBV2rR4eg8o5sSnWvEZ8ev3T4o=|2021056097_1_1_260806_115002-w3872-h2581~For Sale $2,000,000~29 Moira Avenue~Denistone West~4~3~2~Semi-Detached~468m²~~
-2021055473~106-bridge-road-ryde-nsw-2112-2021055473~9j2_3tPoC3OcomMATDG3O1a1Wuw=|2021055473_2_1_260806_081350-w4000-h2663~Contact Agent~106 Bridge Road~Ryde~5~3~2~Duplex~~~
-2021017336~55a-morshead-street-north-ryde-nsw-2113-2021017336~Na3bgjj3J2GkhKKBsgkQhvhrYB4=|2021017336_1_1_260723_124856-w1536-h1024~For Sale $2,550,000~55A Morshead Street~North Ryde~5~4~2~Duplex~375m²~~
-2020984684~55a-north-road-ryde-nsw-2112-2020984684~82KjDxIqpFZGIx2ApQIEscV1zmk=|2020984684_14_1_260709_065541-w2100-h1397~For Sale Contact Agent~55A North Road~Ryde~4~3~2~Duplex~~~
-2020897436~3a-orchard-street-epping-nsw-2121-2020897436~HPBcqV-zRsfj9fGSRd0jNvwb3b8=|2020897436_1_1_260726_095337-w2000-h1333~Auction unless Sold Prior~3A Orchard Street~Epping~5~3~2~Semi-Detached~325m²~~
-2020896052~27-second-avenue-eastwood-nsw-2122-2020896052~DmdyRZQB4JgBAIWO47N_Lq7oMbw=|2020896052_4_1_260605_123730-w2000-h1333~For Sale -$2,400,000~27 Second Avenue~Eastwood~5~4~2~House~730m²~~
-2020573474~10a-paul-street-north-ryde-nsw-2113-2020573474~Mm0Uv5EvARtFRXNVlP-xjyfry6k=|2020573474_1_1_260220_010814-w1920-h1280~$2,200,000~10A Paul Street~North Ryde~4~4~2~House~~~
-2020304252~17a-driver-street-denistone-west-nsw-2114-2020304252~RQdvSnVs-70Ey0RKDiWfsiXzZgE=|2020304252_1_1_250929_013005-w1500-h1001~Contact Agent~17a Driver Street~Denistone West~5~3~2~Semi-Detached~~~
-2021223278~5a-hunts-avenue-eastwood-nsw-2122-2021223278~a27etB3e5qaux5yLbURLKDu6ZbE=|2021223278_3_1_261008_043153-w1536-h1024~Pre-Auction: Contact Agent~5A Hunts Avenue~Eastwood~5~4~2~Semi-Detached~408m²~~
-2021216484~14a-tunks-street-ryde-nsw-2112-2021216484~pBEyeCulDI6ldsYw6nelY9lxNpI=|2021216484_34_1_261007_112003-w1920-h1280~FOR SALE | $2,620,000 - $2,680,000~14a Tunks Street~Ryde~6~5~2~Semi-Detached~465m²~~
-2021139848~7-deborah-place-eastwood-nsw-2122-2021139848~AFEOJbgdkc2IHLWx551JfTUdakA=|2021139848_9_1_260908_103340-w3872-h2581~Auction | Guide $2,350,000~7 Deborah Place~Eastwood~4~3~2~Semi-Detached~~2026-10-17T16:00:00~
-2021117734~6a-albert-street-gladesville-nsw-2111-2021117734~Q3bK5wv-ZXWod8XPdgpTNhTvCXQ=|2021117734_1_1_260901_024015-w1920-h1334~Open 7 Days~6A Albert Street~Gladesville~4~3~2~House~458m²~~
-2021107965~49-o-keefe-crescent-eastwood-nsw-2122-2021107965~wh3kaBydXDICdhw9R5KEftJZs_g=|2021107965_1_1_260827_072940-w2000-h1333~Auction~49 O'Keefe Crescent~Eastwood~5~4~2~Semi-Detached~~~
-2021082744~6-smalls-road-ryde-nsw-2112-2021082744~MnE4fkOS-oVVHYJhq7EneY3eUHk=|2021082744_2_1_260818_115803-w5480-h3653~GUIDE | $2,450,000~6 Smalls Road~Ryde~5~3~4~Semi-Detached~446m²~~
-2020896135~13a-willandra-street-ryde-nsw-2112-2020896135~PrTMtViKsWEiLX9aOl0UhFOHLPo=|2020896135_3_1_260605_125910-w1537-h1023~Contact Agent~13A Willandra Street~Ryde~5~4~2~Semi-Detached~535m²~~
-2021104482~20a-tennyson-road-gladesville-nsw-2111-2021104482~LExXbhJuFSd2FPXzvzvEVBrnHbc=|2021104482_1_1_260826_040823-w1500-h1003~$2,400,000 to $2,600,000~20A Tennyson Road~Gladesville~5~3~2~Duplex~314m²~~
-2021082245~111-carlingford-road-epping-nsw-2121-2021082245~PHGB-az3EKTFjr2mr2x_eQYLIfI=|2021082245_1_1_260818_111942-w1500-h1000~$2,000,000 to $2,100,000~111 Carlingford Road~Epping~5~3~2~Duplex~379m²~~
-2021027025~113a-carlingford-road-epping-nsw-2121-2021027025~B2oGoS5Fr9aA5WIlTnGBDOOqhNs=|2021027025_1_1_260727_035034-w1500-h1000~$2,000,000 to $2,200,000~113A Carlingford Road~Epping~5~3~4~Duplex~380m²~~
-2021242966~102a-chapman-avenue-beecroft-nsw-2119-2021242966~ebnGypVUc8CKRQecmbSb9p6pJfk=|2021242966_1_1_261015_122741-w2000-h1333~Premiere Showing~102A Chapman Avenue~Beecroft~4~3~2~House~714m²~2026-11-07T14:30:00~New
-2021240711~17-wilshire-avenue-carlingford-nsw-2118-2021240711~dVH2JX-jhHZ-jHG22OkSalAsm7Q=|2021240711_1_1_261014_055628-w2000-h1333~Auction 14 Nov 2.15pm (unless sold prior)~17 Wilshire Avenue~Carlingford~6~3~2~House~~2026-11-14T14:15:00~New
-2021225583~1-lyndelle-place-carlingford-nsw-2118-2021225583~s_QuqBPLdQmWdjMoHFmKaUBFqZs=|2021225583_1_1_261008_105002-w2047-h1364~Auction~1 Lyndelle Place~Carlingford~5~3~3~House~739m²~2026-10-31T16:30:00~
-2021224873~2-simpson-street-dundas-valley-nsw-2117-2021224873~5ey95uKsc9o626OBBoX6VL5m-No=|2021224873_1_1_261008_085320-w1079-h722~Auction Guide $1,550,000~2 Simpson Street~Dundas Valley~6~4~2~House~~2026-10-24T12:00:00~
-2021223694~2-cardinal-avenue-beecroft-nsw-2119-2021223694~Vi3TqBbHY0qJ_uN6Rz058JQV7lQ=|2021223694_1_1_261008_050846-w3809-h2539~Auction Guide $1,900,000~2 Cardinal Avenue~Beecroft~4~3~2~House~509m²~2026-10-31T11:45:00~
-2021216985~16-imlay-avenue-carlingford-nsw-2118-2021216985~x-55LmbRhctOKzImzBNEu3IDWCQ=|2021216985_1_1_261007_014412-w4134-h2756~Auction~16 Imlay Avenue~Carlingford~5~3~2~House~900m²~2026-10-31T15:45:00~
-2021174571~24-warrowa-avenue-west-pymble-nsw-2073-2021174571~pPuF9R3grVr3EHYePT3Ylg4uUF8=|2021174571_12_1_260922_010400-w2803-h1869~Auction - Contact Agent~24 Warrowa Avenue~West Pymble~4~4~2~House~923m²~2026-10-24T16:00:00~
-2021127569~57-wallalong-crescent-west-pymble-nsw-2073-2021127569~4DnM_A3FiEsZ5wRRbHbrEQLlN1U=|2021127569_1_1_260903_070006-w3237-h2162~Auction | Bidders Guide $2,400,000~57 Wallalong Crescent~West Pymble~5~3~2~House~1024m²~2026-11-07T09:00:00~
-2021212323~20-coral-tree-drive-carlingford-nsw-2118-2021212323~CaZflzv4iC97QElT9G1zXi-ZtiY=|2021212323_1_1_261006_121102-w1200-h800~Auction Guide $1,950,000~20 Coral Tree Drive~Carlingford~5~3~2~House~923m²~2026-10-31T11:30:00~Updated
-2021110897~8-macarthur-street-ermington-nsw-2115-2021110897~moMAXt3q_hJEjRCyOvlcxjoR-Ww=|2021110897_1_1_260828_051930-w2000-h1333~For Sale $2,350,000~8 MacArthur Street~Ermington~5~4~4~Semi-Detached~354m²~~Updated
-2021223043~12-ravenhill-road-turramurra-nsw-2074-2021223043~gmqBrUhKp0Eqg03ro1WR7_CTw2c=|2021223043_1_1_261008_035802-w1800-h1200~Auction (Unless Sold Prior)~12 Ravenhill Road~Turramurra~6~3~3~House~937m²~2026-11-07T13:00:00~
-2020823964~14-tristania-way-beecroft-nsw-2119-2020823964~FGFhk7Hjvu87QZLuTnBDNUYv6B8=|2020823964_3_1_260507_051920-w2000-h1333~Premiere Showing~14 Tristania Way~Beecroft~4~4~2~House~1012m²~2026-10-31T11:00:00~
-2021207509~1a-buyuma-street-carlingford-nsw-2118-2021207509~sG7FP1Are8WJfitc39UWl44zuo4=|2021207509_1_1_261002_061409-w1536-h1024~Auction~1A Buyuma Street~Carlingford~5~5~2~Semi-Detached~480m²~2026-10-31T15:00:00~
-2021183210~10-lynette-avenue-carlingford-nsw-2118-2021183210~RsHQYS_BezySYFrHkc0B0se9_uk=|2021183210_1_1_260924_035758-w2000-h1335~Auction~10 Lynette Avenue~Carlingford~5~3~2~House~942m²~2026-10-17T10:30:00~
-2021181751~9a-eccles-street-ermington-nsw-2115-2021181751~vFQuLtIVUNLb_6ZIMmt2-h6wC0Y=|2021181751_1_1_260924_121352-w4134-h2756~Contact Agent~9A Eccles Street~Ermington~5~4~2~House~337m²~2026-10-24T14:45:00~
-2021180557~84-coral-tree-drive-carlingford-nsw-2118-2021180557~EgyQNkIed2xMCtEfxZvYUzYH8jE=|2021180557_1_1_260923_065929-w5280-h3956~Auction | Guide $1,950,000~84 Coral Tree Drive~Carlingford~4~3~3~House~1242m²~2026-10-17T17:30:00~
-2021167633~3-atkins-road-ermington-nsw-2115-2021167633~zJGFen4apreaPifC8sudmPIkWak=|2021167633_2_1_260918_020948-w2000-h1334~Auction on site 10am Saturday~3 Atkins Road~Ermington~5~3~2~Semi-Detached~~2026-10-17T10:00:00~
-2021133903~49-dandarbong-avenue-carlingford-nsw-2118-2021133903~xv92Urto-gAU0Tz1p-PvQG3dcaM=|2021133903_1_1_260907_033938-w2000-h1333~Price Guide: $2,000,000 - $2,100,000~49 Dandarbong Avenue~Carlingford~6~4~2~Semi-Detached~470m²~~
-2020301501~7-cassandra-place-carlingford-nsw-2118-2020301501~VFThMGbgoN7ChKcJfBc7Cc49GrY=|2020301501_1_1_260909_094149-w3334-h2501~Price Guide $2,000,000 plus~7 Cassandra Place~Carlingford~5~3~2~House~708m²~~
-2021036345~10-cornwall-avenue-turramurra-nsw-2074-2021036345~XKX6XI9PyYHlzccjfTItgRmPcDo=|2021036345_1_1_260730_064653-w4134-h2756~For Sale $2,500,000~10 Cornwall Avenue~Turramurra~5~3~3~House~923m²~~
-2021033992~2-66-dandarbong-avenue-carlingford-nsw-2118-2021033992~KGPyurRa38uVVQFp82npSN38jVI=|2021033992_1_1_260729_111957-w2000-h1334~Price Guide: $2,400,000~2/66 Dandarbong Avenue~Carlingford~5~3~2~House~~~
-2021031923~169-park-road-dundas-nsw-2117-2021031923~HN9uo4eZ88iUX9UR-Yw1QoyFp3g=|2021031923_1_1_260729_051346-w2000-h1333~Auction | Guide $2,500,000~169 Park Road~Dundas~5~3~2~House~696m²~~
-2021021215~1-mobbs-lane-carlingford-nsw-2118-2021021215~RoyT1mD4JhGICkL-dRsL9ZhWGqk=|2021021215_10_1_260724_014749-w2000-h1333~Inspection by appointment~1 Mobbs Lane~Carlingford~4~3~2~Semi-Detached~534m²~~
-2020987980~34-hunterford-crescent-oatlands-nsw-2117-2020987980~NfumZgO5tVCajT5Yrqx1U3inBmY=|2019482007_2_1_240910_061450-w2048-h1365~$1,700,000~34 Hunterford Crescent~Oatlands~5~3~4~House~~~
-2020986704~48-raimonde-road-carlingford-nsw-2118-2020986704~Y-KYkCm7gwp5jx2iyLE2A5mGMI0=|2020986704_1_1_260710_051020-w2100-h1397~For Sale Contact Agent~48 Raimonde Road~Carlingford~5~3~4~House~1010m²~~
-2020985708~103a-south-street-ermington-nsw-2115-2020985708~FKaSoJX0YaK6NVXK7e50B6HZk_c=|2020985708_1_1_260710_124930-w1500-h1001~$2,050,000 - $2,150,000~103A South Street~Ermington~5~3~3~Semi-Detached~~~
-2020916430~8-camelot-court-carlingford-nsw-2118-2020916430~JGGvVVIkdkK7Zm_9MOQdokUqFjE=|2020916430_1_1_260629_094906-w1068-h800~Guide $2,000,000 - $2,100,000~8 Camelot Court~Carlingford~4~3~2~House~746m²~2026-07-25T15:00:00~
-2020824052~22-sinfield-street-ermington-nsw-2115-2020824052~tWcgR9eOiXP8lqG1Lxz6fSbmaQA=|2020824052_1_1_260507_052756-w6000-h4000~Contact Agent~22 Sinfield Street~Ermington~5~3~2~Duplex~~~
-2021203859~5-morna-place-turramurra-nsw-2074-2021203859~WkrAEtEcmB4i2AnI-gdgNEVPwik=|2021203859_2_1_261001_064819-w5475-h3652~Auction in rooms~5 Morna Place~Turramurra~4~3~2~House~923m²~2026-10-24T16:00:00~
-2021203682~31-blackwood-close-beecroft-nsw-2119-2021203682~Qr5rDjCUnoEAVHn2AuNrGg9x3V4=|2021203682_1_1_261001_062830-w1920-h1280~Auction Guide $2,200,000 - $2,400,000~31 Blackwood Close~Beecroft~4~3~2~House~746m²~2026-10-24T12:30:00~
-2021201020~32-hart-street-dundas-valley-nsw-2117-2021201020~cyPr40TvxhFS7sCNUx8w0KuvhcQ=|2021201020_1_1_261001_121450-w1200-h800~$1,900,000-$1,990,000~32 Hart Street~Dundas Valley~5~3~2~Duplex~326m²~~
-2021194542~16-fullarton-street-telopea-nsw-2117-2021194542~IiiwZI28M8k8757VP8eBetw7ulw=|2021194542_1_1_260929_061810-w2100-h1409~Auction (If not sold prior)~16 Fullarton Street~Telopea~5~3~3~Duplex~319m²~2026-10-21T18:30:00~
-2021088985~10a-horsfall-street-ermington-nsw-2115-2021088985~CDtSWsMUzq78uXlu7CrMJqdhL-k=|2021088985_1_1_260918_021151-w4096-h2730~$1,500,000 - $1,600,000~10a Horsfall Street~Ermington~4~3~2~Duplex~326m²~~
-2021053127~41-baldwin-street-gordon-nsw-2072-2021053127~XM6BjCMOWRo3ukeudDe42PyTkwM=|2021053127_1_1_260806_025657-w3873-h2585~Auction Guide $2,500,000 - $2,750,000~41 Baldwin Street~Gordon~4~3~2~House~955m²~2026-10-31T16:30:00~
-2020867843~34a-marsden-road-ermington-nsw-2115-2020867843~ni6bGOn2BLbkcESr5pCKBUq6y-g=|2020867843_20_1_260525_092710-w2048-h1365~Guide $1,900,000 - $1,950,000~34a Marsden Road~Ermington~5~3~3~Semi-Detached~~~
-2020646689~14-mobbs-lane-carlingford-nsw-2118-2020646689~-A6av1oyB7vTYk6Z3PDrGatltec=|2020646689_1_1_260526_045131-w1599-h1066~For Sale | $2,200,000~14 Mobbs Lane~Carlingford~5~4~2~Semi-Detached~466m²~~
-2020335250~carlingford-nsw-2118-2020335250~tl1JvUhj1wGzfldRfdswKyjU8cI=|2020335250_2_1_251010_073627-w5799-h3866~For Sale - Motivated Seller~~Carlingford~4~3~3~House~954m²~~
-2021117862~8a-dandarbong-avenue-carlingford-nsw-2118-2021117862~E8JdWoUx9oiwhrYoUig_uTuNCHA=|2021117862_1_1_260901_030614-w5390-h3593~Contact Agent~8A Dandarbong Avenue~Carlingford~5~3~4~Semi-Detached~~~
-2021168964~4-66-dandarbong-avenue-carlingford-nsw-2118-2021168964~6lA92LM9AahxYYMSfIYbVXzf2sU=|2021168964_1_1_260918_055852-w1600-h1200~Contact Agent~4/66 Dandarbong Avenue~Carlingford~4~3~2~Semi-Detached~~~
-2021159015~60-parkinson-avenue-turramurra-nsw-2074-2021159015~HBKUqoRFv5QX75qrKfIZU4Eeqt4=|2021159015_9_1_260916_123831-w4134-h2758~For Sale - Contact Agent~60 Parkinson Avenue~Turramurra~4~3~4~House~1012m²~~
-2020862265~1-sinfield-street-ermington-nsw-2115-2020862265~vCoCzzT65rIfFwRPhfo9etEWjA4=|2020193029_3_1_250813_122648-w1600-h1067~Price Guide $1,680,000 - $1,780,000~1 Sinfield Street~Ermington~4~3~2~Duplex~~~
-2020859832~7-olinda-crescent-carlingford-nsw-2118-2020859832~jJvaFb8f-DYKAPDvlkNX_EHSSlQ=|2020859832_16_1_260521_042348-w2000-h1333~Asking price $2,650,000~7 Olinda Crescent~Carlingford~5~3~2~House~696m²~~
-2020786348~177a-adderton-rd-carlingford-nsw-2118-2020786348~Ick10vQ3cUYOwkHwgWvbDA0OZOU=|2020786348_1_1_260423_105433-w2000-h1333~Contact Agent~177A Adderton Rd~Carlingford~4~3~3~Duplex~~~
-2020380262~19-river-road-ermington-nsw-2115-2020380262~WyRbd22uMST0hPrCygxn53aTncw=|2020380262_3_1_251029_043254-w1599-h1067~Price Guide $1,820,000 to $1,920,000~19 River Road~Ermington~5~3~2~Duplex~~~
-2021240765~33-fitzgerald-road-ermington-nsw-2115-2021240765~5PKSPrmfHG2UlFq_EuqXE0TFU4k=|2021240765_1_1_261014_060220-w3872-h2581~For Sale | Offers Invited~33 Fitzgerald Road~Ermington~6~5~2~Semi-Detached~472m²~~New
-2021199403~22a-delaware-road-ermington-nsw-2115-2021199403~x2u2Km1Dg1mqrGyOuYpUZx9VVdA=|2021199403_2_1_260930_071550-w3872-h2581~For Sale | Offers Invited~22A Delaware Road~Ermington~5~5~2~House~421m²~~
-2021196503~12a-wassell-street-dundas-nsw-2117-2021196503~MbbN-58cgQc273KNwdI1fnRLpP0=|2021196503_27_1_260930_012605-w3872-h2581~For Sale | $1,880,000 - $1,950,000~12a Wassell Street~Dundas~5~4~2~Semi-Detached~~~
-2021179531~19a-hilder-road-ermington-nsw-2115-2021179531~iLpx2Mm2pTTN2J4zejcSOKcN1Oc=|2021179531_1_1_260923_050922-w3872-h2581~Under contract~19A Hilder Road~Ermington~5~3~3~Semi-Detached~337m²~~
-2021142862~18a-monroe-street-ermington-nsw-2115-2021142862~4msbI_mR8KK17wSaGhYdb_73UZU=|2021142862_2_1_260909_063328-w3872-h2581~For Sale | $1,720,000 - $1,780,000~18a Monroe Street~Ermington~5~3~3~Semi-Detached~396m²~~
-2021134440~5a-jervis-street-ermington-nsw-2115-2021134440~9Mf7qM-GGhf4RPwnsRbpcjtGqbQ=|2021134440_1_1_260908_050438-w1536-h1024~For Sale | $2,000,000~5a Jervis Street~Ermington~5~3~2~Semi-Detached~~~
-2021071926~6-cowells-lane-ermington-nsw-2115-2021071926~JT1zAzHyvFARSxYrbGD-43C_mZI=|2021071926_1_1_261014_055222-w1536-h1024~For Sale | Contact Agent~6 Cowells Lane~Ermington~5~4~2~Semi-Detached~468m²~~
-2021068811~9a-lancaster-avenue-melrose-park-nsw-2114-2021068811~EVuk5_Xi-JMhA7uMryn1QRf-Uf4=|2021068811_2_1_260812_111948-w1024-h687~For Sale | Contact Agent~9a Lancaster Avenue~Melrose Park~4~3~2~Semi-Detached~~~
-2021016219~4-narrun-crescent-telopea-nsw-2117-2021016219~fZFRzkdf9E17gctlhWfBafvgga4=|2021016219_12_1_260722_070153-w3872-h2581~For Sale | $1,850,000 - $1,920,000~4 Narrun Crescent~Telopea~5~3~2~Semi-Detached~506m²~~
-2020910618~4-jervis-street-ermington-nsw-2115-2020910618~gN1wnK1fXC9_FBqkE0Fl5HHBkxI=|2020910618_1_1_260611_071526-w3872-h2581~For Sale | $2,350,000 - $2,400,000~4 Jervis Street~Ermington~5~3~3~Semi-Detached~~~
-2020908460~8-denham-place-dundas-nsw-2117-2020908460~AoAEnPVnfafNxKemp558YKM1nT0=|2020118618_1_1_250709_063455-w1600-h1066~For Sale | $1,750,000 - $1,800,000~8 Denham Place~Dundas~5~3~2~House~771m²~~
-2020892078~6a-trumper-street-ermington-nsw-2115-2020892078~Ufv_hp1MTnnfNap_EeWy0hNcOuE=|2020892078_25_1_260604_125629-w3872-h2581~For Sale | $2,300,000 - $2,380,000~6A Trumper Street~Ermington~5~3~2~Semi-Detached~416m²~~
-2020860540~24-murdoch-street-ermington-nsw-2115-2020860540~pksopHDhPIi42FGCWR_ChSghebY=|2020860540_4_1_260521_061124-w3872-h2581~For Sale | Contact Agent~24 Murdoch Street~Ermington~5~3~2~Semi-Detached~~~
-2020756720~19-atkins-road-ermington-nsw-2115-2020756720~1QGa0oqPBgin6Act145Ubot_Pdo=|2019971013_4_1_250505_075914-w1598-h1067~For Sale | $2,000,000~19 Atkins Road~Ermington~5~4~2~House~~~
-2020078353~694-victoria-rd-ermington-nsw-2115-2020078353~etbGKvV8L0Ag_zK9ZXvwIzqfzPk=|16698684_1_1_231015_020453-w3333-h2500~Buyer's guide $1.5M - $1.65M~694 Victoria Rd~Ermington~4~3~2~Semi-Detached~364m²~~
-2021057551~5-12-chase-avenue-roseville-chase-nsw-2069-2021057551~JgRcYztNweZZvWtOaLe__J5HZBI=|2020842248_10_1_260807_050424-w2000-h1414~$1,580,000~5/12 Chase Avenue~Roseville Chase~4~5~2~House~~~
-2021056999~4-12-chase-avenue-roseville-chase-nsw-2069-2021056999~gwDU-I4hAE_PUGyHNBD8f_VtB1A=|2020842248_8_1_260514_045031-w2000-h1414~$1,350,000~4/12 Chase Avenue~Roseville Chase~4~5~2~House~~~
-2021014603~1-12-chase-avenue-roseville-chase-nsw-2069-2021014603~Qh6L5FnXztg3iFrsARRbQM-R9tY=|2020842248_2_1_260514_045031-w2000-h1414~$2,180,000~1/12 Chase Avenue~Roseville Chase~4~5~2~House~729m²~~`;
-
-// realestate.com.au listings that are not on Domain: slug~street~suburb~image~price~type~bed~bath~car~land~auction
-const RAW_REA = `duplex+semi-detached-nsw-eastwood-152629660~6 Milham Avenue~Eastwood~49cff4bed2ba4d927a07250c0ee3d9ce3b38d17e7ca66f347f3f9d95dddca75c/image~Contact agent~Duplex/semi-detached~4~3~2~505m²~2026-11-07T14:00:00
-duplex+semi-detached-nsw-putney-152564932~23A Phillip Road~Putney~d987172f8ab3e45cc95c8786b036528cc82ac8aa81f09e13c9a08b84df2e4606/image~Auction~Duplex/semi-detached~5~3~2~348m²~2026-11-07T10:30:00
-duplex+semi-detached-nsw-north+ryde-152544896~3A Trevitt Road~North Ryde~a1440c030c19d1b43134726560579df103a3c90318856ba6e56242df75592010/image~Auction~Duplex/semi-detached~5~4~2~~2026-10-31T13:30:00
-house-nsw-east+ryde-151694200~85 Melba Drive~East Ryde~e7b6a0f11676b1bb5a8a91319376b11ac12beb35f7efb9a37731c254c895b6f3/image~Contact agent~House~4~3~2~879m²~
-house-nsw-ryde-149271496~319-321 Blaxland Road~Ryde~e3471fa6ad67afbd1dd2d3bbb240371a8332539f8f1ed65848e63a1bcc7c7b18/image~Contact agent~House~6~3~4~1663m²~
-duplex+semi-detached-nsw-north+ryde-152385092~20A Farrington Parade~North Ryde~3ca7f2280dcef9622a7fb624ff2315cb70b72f418df3484fdf39809fb32eb847/image~Auction~Duplex/semi-detached~5~4~2~300m²~2026-10-24T10:30:00
-duplex+semi-detached-nsw-ryde-151941856~8A Byron Avenue~Ryde~c75a9c1e6fce8e7ffe8835697d5def52d08b865fe03ad48521ca39d0ecd4454b/image~For Sale $2,099,000 - $2,140,000~Duplex/semi-detached~4~4~2~395m²~
-duplex+semi-detached-nsw-ryde-152504800~25A Myra Avenue~Ryde~0242cd034cf827a8dd528a71c87fa444b7c3f8c417109ce2600dde96a24be867/image~Contact agent~Duplex/semi-detached~4~3~2~441m²~
-duplex+semi-detached-nsw-north+ryde-152070988~136 Wicks Road~North Ryde~db7c51b427b4569167bb7765564e59387efcd2c03a8b49d02a537da09d930548/image~Contact agent~Duplex/semi-detached~5~4~2~240m²~
-duplex+semi-detached-nsw-ryde-148383124~8A North Road~Ryde~d2212db480eca7279aee7d0d0ca4d61bc78f8de67d86918dc43ec5946b6e2845/image~$2,480,000 - $2,720,000~Duplex/semi-detached~5~4~2~331m²~
-duplex+semi-detached-nsw-eastwood-146001148~1/35B Midson Road~Eastwood~b44ff3569d149a5139aed73ff14df0834851760c2d54ba315c3c0d2c626c7a9d/image~Contact agent~Duplex/semi-detached~4~3~2~~
-duplex+semi-detached-nsw-ryde-150640592~99A North Road~Ryde~5a6065ccf715ea1d74d6023becdce3e5be0258d3fe51d038573baf5440658f1a/image~Auction | Guide $2,250,000~Duplex/semi-detached~5~3~2~317m²~2026-10-24T13:30:00
-duplex+semi-detached-nsw-epping-152639916~42 Valley Road~Epping~badb5964edc4b65652c5859aaea8692f87b468b09d0278f0cbfcdb0fc6bbc3b9/image~Auction | Guide $2,400,000~Duplex/semi-detached~5~5~2~325m²~2026-11-07T16:30:00
-duplex+semi-detached-nsw-north+ryde-152368328~35 Farrington Parade~North Ryde~561d9e35e9d4da1d8fbf97c489aee40c9718a5a39c9e5f6dceefe913227f46c8/image~Auction Guide | $2,200,000~Duplex/semi-detached~5~3~2~312m²~2026-10-17T10:30:00`;
-
-// Domain listings that are also on realestate.com.au (Domain id -> realestate.com.au slug)
-const REA_MATCH = {
-  2021201371: "duplex+semi-detached-nsw-epping-152496412", 2021076364: "duplex+semi-detached-nsw-north+ryde-152060652",
-  2021056097: "duplex+semi-detached-nsw-denistone+west-151984932", 2021193014: "house-nsw-ryde-152467500",
-  2021238542: "house-nsw-tennyson+point-152623428", 2021089771: "duplex+semi-detached-nsw-west+ryde-152110536",
-  2020958989: "house-nsw-epping-151642668", 2021183405: "house-nsw-west+ryde-152436944",
-  2021082744: "duplex+semi-detached-nsw-ryde-152084044", 2021089474: "duplex+semi-detached-nsw-ryde-152109832",
-  2020599507: "house-nsw-chatswood-150276888", 2021107965: "duplex+semi-detached-nsw-eastwood-152174660",
-  2021067755: "duplex+semi-detached-nsw-ryde-152028468", 2021066282: "duplex+semi-detached-nsw-west+ryde-152022544",
-  2021104482: "duplex+semi-detached-nsw-gladesville-152163564", 2021027025: "duplex+semi-detached-nsw-epping-151882308",
-  2021146318: "house-nsw-epping-152307248", 2020911629: "duplex+semi-detached-nsw-eastwood-151470700",
-  2020304252: "duplex+semi-detached-nsw-denistone+west-149174404", 2020896052: "house-nsw-eastwood-151408280",
-  2020925505: "duplex+semi-detached-nsw-marsfield-151527772", 2021098651: "duplex+semi-detached-nsw-epping-152142120",
-  2021227326: "house-nsw-gladesville-152585852", 2021141714: "duplex+semi-detached-nsw-north+ryde-152290904",
-  2021197452: "house-nsw-ryde-152483056", 2021139848: "duplex+semi-detached-nsw-eastwood-152283484",
-  2021224114: "duplex+semi-detached-nsw-marsfield-152575144", 2021223774: "duplex+semi-detached-nsw-ryde-152574068",
-  2020984684: "duplex+semi-detached-nsw-ryde-151727492", 2021202258: "house-nsw-epping-152499920",
-  2021223278: "duplex+semi-detached-nsw-eastwood-152572656", 2021176576: "house-nsw-epping-152413856",
-  2021190995: "house-nsw-west+ryde-152460760", 2021181924: "duplex+semi-detached-nsw-eastwood-152377340",
-  2021216252: "house-nsw-denistone-152548904", 2021215145: "duplex+semi-detached-nsw-north+ryde-152545584",
-  2020667460: "duplex+semi-detached-nsw-eastwood-150537328", 2021055473: "duplex+semi-detached-nsw-ryde-151984036",
-  2020498887: "house-nsw-lindfield-149910016", 2021131285: "duplex+semi-detached-nsw-eastwood-152241452",
-  2020897436: "duplex+semi-detached-nsw-epping-151413816", 2020896135: "duplex+semi-detached-nsw-ryde-151409608",
-  2020817370: "house-nsw-west+ryde-151109032", 2021082245: "duplex+semi-detached-nsw-epping-152082672",
-  2021166252: "duplex+semi-detached-nsw-denistone+east-152378304", 2021165607: "house-nsw-ryde-152375948",
-  2021080509: "duplex+semi-detached-nsw-ryde-152076704", 2021119316: "house-nsw-marsfield-152212552",
-  2021204300: "house-nsw-marsfield-152505880", 2021203751: "house-nsw-ryde-152505856",
-  2021161021: "duplex+semi-detached-nsw-ryde-152361056", 2021202755: "house-nsw-north+ryde-152501960",
-  2020573474: "house-nsw-north+ryde-150173004", 2021117734: "duplex+semi-detached-nsw-gladesville-152206632",
-  2020946771: "duplex+semi-detached-nsw-ryde-151603228"
-};
-const REA = "https://www.realestate.com.au/property-";
-
-// Which hidden "search price" band each listing matched, from re-running both searches in three price bands
+const CORE = new Set(["Ryde","North Ryde","East Ryde","West Ryde","Meadowbank","Denistone","Denistone East","Denistone West","Eastwood","Marsfield","Macquarie Park","Putney","Gladesville","Tennyson Point","Hunters Hill","Epping","Lane Cove","Lane Cove North","Lane Cove West","Riverview","Greenwich","Northwood","St Leonards","Crows Nest","Naremburn","Artarmon","Chatswood","Chatswood West","Willoughby","Castlecrag","Roseville","Lindfield","Killara"]);
 const BAND_DEFS = { a: [0, 2000000], b: [2000000, 2250000], c: [2250000, 2500000] };
-const BANDS_DOMAIN = {
-  a: "2021201371,2021089474,2020911629,2020817370,2018939320,2021056097,2021082245,2021027025,2021240711,2021225583,2021224873,2021223694,2021212323,2021223043,2021181751,2021180557,2021133903,2020301501,2020987980,2020985708,2020916430,2021203859,2021201020,2021194542,2021088985,2020867843,2020646689,2021117862,2021168964,2021159015,2020862265,2020786348,2020380262,2021196503,2021142862,2021134440,2021068811,2021016219,2020908460,2020860540,2020756720,2020078353,2021057551,2021056999",
-  b: "2020667460,2021201371,2021176576,2020911629,2020498887,2021215145,2021183405,2021181924,2021146318,2021067755,2018939320,2021190995,2020573474,2020304252,2021223278,2020896135,2021082245,2021027025,2021240711,2021225583,2021216985,2021174571,2021223043,2020823964,2021207509,2021183210,2021181751,2021167633,2021133903,2020301501,2021033992,2021203682,2021194542,2020646689,2020335250,2021179531,2021071926,2021068811,2020910618,2020892078,2020860540,2020756720,2021014603",
-  c: "2020667460,2021238542,2021227326,2021161021,2021224114,2021223774,2021216252,2021183405,2021141714,2021131285,2021098651,2021066282,2021057238,2020958989,2020946771,2020925505,2020879774,2020599507,2021204300,2021203751,2021202755,2021202258,2021197452,2021193014,2021166252,2021165607,2021160426,2021119316,2021089771,2021083348,2021080509,2021076364,2021055473,2021017336,2020984684,2020897436,2020896052,2021216484,2021139848,2021117734,2021107965,2021082744,2021104482,2021242966,2021174571,2021127569,2021110897,2021207509,2021036345,2021031923,2021021215,2020986704,2020824052,2021053127,2020859832,2021240765,2021199403,2020910618,2020892078"
-};
-const BANDS_REA = {
-  a: "duplex+semi-detached-nsw-epping-152496412,duplex+semi-detached-nsw-denistone+west-151984932,duplex+semi-detached-nsw-ryde-152109832,duplex+semi-detached-nsw-epping-151882308,duplex+semi-detached-nsw-eastwood-151470700,duplex+semi-detached-nsw-putney-152564932,house-nsw-west+ryde-151109032,duplex+semi-detached-nsw-epping-152082672,duplex+semi-detached-nsw-eastwood-146001148",
-  b: "duplex+semi-detached-nsw-epping-152496412,duplex+semi-detached-nsw-ryde-150640592,house-nsw-west+ryde-152436944,duplex+semi-detached-nsw-north+ryde-152368328,duplex+semi-detached-nsw-eastwood-151470700,duplex+semi-detached-nsw-putney-152564932,house-nsw-epping-152413856,duplex+semi-detached-nsw-eastwood-152377340,duplex+semi-detached-nsw-north+ryde-152545584,house-nsw-lindfield-149910016,duplex+semi-detached-nsw-denistone+west-151984932,duplex+semi-detached-nsw-ryde-152109832,duplex+semi-detached-nsw-ryde-152028468,duplex+semi-detached-nsw-epping-151882308,duplex+semi-detached-nsw-eastwood-152572656,house-nsw-west+ryde-152460760,duplex+semi-detached-nsw-eastwood-150537328,duplex+semi-detached-nsw-epping-152082672,duplex+semi-detached-nsw-ryde-151941856,duplex+semi-detached-nsw-ryde-152504800,duplex+semi-detached-nsw-denistone+west-149174404,house-nsw-east+ryde-151694200,duplex+semi-detached-nsw-ryde-151409608,house-nsw-north+ryde-150173004",
-  c: "duplex+semi-detached-nsw-ryde-150640592,duplex+semi-detached-nsw-epping-152639916,duplex+semi-detached-nsw-eastwood-152629660,house-nsw-ryde-152467500,duplex+semi-detached-nsw-west+ryde-152110536,house-nsw-west+ryde-152436944,duplex+semi-detached-nsw-marsfield-151527772,house-nsw-gladesville-152585852,house-nsw-ryde-152483056,duplex+semi-detached-nsw-eastwood-152283484,duplex+semi-detached-nsw-marsfield-152575144,duplex+semi-detached-nsw-ryde-152574068,duplex+semi-detached-nsw-north+ryde-152060652,house-nsw-tennyson+point-152623428,duplex+semi-detached-nsw-ryde-152084044,duplex+semi-detached-nsw-eastwood-152174660,duplex+semi-detached-nsw-west+ryde-152022544,duplex+semi-detached-nsw-gladesville-152163564,house-nsw-epping-152307248,house-nsw-eastwood-151408280,duplex+semi-detached-nsw-north+ryde-152290904,duplex+semi-detached-nsw-ryde-151727492,house-nsw-epping-151642668,house-nsw-chatswood-150276888,duplex+semi-detached-nsw-epping-152142120,house-nsw-epping-152499920,house-nsw-denistone-152548904,duplex+semi-detached-nsw-north+ryde-152544896,duplex+semi-detached-nsw-eastwood-152241452,duplex+semi-detached-nsw-north+ryde-152385092,duplex+semi-detached-nsw-denistone+east-152378304,house-nsw-ryde-152375948,house-nsw-marsfield-152212552,house-nsw-ryde-152505856,duplex+semi-detached-nsw-ryde-152361056,house-nsw-north+ryde-152501960,duplex+semi-detached-nsw-ryde-151984036,duplex+semi-detached-nsw-ryde-152076704,house-nsw-marsfield-152505880,duplex+semi-detached-nsw-ryde-151603228,duplex+semi-detached-nsw-ryde-148383124,house-nsw-ryde-149271496,duplex+semi-detached-nsw-epping-151413816,duplex+semi-detached-nsw-gladesville-152206632,duplex+semi-detached-nsw-north+ryde-152070988"
-};
-const bandSets = (src) => Object.fromEntries(Object.entries(src).map(([k, v]) => [k, new Set(v.split(","))]));
-const BSD = bandSets(BANDS_DOMAIN), BSR = bandSets(BANDS_REA);
-function bandsFor(domainId, reaSlug) {
-  return Object.keys(BAND_DEFS).filter(k => (domainId && BSD[k].has(String(domainId))) || (reaSlug && BSR[k].has(reaSlug)));
-}
+const TZ = "Australia/Sydney";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
 const fmtM = (v) => "$" + (v / 1e6) + "m";
+const typeLabel = { "House": "House", "Duplex": "Duplex", "Semi-Detached": "Semi-detached", "Duplex/semi-detached": "Duplex/semi" };
+const typeMatch = (l, pt) => !pt || l.type === pt || (pt !== "House" && l.type === "Duplex/semi-detached");
+const fmtDate = (d) => d.toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit", timeZone: TZ });
+const fmtTime = (d) => d.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit", timeZone: TZ }).replace(" ", "").toLowerCase();
+const dayKey = (d) => d.toLocaleDateString("en-CA", { timeZone: TZ });
+const dayLabel = (d) => d.toLocaleDateString("en-AU", { weekday: "long", day: "numeric", month: "short", timeZone: TZ });
+
+function parsePrices(s) {
+  const out = []; const re = /\$\s?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(m|M)?/g; let m;
+  while ((m = re.exec(s || ""))) { let v = m[1].includes(",") ? Number(m[1].replace(/,/g, "")) : Number(m[1]); if (m[2] || v < 100) v *= 1e6; if (v >= 100000) out.push(v); }
+  return out;
+}
 function bandLabel(keys) {
-  if (!keys.length) return null;
+  if (!keys || !keys.length) return null;
   const lo = Math.min(...keys.map(k => BAND_DEFS[k][0])), hi = Math.max(...keys.map(k => BAND_DEFS[k][1]));
   return lo === 0 ? `Under ${fmtM(hi)}` : `${fmtM(lo)} – ${fmtM(hi)}`;
 }
 
-const CORE = new Set(["Ryde","North Ryde","East Ryde","West Ryde","Meadowbank","Denistone","Denistone East","Denistone West","Eastwood","Marsfield","Macquarie Park","Putney","Gladesville","Tennyson Point","Hunters Hill","Epping","Lane Cove","Lane Cove North","Lane Cove West","Riverview","Greenwich","Northwood","St Leonards","Crows Nest","Naremburn","Artarmon","Chatswood","Chatswood West","Willoughby","Castlecrag","Roseville","Lindfield","Killara"]);
-const TODAY = new Date("2026-10-16T00:00:00+11:00");
-const IMG = "https://rimh2.domainstatic.com.au/";
+let LISTINGS = [], NOW = new Date();
 
-function parsePrices(s) {
-  const out = [];
-  const re = /\$\s?(\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)\s*(m|M)?/g;
-  let m;
-  while ((m = re.exec(s))) {
-    let v = m[1].includes(",") ? Number(m[1].replace(/,/g, "")) : Number(m[1]);
-    if (m[2] || v < 100) v = v * 1e6;
-    if (v >= 100000) out.push(v);
-  }
-  return out;
+function prep(data) {
+  NOW = new Date(data.generated);
+  LISTINGS = data.listings.map((l, i) => {
+    const prices = parsePrices(l.price);
+    const low = prices.length ? Math.min(...prices) : null;
+    const auction = l.auction ? new Date(l.auction) : null;
+    return { ...l, i, low, core: CORE.has(l.suburb), over: low !== null && low > 2500000,
+      contract: /under contract/i.test(l.price || ""),
+      auctionD: auction && auction >= NOW ? auction : null,
+      insp: (l.inspections || []).map(x => ({ s: new Date(x.start), e: x.end ? new Date(x.end) : null })).filter(x => x.s >= NOW) };
+  });
+  $("updated").textContent = "Updated " + NOW.toLocaleDateString("en-AU", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: TZ }) + ".";
 }
 
-function build(o) {
-  const prices = parsePrices(o.price);
-  const auction = o.auc ? new Date(o.auc + "+11:00") : null;
-  return {
-    ...o, b: +o.b, ba: +o.ba, c: +o.c,
-    land: o.land ? parseInt(o.land.replace(/,/g, ""), 10) : null,
-    low: prices.length ? Math.min(...prices) : null,
-    auction: auction && auction >= TODAY ? auction : null,
-    core: CORE.has(o.suburb),
-    over: prices.length ? Math.min(...prices) > 2500000 : false,
-    contract: /under contract/i.test(o.price)
-  };
+function inArea(l) { const a = $("area").value; return a === "all" || (a === "core") === l.core; }
+
+function renderStats() {
+  const vis = LISTINGS.filter(inArea);
+  const nNew = vis.filter(l => l.isNew).length;
+  const nInsp = vis.reduce((n, l) => n + l.insp.length, 0);
+  $("stats").innerHTML = `<span><b>${vis.length}</b> listings</span><span class="newc"><b>${nNew}</b> new this week</span><span><b>${nInsp}</b> inspections</span><span><b>${vis.filter(l => l.auctionD).length}</b> with auction dates</span>`;
 }
 
-const DOMAIN_ROWS = RAW.trim().split("\n").map(line => {
-  const [id, slug, img, price, street, suburb, b, ba, c, type, land, auc, tag] = line.split("~");
-  const [hash, file] = img.split("|");
-  return build({
-    id, domainUrl: "https://www.domain.com.au/" + slug,
-    reaUrl: REA_MATCH[id] ? REA + REA_MATCH[id] : null,
-    img: IMG + hash + "/720x540/filters:format(webp):quality(85)/" + file,
-    price, street, suburb, b, ba, c, type, land, auc, isNew: tag === "New", reaOnly: false,
-    bands: bandsFor(id, REA_MATCH[id])
-  });
-});
-const REA_ROWS = RAW_REA.trim().split("\n").map(line => {
-  const [slug, street, suburb, img, price, type, b, ba, c, land, auc] = line.split("~");
-  return build({
-    id: slug, domainUrl: null, reaUrl: REA + slug,
-    img: "https://i2.au.reastatic.net/800x600/" + img + ".jpg",
-    price, street, suburb, b, ba, c, type, land, auc, isNew: false, reaOnly: true,
-    bands: bandsFor(null, slug)
-  });
-});
-const LISTINGS = [...DOMAIN_ROWS, ...REA_ROWS].map((l, i) => ({ ...l, i }));
-
-const $ = (id) => document.getElementById(id);
-const fmtDate = (d) => d.toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit", timeZone: "Australia/Sydney" });
-const typeLabel = { "House": "House", "Duplex": "Duplex", "Semi-Detached": "Semi-detached", "Duplex/semi-detached": "Duplex/semi" };
-const typeMatch = (l, pt) => !pt || l.type === pt || (pt !== "House" && l.type === "Duplex/semi-detached");
+function renderInspections() {
+  const end = new Date(NOW.getTime() + 7 * 864e5);
+  const items = [];
+  LISTINGS.filter(inArea).forEach(l => l.insp.forEach(x => { if (x.s < end) items.push({ l, ...x }); }));
+  items.sort((a, b) => a.s - b.s);
+  $("inspTitle").textContent = `Inspections this week (${items.length})`;
+  if (!items.length) { $("days").innerHTML = '<p class="muted">No inspection times recorded for this week yet.</p>'; return; }
+  const groups = new Map();
+  items.forEach(it => { const k = dayKey(it.s); if (!groups.has(k)) groups.set(k, { label: dayLabel(it.s), rows: [] }); groups.get(k).rows.push(it); });
+  $("days").innerHTML = [...groups.values()].map(g => `<div class="day"><h3>${g.label}</h3><ul>${g.rows.map(it => {
+    const url = it.l.domainUrl || it.l.reaUrl;
+    const t = fmtTime(it.s) + (it.e ? "–" + fmtTime(it.e) : "");
+    return `<li><span class="t">${t}</span><span><a href="${url}" target="_blank" rel="noopener">${esc(it.l.street || "Address on request")}, ${esc(it.l.suburb)}</a>${it.l.isNew ? '<span class="nw">NEW</span>' : ""}</span></li>`;
+  }).join("")}</ul></div>`).join("");
+}
 
 function fillSuburbs() {
-  const area = $("area").value;
   const keep = $("suburb").value;
-  const subs = [...new Set(LISTINGS.filter(l => area === "all" || (area === "core") === l.core).map(l => l.suburb))].sort();
-  $("suburb").innerHTML = '<option value="">All suburbs</option>' + subs.map(s => `<option${s === keep ? " selected" : ""}>${s}</option>`).join("");
+  const subs = [...new Set(LISTINGS.filter(inArea).map(l => l.suburb))].sort();
+  $("suburb").innerHTML = '<option value="">All suburbs</option>' + subs.map(s => `<option${s === keep ? " selected" : ""}>${esc(s)}</option>`).join("");
 }
 
-function esc(s) { return s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch])); }
-
-function render() {
-  const area = $("area").value, sub = $("suburb").value, pt = $("ptype").value, sort = $("sort").value, hide = $("hideover").checked;
-  const band = $("band").value, noPrice = $("nopriceonly").checked;
-  let rows = LISTINGS.filter(l =>
-    (area === "all" || (area === "core") === l.core) &&
-    (!sub || l.suburb === sub) && typeMatch(l, pt) && !(hide && l.over) &&
-    (!band || l.bands.includes(band)) && !(noPrice && l.low !== null));
+function renderGrid() {
+  const sub = $("suburb").value, pt = $("ptype").value, sort = $("sort").value, band = $("band").value;
+  const hide = $("hideover").checked, noPrice = $("nopriceonly").checked, newOnly = $("newonly").checked;
+  let rows = LISTINGS.filter(l => inArea(l) && (!sub || l.suburb === sub) && typeMatch(l, pt) && !(hide && l.over) &&
+    (!band || (l.bands || []).includes(band)) && !(noPrice && l.low !== null) && !(newOnly && !l.isNew));
   const big = 9e15;
-  const bandLo = (l) => l.bands.length ? Math.min(...l.bands.map(k => BAND_DEFS[k][0])) + 1 : big;
+  const bandLo = (l) => (l.bands && l.bands.length) ? Math.min(...l.bands.map(k => BAND_DEFS[k][0])) + 1 : big;
+  if (sort === "new") rows.sort((a, b) => (b.isNew - a.isNew) || (a.i - b.i));
   if (sort === "plow") rows.sort((a, b) => (a.low ?? bandLo(a)) - (b.low ?? bandLo(b)));
-  if (sort === "auction") rows.sort((a, b) => (a.auction ? a.auction.getTime() : big) - (b.auction ? b.auction.getTime() : big));
-  if (sort === "land") rows.sort((a, b) => (b.land ?? -1) - (a.land ?? -1));
+  if (sort === "auction") rows.sort((a, b) => (a.auctionD ? a.auctionD.getTime() : big) - (b.auctionD ? b.auctionD.getTime() : big));
+  if (sort === "land") rows.sort((a, b) => (b.landM2 ?? -1) - (a.landM2 ?? -1));
   $("count").textContent = rows.length + (rows.length === 1 ? " listing" : " listings");
   if (!rows.length) { $("grid").innerHTML = '<div class="empty">No listings match these filters. Try "Include nearby suburbs" or another type.</div>'; return; }
   $("grid").innerHTML = rows.map(l => {
     const badges = [];
-    if (l.isNew) badges.push('<span class="badge">New</span>');
-    if (l.reaOnly) badges.push('<span class="badge rea">Only on realestate.com.au</span>');
+    if (l.isNew) badges.push('<span class="badge new">New this week</span>');
+    if (l.reaUrl && !l.domainUrl) badges.push('<span class="badge rea">Only on realestate.com.au</span>');
     if (!l.core) badges.push('<span class="badge near">Nearby suburb</span>');
     if (l.over) badges.push('<span class="badge warn">Guide over $2.5m</span>');
     if (l.contract) badges.push('<span class="badge warn">Under contract</span>');
-    const addr = l.street ? `${esc(l.street)}<span>, ${esc(l.suburb)}</span>` : `${esc(l.suburb)}<span>, address on request</span>`;
     const main = l.domainUrl || l.reaUrl;
     const links = [];
     if (l.domainUrl) links.push(`<a href="${l.domainUrl}" target="_blank" rel="noopener">Domain ↗</a>`);
     if (l.reaUrl) links.push(`<a href="${l.reaUrl}" target="_blank" rel="noopener">realestate.com.au ↗</a>`);
-    return `<div class="card">
-      <a class="photo" href="${main}" target="_blank" rel="noopener"><img src="${l.img}" alt="${esc(l.street || l.suburb)}" loading="lazy" referrerpolicy="no-referrer">
+    const bl = bandLabel(l.bands);
+    const next = l.insp[0];
+    const addr = l.street ? `${esc(l.street)}<span>, ${esc(l.suburb)}</span>` : `${esc(l.suburb)}<span>, address on request</span>`;
+    return `<div class="card${l.isNew ? " isnew" : ""}">
+      <a class="photo" href="${main}" target="_blank" rel="noopener"><img src="${esc(l.img)}" alt="${esc(l.street || l.suburb)}" loading="lazy" referrerpolicy="no-referrer">
         ${badges.length ? `<div class="badges">${badges.join("")}</div>` : ""}</a>
       <div class="body">
-        <div class="price">${esc(l.price)}</div>
-        ${bandLabel(l.bands) ? `<div class="band${l.low === null ? " key" : ""}" title="Hidden search price the agent set on Domain / realestate.com.au">Search price: ${bandLabel(l.bands)}</div>` : ""}
+        <div class="price">${esc(l.price || "Contact agent")}</div>
+        ${bl ? `<div class="band${l.low === null ? " key" : ""}">Search price: ${bl}</div>` : ""}
         <div class="addr">${addr}</div>
-        <div class="spec"><span><b>${l.b}</b> bed</span><span><b>${l.ba}</b> bath</span><span><b>${l.c}</b> car</span>${l.land ? `<span><b>${l.land}</b> m²</span>` : ""}<span>${typeLabel[l.type] || l.type}</span></div>
-        ${l.auction ? `<div class="when">Auction ${fmtDate(l.auction)}</div>` : ""}
+        <div class="spec"><span><b>${l.bed}</b> bed</span><span><b>${l.bath}</b> bath</span><span><b>${l.car}</b> car</span>${l.landM2 ? `<span><b>${l.landM2}</b> m²</span>` : ""}<span>${typeLabel[l.type] || esc(l.type)}</span></div>
+        ${next ? `<div class="when">Next inspection ${fmtDate(next.s)}</div>` : ""}
+        ${l.auctionD ? `<div class="when">Auction ${fmtDate(l.auctionD)}</div>` : ""}
       </div>
       <div class="links">${links.join("")}</div></div>`;
   }).join("");
 }
 
-$("area").addEventListener("change", () => { fillSuburbs(); render(); });
-["suburb", "ptype", "sort", "hideover", "band", "nopriceonly"].forEach(id => $(id).addEventListener("change", render));
-fillSuburbs(); render();
+function renderAll() { renderStats(); renderInspections(); renderGrid(); }
+
+fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
+  prep(data); fillSuburbs(); renderAll();
+  $("area").addEventListener("change", () => { fillSuburbs(); renderAll(); });
+  ["suburb", "ptype", "sort", "band", "hideover", "nopriceonly", "newonly"].forEach(id => $(id).addEventListener("change", renderGrid));
+}).catch(() => { $("grid").innerHTML = '<div class="empty">The listings data didn\'t load. Refresh the page to try again.</div>'; });
 </script>
 </body>
 </html>
