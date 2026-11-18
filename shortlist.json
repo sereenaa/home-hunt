@@ -1,0 +1,566 @@
+{
+"generated": "2026-11-18T21:12:50+11:00",
+"criteria": "garage on the bottom floor; bedroom sizes measured off the floorplan; pool from the listing text",
+"listings": {
+"694victoriard|ermington": {
+"garage": "match",
+"note": "garage 5.5x3.0 + living/kitchen/study-bed4 on ground, beds up",
+"pick": false
+},
+"43primulastreet|lindfield": {
+"garage": "fail",
+"note": "no garage - open parking on the driveway",
+"pick": false
+},
+"19atkinsroad|ermington": {
+"garage": "match",
+"note": "garage 3.3x5.8 + living, dining, lounge, bed 5 downstairs",
+"bed1": 19.2,
+"bed2": 12.3,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"14tristaniaway|beecroft": {
+"garage": "fail",
+"note": "detached carport 5.5x6.5, lower level is a self-contained flat",
+"pick": false
+},
+"7olindacrescent|carlingford": {
+"garage": "double",
+"note": "double lock-up garage 5.1x5.7 + family/kitchen/bed5 on ground",
+"bed1": 14.8,
+"bed2": 10.0,
+"pick": false
+},
+"34amarsdenroad|ermington": {
+"garage": "double",
+"note": "lower ground garage 6.6x5.2 + theatre, living above",
+"bed1": 23.0,
+"bed2": 14.4,
+"pool": false,
+"newish": false,
+"pick": true
+},
+"8denhamplace|dundas": {
+"garage": "fail",
+"note": "parking is a DETACHED carport 5.6x5.6, not a garage",
+"pick": false
+},
+"2kagaplace|marsfield": {
+"garage": "match",
+"note": "garage 3.0x5.9 + living, dining, bed 5 downstairs",
+"bed1": 19.7,
+"bed2": 15.6,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"55anorthroad|ryde": {
+"garage": "match",
+"note": "garage 5.7x3.0 + living/dining/kitchen/study on ground",
+"bed1": 16.2,
+"bed2": 9.9,
+"pool": true,
+"newish": true,
+"pick": false
+},
+"48raimonderoad|carlingford": {
+"garage": "fail",
+"note": "single level - auto garage 3.3x6.1 but bedrooms on the same floor",
+"pick": false
+},
+"4narruncrescent|telopea": {
+"garage": "match",
+"note": "garage 3.9x5.9 + living, dining, family, bed 5/study downstairs",
+"bed1": 15.0,
+"bed2": 14.4,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"2/66dandarbongavenue|carlingford": {
+"garage": "double",
+"note": "lower level is garage ONLY 5.9x6.0, a double; entry level above",
+"bed1": 17.2,
+"bed2": 14.4,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"10aconradstreet|northryde": {
+"garage": "double",
+"note": "basement garage 7.3x9.6 (4 cars), living + bed5 above",
+"bed1": 16.8,
+"bed2": 12.4,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"9acolstonstreet|ryde": {
+"garage": "match",
+"note": "garage 3.0x5.6 + family, dining, living, bed 5 downstairs",
+"pick": false
+},
+"29cooneystreet|northryde": {
+"garage": "match",
+"note": "lower level garage 3.6x6.0 + lounge/kitchen/bedroom, 4 beds up",
+"pick": false
+},
+"6smallsroad|ryde": {
+"garage": "double",
+"note": "two garages on ground (4 cars) + living/kitchen/family",
+"pick": false
+},
+"16bmyraavenue|ryde": {
+"garage": "double",
+"note": "lower ground is garage ONLY 5.8x5.6, a double; living above",
+"pool": false,
+"newish": false,
+"pick": false
+},
+"13acolstonstreet|ryde": {
+"garage": "match",
+"note": "lock-up garage 5.5x3.1 + living/dining/kitchen/bed4 on ground",
+"pick": false
+},
+"6aquarryroad|ryde": {
+"garage": "double",
+"note": "garage 7.4x5.8 (large double) on the lower of two levels",
+"pick": false
+},
+"80rutledgestreet|eastwood": {
+"garage": "match",
+"note": "garage 6.1x3.2 + family, dining, lounge, bed 5 downstairs",
+"bed1": 21.0,
+"bed2": 14.8,
+"pick": false
+},
+"49dandarbongavenue|carlingford": {
+"garage": "invert",
+"note": "ground garage 3.0x5.5 but a rumpus + bed 6 sit below it",
+"pick": false
+},
+"1napiercrescent|northryde": {
+"garage": "match",
+"note": "garage 3.3x5.5 + lounge/dining, kitchen, bedroom downstairs",
+"pick": false
+},
+"53awoodbinecrescent|ryde": {
+"garage": "match",
+"note": "lock-up garage 3.2x6.1 + living, media/office downstairs",
+"pick": false
+},
+"15wyburnavenue|carlingford": {
+"garage": "double",
+"note": "ground garage 9.0x6.6 + rumpus/bed5, living upstairs",
+"bed1": 15.6,
+"bed2": 11.2,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"1/348marsdenroad|carlingford": {
+"garage": "double",
+"note": "basement garage 4.9x8.0, living on ground, beds above",
+"bed1": 18.7,
+"bed2": 18.2,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"14tallwoodavenue|eastwood": {
+"garage": "match",
+"note": "garage 5.5x3.2 + living/dining/kitchen/bed5 on ground",
+"bed1": 16.2,
+"bed2": 14.7,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"23addingtonavenue|ryde": {
+"garage": "fail",
+"note": "detached garage 3.6x12.0, single level",
+"pick": false
+},
+"84coraltreedrive|carlingford": {
+"garage": "double",
+"note": "lock-up garage 5.5x6.7 + living/dining/kitchen on entry level",
+"bed1": 25.4,
+"bed2": 23.7,
+"pick": false
+},
+"10lynetteavenue|carlingford": {
+"garage": "double",
+"note": "garage 5.4x5.6 (double) + kitchen, dining, living downstairs",
+"bed1": 15.2,
+"bed2": 13.6,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"29afawcettstreet|ryde": {
+"garage": "double",
+"note": "lock-up garage 5.8x6.0 (double) + living, dining, bed 5 downstairs",
+"bed1": 20.0,
+"bed2": 11.1,
+"pool": false,
+"newish": true,
+"pick": true
+},
+"16fullartonstreet|telopea": {
+"garage": "match",
+"note": "garage 5.5x3.0 + living/dining/media-bed5 on ground",
+"pick": false
+},
+"32hartstreet|dundasvalley": {
+"garage": "match",
+"note": "garage 6.0x3.0 + lounge/dining, bed 5 downstairs",
+"pick": false
+},
+"31blackwoodclose|beecroft": {
+"garage": "double",
+"note": "lower level garage 8.2x6.8 + games room, beds above",
+"bed1": 15.5,
+"bed2": 12.5,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"14herringroad|marsfield": {
+"garage": "match",
+"note": "garage 3.9x5.9 + living, dining, bed 5 downstairs",
+"bed1": 24.5,
+"bed2": 12.4,
+"pool": false,
+"newish": true,
+"pick": true
+},
+"20coraltreedrive|carlingford": {
+"garage": "fail",
+"note": "double garage 6.2x5.7 is a DETACHED block; all bedrooms on the ground floor",
+"pick": false
+},
+"16burmahroad|denistone": {
+"garage": "match",
+"note": "lower ground lock-up garage 3.0x5.9 + bed3, living above",
+"bed1": 17.6,
+"bed2": 16.8,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"16imlayavenue|carlingford": {
+"garage": "double",
+"note": "double garage/workshop 6.1x6.1 + living, rumpus, bar downstairs",
+"bed1": 24.9,
+"bed2": 12.0,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"229vimieraroad|marsfield": {
+"garage": "match",
+"note": "garage 5.7x2.9 + living, lounge, bed 5 downstairs",
+"pick": false
+},
+"17wilshireavenue|carlingford": {
+"garage": "fail",
+"note": "carports only (5.7x4.5 and 5.1x3.2)",
+"pick": false
+},
+"33fitzgeraldroad|ermington": {
+"garage": "double",
+"note": "lower ground garage (3 cars), living on ground, beds above",
+"pool": true,
+"newish": false,
+"pick": false
+},
+"102achapmanavenue|beecroft": {
+"garage": "fail",
+"note": "double carport 5.2x5.9, single level",
+"pick": false
+},
+"37calgastreet|rosevillechase": {
+"garage": "fail",
+"note": "lock-up garage is detached down by the street, plus a carport",
+"pick": false
+},
+"16pennantavenue|denistone": {
+"garage": "fail",
+"note": "no garage - driveway parking only",
+"pick": false
+},
+"232aspurwaystreet|dundas": {
+"garage": "match",
+"note": "lock-up garage 3.0x6.0 + dining, lounge, bed 5 downstairs",
+"pick": false
+},
+"30quarryroad|dundasvalley": {
+"garage": "match",
+"note": "garage 3.2x6.6 + living, dining, bed 5 downstairs",
+"pool": false,
+"newish": false,
+"pick": false
+},
+"17blenheimroad|northryde": {
+"garage": "fail",
+"note": "garage is a separate building across the driveway",
+"pick": false
+},
+"57samuelstreet|ryde": {
+"garage": "match",
+"note": "garage 2.9x6.1 + living, bed 5 downstairs",
+"bed1": 16.8,
+"bed2": 14.1,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"32warwickroad|dundasvalley": {
+"garage": "fail",
+"note": "carport 5.5x4.9, not a garage",
+"pick": false
+},
+"25sophiestreet|telopea": {
+"garage": "fail",
+"note": "carport only, single level plus a self-contained flat",
+"pick": false
+},
+"23bellevueavenue|denistone": {
+"garage": "fail",
+"note": "carports only, single level",
+"pick": false
+},
+"2astroudstreet|northryde": {
+"garage": "double",
+"note": "entry level garage 5.4x5.4 + living/dining/kitchen/bed4",
+"pool": false,
+"newish": true,
+"pick": false
+},
+"8ahollandplace|dundas": {
+"garage": "match",
+"note": "garage 3.1x5.4 + living, dining, family, bed 5 downstairs",
+"bed1": 14.0,
+"bed2": 12.6,
+"pick": false
+},
+"19awarwickstreet|northryde": {
+"garage": "match",
+"note": "garage 3.7x6.8 + living/dining/kitchen/bedroom on ground",
+"bed1": 25.0,
+"bed2": 19.4,
+"pool": false,
+"newish": true,
+"pick": true
+},
+"13renestreet|eastryde": {
+"garage": "match",
+"note": "garage 3.0x6.1 + living, dining, rumpus/bed 5 downstairs",
+"pick": false
+},
+"1rodneystreet|eastryde": {
+"garage": "match",
+"note": "garage 5.7x3.2 + sitting, kitchen, living, bed 5 downstairs",
+"pick": false
+},
+"2sewellstreet|ryde": {
+"garage": "match",
+"note": "garage 3.5x6.3 + living/dining, bed 5 downstairs",
+"bed1": 17.6,
+"bed2": 15.9,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"5gloucesterroad|epping": {
+"garage": "fail",
+"note": "garage is detached at the rear, carport beside the house",
+"pick": false
+},
+"255marsdenroad|carlingford": {
+"garage": "match",
+"note": "garage 3.8x6.0 + living/dining/kitchen/guest bed on ground",
+"pool": false,
+"newish": false,
+"pick": false
+},
+"11afremontavenue|ermington": {
+"garage": "match",
+"note": "garage 3.0x5.5 + living/dining, lounge, bed 5 downstairs",
+"pick": false
+},
+"39apennantavenue|denistone": {
+"garage": "match",
+"note": "lock-up garage 3.0x5.9 + dining/living/kitchen/bed4 on ground",
+"pick": false
+},
+"9ayangallastreet|marsfield": {
+"garage": "double",
+"note": "lower garage 6.1x9.2, living + bed5 on ground, beds above",
+"bed1": 15.8,
+"bed2": 15.5,
+"pick": false
+},
+"7verastreet|eastwood": {
+"garage": "match",
+"note": "garage 3.0x6.2 + living, kitchen, bed 5 downstairs",
+"bed1": 22.0,
+"bed2": 15.1,
+"pick": false
+},
+"52moncrieffdrive|eastryde": {
+"garage": "double",
+"note": "ground garage 5.4x5.6 + family, living and kitchen above",
+"bed1": 18.5,
+"bed2": 11.9,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"1ahakeaplace|epping": {
+"garage": "match",
+"note": "garage 3.5x5.8 + living, dining, master bed 1 downstairs",
+"bed1": 15.3,
+"bed2": 12.6,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"193ryderoad|westpymble": {
+"garage": "fail",
+"note": "two carports, no garage",
+"pick": false
+},
+"2agallardstreet|denistoneeast": {
+"garage": "double",
+"note": "garage 5.5x6.2 (double) + living, bed 5 downstairs",
+"bed1": 21.5,
+"bed2": 16.0,
+"pool": false,
+"newish": false,
+"pick": true
+},
+"41avalleyroad|epping": {
+"garage": "match",
+"note": "auto garage 3.1x5.6 on ground; lower ground is rumpus + bed 4",
+"bed1": 22.9,
+"bed2": 12.2,
+"pool": false,
+"newish": false,
+"pick": true
+},
+"9beazleystreet|ryde": {
+"garage": "fail",
+"note": "single-storey home, garage 39m2 is a DETACHED block",
+"pick": false
+},
+"120eastviewavenue|northryde": {
+"garage": "double",
+"note": "lock-up garage 7.4x5.8 (double); 4 of 5 bedrooms also downstairs",
+"bed1": 16.2,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"13aferrabettaavenue|eastwood": {
+"garage": "match",
+"note": "garage 5.7x3.0 + two living rooms, bed 5 downstairs",
+"bed1": 19.6,
+"bed2": 16.3,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"4/25cookstreet|telopea": {
+"garage": "match",
+"note": "garage 3.0x5.5 + living/dining/kitchen/bed4 on ground",
+"bed1": 13.5,
+"bed2": 13.5,
+"pool": false,
+"newish": false,
+"pick": false
+},
+"7boroniaavenue|beecroft": {
+"garage": "fail",
+"note": "no garage - open parking spaces",
+"pick": false
+},
+"75tarrantsavenue|eastwood": {
+"garage": "fail",
+"note": "no garage or carport on the plan, driveway only",
+"pick": false
+},
+"25roccastreet|ryde": {
+"garage": "double",
+"note": "lock-up garage 6.2x5.7 + lounge/kitchen/living on ground",
+"pick": false
+},
+"316blaxlandroad|ryde": {
+"garage": "invert",
+"note": "double garage 5.7x5.9 on the entry level; bedrooms are BELOW",
+"pick": false
+},
+"157aspurwaystreet|ermington": {
+"garage": "match",
+"note": "ground garage + living/dining/kitchen/bed6, beds upstairs",
+"pool": false,
+"newish": true,
+"pick": false
+},
+"2arexstreet|westryde": {
+"garage": "match",
+"note": "garage 2.5x5.5 + study/living/dining/kitchen on ground",
+"pick": false
+},
+"4lyndelleplace|carlingford": {
+"garage": "double",
+"note": "entry level garage 6.1x7.1 + rumpus/family/living/kitchen",
+"bed1": 16.3,
+"bed2": 14.4,
+"pool": true,
+"newish": false,
+"pick": false
+},
+"6astuartstreet|ryde": {
+"garage": "match",
+"note": "lock-up garage 5.8x3.8 + bed 5, kitchen, lounge downstairs",
+"bed1": 17.6,
+"bed2": 14.4,
+"pool": false,
+"newish": true,
+"pick": false
+},
+"38wyunaroad|westpymble": {
+"garage": "fail",
+"note": "lock-up garage 3.0x4.6 is DETACHED from the house",
+"pick": false
+},
+"49afitzgeraldroad|ermington": {
+"garage": "match",
+"note": "garage 3.0x5.5 + living, dining, bed 5 downstairs",
+"bed1": 22.2,
+"bed2": 19.8,
+"pool": false,
+"newish": true,
+"pick": true
+},
+"41baldwinstreet|gordon": {
+"garage": "invert",
+"note": "double garage 5.8x6.8 shares the ground floor with all 4 bedrooms; living is BELOW",
+"pick": false
+},
+"9kywongstreet|telopea": {
+"garage": "match",
+"note": "garage 3.1x6.0 + dining, lounge, bed 5 downstairs",
+"pick": false
+},
+"52finlayroad|turramurra": {
+"garage": "fail",
+"note": "parking is a DETACHED carport 3.7x5.5",
+"pick": false
+}
+},
+"rule": "pick = garage on the bottom floor, no pool, and a bedroom of at least 20 sqm"
+}

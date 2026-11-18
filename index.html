@@ -74,6 +74,10 @@ select:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .badge.warn { background: var(--warn-soft); color: var(--warn); }
 .badge.near { background: var(--accent-soft); color: var(--accent); }
 .badge.rea { background: var(--fg); color: var(--surface); }
+.badge.pick { background: var(--accent); color: #fff; }
+.sched .srow { display: flex; gap: 10px; align-items: baseline; padding: 4px 0; flex-wrap: wrap; }
+.sched .stime { font-family: var(--font-mono); font-size: 13px; min-width: 76px; color: var(--muted); }
+.sched .smeta { color: var(--muted); font-size: 13px; }
 .body { padding: 12px 14px 14px; display: grid; gap: 6px; min-width: 0; }
 .price { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; line-height: 1.25; }
 .band { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -98,6 +102,11 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
     <div class="stats" id="stats"></div>
   </header>
 
+  <details class="insp sched" id="slBox" hidden>
+    <summary id="slTitle">Our schedule</summary>
+    <div class="days" id="slDays"></div>
+  </details>
+
   <details class="insp" id="inspBox">
     <summary id="inspTitle">Inspections this week</summary>
     <div class="days" id="days"></div>
@@ -117,6 +126,7 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
       <select id="band"><option value="">Any band</option><option value="a">Under $2m</option><option value="b">$2m – $2.25m</option><option value="c">$2.25m – $2.5m</option></select></div>
     <div class="ctl"><label for="sort">Sort</label>
       <select id="sort"><option value="new">New first</option><option value="plow">Price, low to high</option><option value="auction">Next auction first</option><option value="land">Largest land</option></select></div>
+    <label class="chk" for="slonly" id="slonlyWrap" hidden><input type="checkbox" id="slonly"> Our shortlist only</label>
     <label class="chk" for="newonly"><input type="checkbox" id="newonly"> New this week only</label>
     <label class="chk" for="nopriceonly"><input type="checkbox" id="nopriceonly"> No public price only</label>
     <label class="chk" for="hideover"><input type="checkbox" id="hideover"> Hide guides over $2.5m</label>
@@ -203,8 +213,10 @@ function fillSuburbs() {
 function renderGrid() {
   const sub = $("suburb").value, pt = $("ptype").value, sort = $("sort").value, band = $("band").value;
   const hide = $("hideover").checked, noPrice = $("nopriceonly").checked, newOnly = $("newonly").checked;
+  const slOnly = $("slonly").checked;
   let rows = LISTINGS.filter(l => inArea(l) && (!sub || l.suburb === sub) && typeMatch(l, pt) && !(hide && l.over) &&
-    (!band || (l.bands || []).includes(band)) && !(noPrice && l.low !== null) && !(newOnly && !l.isNew));
+    (!band || (l.bands || []).includes(band)) && !(noPrice && l.low !== null) && !(newOnly && !l.isNew) &&
+    !(slOnly && !(pickOf(l) || {}).pick));
   const big = 9e15;
   const bandLo = (l) => (l.bands && l.bands.length) ? Math.min(...l.bands.map(k => BAND_DEFS[k][0])) + 1 : big;
   if (sort === "new") rows.sort((a, b) => (b.isNew - a.isNew) || (a.i - b.i));
@@ -215,6 +227,7 @@ function renderGrid() {
   if (!rows.length) { $("grid").innerHTML = '<div class="empty">No listings match these filters. Try "Include nearby suburbs" or another type.</div>'; return; }
   $("grid").innerHTML = rows.map(l => {
     const badges = [];
+    if ((pickOf(l) || {}).pick) badges.push('<span class="badge pick">Our shortlist</span>');
     if (l.isNew) badges.push('<span class="badge new">New this week</span>');
     if (l.reaUrl && !l.domainUrl) badges.push('<span class="badge rea">Only on realestate.com.au</span>');
     if (!l.core) badges.push('<span class="badge near">Nearby suburb</span>');
@@ -235,6 +248,7 @@ function renderGrid() {
         ${bl ? `<div class="band${l.low === null ? " key" : ""}">Search price: ${bl}</div>` : ""}
         <div class="addr">${addr}</div>
         <div class="spec"><span><b>${l.bed}</b> bed</span><span><b>${l.bath}</b> bath</span><span><b>${l.car}</b> car</span>${l.landM2 ? `<span><b>${l.landM2}</b> m²</span>` : ""}<span>${typeLabel[l.type] || esc(l.type)}</span></div>
+        ${(pickOf(l) || {}).bed1 ? `<div class="when">Biggest bedroom ${Math.round(pickOf(l).bed1)} m²${pickOf(l).pool ? " · has a pool" : ""}</div>` : ""}
         ${next ? `<div class="when">Next inspection ${fmtDate(next.s)}</div>` : ""}
         ${l.auctionD ? `<div class="when">Auction ${fmtDate(l.auctionD)}</div>` : ""}
       </div>
@@ -242,12 +256,51 @@ function renderGrid() {
   }).join("");
 }
 
-function renderAll() { renderStats(); renderInspections(); renderGrid(); }
+let SL = {};
+const pickOf = (l) => SL[l.key] || null;
 
-fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
+function renderSchedule() {
+  const picks = LISTINGS.filter(l => (pickOf(l) || {}).pick);
+  if (!picks.length) return;
+  $("slBox").hidden = false; $("slonlyWrap").hidden = false; $("slBox").open = true;
+  const ev = [];
+  const nowTs = Date.now();
+  picks.forEach(l => (l.insp || []).forEach(s => { if (s.s.getTime() >= nowTs) ev.push({ d: s.s, l }); }));
+  ev.sort((a, b) => a.d - b.d);
+  $("slTitle").textContent = "Our schedule \u2014 " + picks.length + " places, " + ev.length + (ev.length === 1 ? " inspection" : " inspections");
+  const byDay = new Map();
+  ev.forEach(e => {
+    const k = e.d.toDateString();
+    if (!byDay.has(k)) byDay.set(k, []);
+    byDay.get(k).push(e);
+  });
+  $("slDays").innerHTML = [...byDay.entries()].map(([day, list]) => {
+    const dd = new Date(day);
+    return `<div class="day"><h4>${dd.toLocaleDateString("en-AU", { weekday: "long", day: "numeric", month: "short" })}</h4>` +
+      list.map(e => {
+        const m = pickOf(e.l) || {};
+        const bits = [];
+        if (m.bed1) bits.push(Math.round(m.bed1) + "m\u00b2 bed");
+        if (m.garage === "double") bits.push("double garage");
+        if (m.newish) bits.push("new");
+        const url = e.l.domainUrl || e.l.reaUrl;
+        return `<div class="srow"><span class="stime">${e.d.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit" }).toLowerCase()}</span>` +
+          `<a href="${url}" target="_blank" rel="noopener">${esc(e.l.street)}, ${esc(e.l.suburb)}</a>` +
+          (bits.length ? `<span class="smeta">${esc(bits.join(" \u00b7 "))}</span>` : "") + `</div>`;
+      }).join("") + `</div>`;
+  }).join("");
+}
+
+function renderAll() { renderStats(); renderInspections(); renderSchedule(); renderGrid(); }
+
+Promise.all([
+  fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+  fetch("shortlist.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null)
+]).then(([data, sl]) => {
+  SL = (sl && sl.listings) || {};
   prep(data); fillSuburbs(); renderAll();
   $("area").addEventListener("change", () => { fillSuburbs(); renderAll(); });
-  ["suburb", "ptype", "sort", "band", "hideover", "nopriceonly", "newonly"].forEach(id => $(id).addEventListener("change", renderGrid));
+  ["suburb", "ptype", "sort", "band", "hideover", "nopriceonly", "newonly", "slonly"].forEach(id => $(id).addEventListener("change", renderGrid));
 }).catch(() => { $("grid").innerHTML = '<div class="empty">The listings data didn\'t load. Refresh the page to try again.</div>'; });
 </script>
 </body>
