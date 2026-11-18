@@ -230,6 +230,7 @@ function renderGrid() {
   $("grid").innerHTML = rows.map(l => {
     const badges = [];
     if ((pickOf(l) || {}).pick) badges.push('<span class="badge pick">Our shortlist</span>');
+    if ((pickOf(l) || {}).rejected) badges.push('<span class="badge warn">Ruled out</span>');
     if (l.isNew) badges.push('<span class="badge new">New this week</span>');
     if (l.reaUrl && !l.domainUrl) badges.push('<span class="badge rea">Only on realestate.com.au</span>');
     if (!l.core) badges.push('<span class="badge near">Nearby suburb</span>');
@@ -250,6 +251,7 @@ function renderGrid() {
         ${bl ? `<div class="band${l.low === null ? " key" : ""}">Search price: ${bl}</div>` : ""}
         <div class="addr">${addr}</div>
         <div class="spec"><span><b>${l.bed}</b> bed</span><span><b>${l.bath}</b> bath</span><span><b>${l.car}</b> car</span>${l.landM2 ? `<span><b>${l.landM2}</b> m²</span>` : ""}<span>${typeLabel[l.type] || esc(l.type)}</span></div>
+        ${(pickOf(l) || {}).rejected ? `<div class="when">Ruled out — ${esc(pickOf(l).rejected)}</div>` : ""}
         ${(pickOf(l) || {}).bed1 ? `<div class="when">Biggest bedroom ${Math.round(pickOf(l).bed1)} m²${pickOf(l).pool ? " · has a pool" : ""}</div>` : ""}
         ${next ? `<div class="when">Next inspection ${fmtDate(next.s)}</div>` : ""}
         ${l.auctionD ? `<div class="when">Auction ${fmtDate(l.auctionD)}</div>` : ""}
