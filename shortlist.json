@@ -46,7 +46,9 @@
 "pool": false,
 "newish": false,
 "pick": true,
-"forties": false
+"forties": false,
+"floor": "neutral",
+"floorNote": "pale cream tile through entry and living"
 },
 "8denhamplace|dundas": {
 "garage": "fail",
@@ -237,7 +239,9 @@
 "pool": false,
 "newish": true,
 "pick": true,
-"forties": false
+"forties": false,
+"floor": "neutral",
+"floorNote": "pale grey-white tile, light oak joinery"
 },
 "16fullartonstreet|telopea": {
 "garage": "match",
@@ -269,7 +273,9 @@
 "pool": false,
 "newish": true,
 "pick": true,
-"forties": false
+"forties": false,
+"floor": "herringbone",
+"floorNote": "herringbone timber through living and kitchen"
 },
 "20coraltreedrive|carlingford": {
 "garage": "fail",
@@ -407,7 +413,9 @@
 "pool": false,
 "newish": true,
 "pick": true,
-"forties": false
+"forties": false,
+"floor": "neutral",
+"floorNote": "pale cream large-format tile"
 },
 "13renestreet|eastryde": {
 "garage": "match",
@@ -507,8 +515,10 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"rejected": "you said no",
-"forties": false
+"rejected": "you said no - warm orange timber flooring",
+"forties": false,
+"floor": "warm",
+"floorNote": "warm orange timber - the one you photographed"
 },
 "41avalleyroad|epping": {
 "garage": "match",
@@ -657,5 +667,6 @@
 "pick": false
 }
 },
-"rule": "pick = bottom-floor garage, no pool, a bedroom of 20sqm or more, street number not in the 40s, and not rejected"
+"rule": "pick = bottom-floor garage, no pool, a bedroom of 20sqm or more, street number not in the 40s, and not rejected",
+"floorRule": "floor is advisory: \"herringbone\" or \"warm\" is flagged on the card and never removes a place"
 }

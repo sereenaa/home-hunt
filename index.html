@@ -252,6 +252,7 @@ function renderGrid() {
         <div class="addr">${addr}</div>
         <div class="spec"><span><b>${l.bed}</b> bed</span><span><b>${l.bath}</b> bath</span><span><b>${l.car}</b> car</span>${l.landM2 ? `<span><b>${l.landM2}</b> m²</span>` : ""}<span>${typeLabel[l.type] || esc(l.type)}</span></div>
         ${(pickOf(l) || {}).rejected ? `<div class="when">Ruled out — ${esc(pickOf(l).rejected)}</div>` : ""}
+        ${(pickOf(l) || {}).floor && pickOf(l).floor !== "neutral" ? `<div class="when">Flooring: ${esc(pickOf(l).floorNote || pickOf(l).floor)}</div>` : ""}
         ${(pickOf(l) || {}).bed1 ? `<div class="when">Biggest bedroom ${Math.round(pickOf(l).bed1)} m²${pickOf(l).pool ? " · has a pool" : ""}</div>` : ""}
         ${next ? `<div class="when">Next inspection ${fmtDate(next.s)}</div>` : ""}
         ${l.auctionD ? `<div class="when">Auction ${fmtDate(l.auctionD)}</div>` : ""}
@@ -291,6 +292,7 @@ function renderSchedule() {
         if (m.bed1) bits.push(Math.round(m.bed1) + "m\u00b2 bed");
         if (m.garage === "double") bits.push("double garage");
         if (m.newish) bits.push("new");
+        if (m.floor && m.floor !== "neutral") bits.push(m.floor + " floor");
         const url = e.l.domainUrl || e.l.reaUrl;
         const all = times.get(e.l.key) || [];
         const others = all.filter(d => d.getTime() !== e.d.getTime());
