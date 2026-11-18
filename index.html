@@ -78,6 +78,8 @@ select:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visibl
 .sched .srow { display: flex; gap: 10px; align-items: baseline; padding: 4px 0; flex-wrap: wrap; }
 .sched .stime { font-family: var(--font-mono); font-size: 13px; min-width: 76px; color: var(--muted); }
 .sched .smeta { color: var(--muted); font-size: 13px; }
+.sched .srow.isrepeat { border-left: 3px solid var(--accent); padding-left: 8px; margin-left: -11px; }
+.sched .repeat { font-size: 12px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 2px 7px; border-radius: 999px; }
 .body { padding: 12px 14px 14px; display: grid; gap: 6px; min-width: 0; }
 .price { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; line-height: 1.25; }
 .band { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -268,6 +270,10 @@ function renderSchedule() {
   picks.forEach(l => (l.insp || []).forEach(s => { if (s.s.getTime() >= nowTs) ev.push({ d: s.s, l }); }));
   ev.sort((a, b) => a.d - b.d);
   $("slTitle").textContent = "Our schedule \u2014 " + picks.length + " places, " + ev.length + (ev.length === 1 ? " inspection" : " inspections");
+  const times = new Map();
+  ev.forEach(e => { if (!times.has(e.l.key)) times.set(e.l.key, []); times.get(e.l.key).push(e.d); });
+  const shortT = (d) => d.toLocaleDateString("en-AU", { weekday: "short", day: "numeric" }).toLowerCase().replace(",", "") + " " +
+    d.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit" }).toLowerCase().replace(" ", "");
   const byDay = new Map();
   ev.forEach(e => {
     const k = e.d.toDateString();
@@ -284,9 +290,13 @@ function renderSchedule() {
         if (m.garage === "double") bits.push("double garage");
         if (m.newish) bits.push("new");
         const url = e.l.domainUrl || e.l.reaUrl;
-        return `<div class="srow"><span class="stime">${e.d.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit" }).toLowerCase()}</span>` +
+        const all = times.get(e.l.key) || [];
+        const others = all.filter(d => d.getTime() !== e.d.getTime());
+        const rep = others.length
+          ? `<span class="repeat" title="This place has more than one inspection">also ${esc(others.map(shortT).join(", "))}</span>` : "";
+        return `<div class="srow${others.length ? " isrepeat" : ""}"><span class="stime">${e.d.toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit" }).toLowerCase()}</span>` +
           `<a href="${url}" target="_blank" rel="noopener">${esc(e.l.street)}, ${esc(e.l.suburb)}</a>` +
-          (bits.length ? `<span class="smeta">${esc(bits.join(" \u00b7 "))}</span>` : "") + `</div>`;
+          (bits.length ? `<span class="smeta">${esc(bits.join(" \u00b7 "))}</span>` : "") + rep + `</div>`;
       }).join("") + `</div>`;
   }).join("");
 }
