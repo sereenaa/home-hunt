@@ -45,8 +45,8 @@
 "bed2": 10.0,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "34amarsdenroad|ermington": {
 "garage": "double",
@@ -91,8 +91,8 @@
 "newish": true,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "full",
+"north": "sun-drenched north facing backyard"
 },
 "48raimonderoad|carlingford": {
 "garage": "fail",
@@ -111,8 +111,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "elevated north facing position"
 },
 "2/66dandarbongavenue|carlingford": {
 "garage": "double",
@@ -195,8 +195,8 @@
 "bed2": 14.8,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "49dandarbongavenue|carlingford": {
 "garage": "invert",
@@ -274,8 +274,8 @@
 "pick": false,
 "rejected": "too old, and it has a pool",
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "10lynetteavenue|carlingford": {
 "garage": "double",
@@ -328,8 +328,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "north facing yard"
 },
 "14herringroad|marsfield": {
 "garage": "match",
@@ -400,8 +400,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "102achapmanavenue|beecroft": {
 "garage": "fail",
@@ -442,8 +442,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "17blenheimroad|northryde": {
 "garage": "fail",
@@ -462,8 +462,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "north facing balcony"
 },
 "32warwickroad|dundasvalley": {
 "garage": "fail",
@@ -506,8 +506,8 @@
 "bed2": 12.6,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "19awarwickstreet|northryde": {
 "garage": "match",
@@ -592,8 +592,8 @@
 "bed2": 15.5,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "full",
+"north": "not stated"
 },
 "7verastreet|eastwood": {
 "garage": "match",
@@ -614,8 +614,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "north-east facing"
 },
 "1ahakeaplace|epping": {
 "garage": "match",
@@ -662,8 +662,8 @@
 "pick": false,
 "rejected": "you said no; street number in the 40s",
 "forties": true,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "9beazleystreet|ryde": {
 "garage": "fail",
@@ -705,8 +705,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "7boroniaavenue|beecroft": {
 "garage": "fail",
@@ -767,8 +767,8 @@
 "newish": false,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "6astuartstreet|ryde": {
 "garage": "match",
@@ -779,8 +779,8 @@
 "newish": true,
 "pick": false,
 "forties": false,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "38wyunaroad|westpymble": {
 "garage": "fail",
@@ -800,8 +800,8 @@
 "pick": false,
 "rejected": "you said no; street number in the 40s",
 "forties": true,
-"brick": "unread",
-"north": "unread"
+"brick": "not stated",
+"north": "not stated"
 },
 "41baldwinstreet|gordon": {
 "garage": "invert",
