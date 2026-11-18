@@ -600,10 +600,12 @@
 "note": "garage 3.0x6.2 + living, kitchen, bed 5 downstairs",
 "bed1": 22.0,
 "bed2": 15.1,
-"pick": false,
+"pick": true,
 "forties": false,
 "brick": "double",
-"north": "north to rear aspect"
+"north": "north to rear aspect",
+"pool": false,
+"note2": "you like this one"
 },
 "52moncrieffdrive|eastryde": {
 "garage": "double",
