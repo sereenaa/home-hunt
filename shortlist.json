@@ -6,13 +6,17 @@
 "garage": "match",
 "note": "garage 5.5x3.0 + living/kitchen/study-bed4 on ground, beds up",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "43primulastreet|lindfield": {
 "garage": "fail",
 "note": "no garage - open parking on the driveway",
 "pick": false,
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "19atkinsroad|ermington": {
 "garage": "match",
@@ -22,13 +26,17 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "14tristaniaway|beecroft": {
 "garage": "fail",
 "note": "detached carport 5.5x6.5, lower level is a self-contained flat",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "7olindacrescent|carlingford": {
 "garage": "double",
@@ -36,7 +44,9 @@
 "bed1": 14.8,
 "bed2": 10.0,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "34amarsdenroad|ermington": {
 "garage": "double",
@@ -48,13 +58,17 @@
 "pick": true,
 "forties": false,
 "floor": "neutral",
-"floorNote": "pale cream tile through entry and living"
+"floorNote": "pale cream tile through entry and living",
+"brick": "not stated",
+"north": "not stated"
 },
 "8denhamplace|dundas": {
 "garage": "fail",
 "note": "parking is a DETACHED carport 5.6x5.6, not a garage",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "2kagaplace|marsfield": {
 "garage": "match",
@@ -64,7 +78,9 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "55anorthroad|ryde": {
 "garage": "match",
@@ -74,13 +90,17 @@
 "pool": true,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "48raimonderoad|carlingford": {
 "garage": "fail",
 "note": "single level - auto garage 3.3x6.1 but bedrooms on the same floor",
 "pick": false,
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "4narruncrescent|telopea": {
 "garage": "match",
@@ -90,7 +110,9 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "2/66dandarbongavenue|carlingford": {
 "garage": "double",
@@ -100,7 +122,9 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "northerly backyard"
 },
 "10aconradstreet|northryde": {
 "garage": "double",
@@ -110,25 +134,33 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "double",
+"north": "not stated"
 },
 "9acolstonstreet|ryde": {
 "garage": "match",
 "note": "garage 3.0x5.6 + family, dining, living, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "29cooneystreet|northryde": {
 "garage": "match",
 "note": "lower level garage 3.6x6.0 + lounge/kitchen/bedroom, 4 beds up",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "6smallsroad|ryde": {
 "garage": "double",
 "note": "two garages on ground (4 cars) + living/kitchen/family",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "16bmyraavenue|ryde": {
 "garage": "double",
@@ -136,19 +168,25 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "double",
+"north": "not stated"
 },
 "13acolstonstreet|ryde": {
 "garage": "match",
 "note": "lock-up garage 5.5x3.1 + living/dining/kitchen/bed4 on ground",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "6aquarryroad|ryde": {
 "garage": "double",
 "note": "garage 7.4x5.8 (large double) on the lower of two levels",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "80rutledgestreet|eastwood": {
 "garage": "match",
@@ -156,25 +194,33 @@
 "bed1": 21.0,
 "bed2": 14.8,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "49dandarbongavenue|carlingford": {
 "garage": "invert",
 "note": "ground garage 3.0x5.5 but a rumpus + bed 6 sit below it",
 "pick": false,
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "1napiercrescent|northryde": {
 "garage": "match",
 "note": "garage 3.3x5.5 + lounge/dining, kitchen, bedroom downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "53awoodbinecrescent|ryde": {
 "garage": "match",
 "note": "lock-up garage 3.2x6.1 + living, media/office downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "15wyburnavenue|carlingford": {
 "garage": "double",
@@ -184,7 +230,9 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "1/348marsdenroad|carlingford": {
 "garage": "double",
@@ -194,7 +242,9 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "14tallwoodavenue|eastwood": {
 "garage": "match",
@@ -204,13 +254,17 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "double",
+"north": "not stated"
 },
 "23addingtonavenue|ryde": {
 "garage": "fail",
 "note": "detached garage 3.6x12.0, single level",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "84coraltreedrive|carlingford": {
 "garage": "double",
@@ -219,7 +273,9 @@
 "bed2": 23.7,
 "pick": false,
 "rejected": "too old, and it has a pool",
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "10lynetteavenue|carlingford": {
 "garage": "double",
@@ -229,7 +285,9 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "29afawcettstreet|ryde": {
 "garage": "double",
@@ -241,19 +299,25 @@
 "pick": true,
 "forties": false,
 "floor": "neutral",
-"floorNote": "pale grey-white tile, light oak joinery"
+"floorNote": "pale grey-white tile, light oak joinery",
+"brick": "not stated",
+"north": "north-east to rear"
 },
 "16fullartonstreet|telopea": {
 "garage": "match",
 "note": "garage 5.5x3.0 + living/dining/media-bed5 on ground",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "32hartstreet|dundasvalley": {
 "garage": "match",
 "note": "garage 6.0x3.0 + lounge/dining, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "31blackwoodclose|beecroft": {
 "garage": "double",
@@ -263,7 +327,9 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "14herringroad|marsfield": {
 "garage": "match",
@@ -275,13 +341,17 @@
 "pick": true,
 "forties": false,
 "floor": "herringbone",
-"floorNote": "herringbone timber through living and kitchen"
+"floorNote": "herringbone timber through living and kitchen",
+"brick": "double",
+"north": "not stated"
 },
 "20coraltreedrive|carlingford": {
 "garage": "fail",
 "note": "double garage 6.2x5.7 is a DETACHED block; all bedrooms on the ground floor",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "16burmahroad|denistone": {
 "garage": "match",
@@ -291,7 +361,9 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "full",
+"north": "not stated"
 },
 "16imlayavenue|carlingford": {
 "garage": "double",
@@ -301,19 +373,25 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "north-west rear aspect"
 },
 "229vimieraroad|marsfield": {
 "garage": "match",
 "note": "garage 5.7x2.9 + living, lounge, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "17wilshireavenue|carlingford": {
 "garage": "fail",
 "note": "carports only (5.7x4.5 and 5.1x3.2)",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "33fitzgeraldroad|ermington": {
 "garage": "double",
@@ -321,31 +399,41 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "102achapmanavenue|beecroft": {
 "garage": "fail",
 "note": "double carport 5.2x5.9, single level",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "37calgastreet|rosevillechase": {
 "garage": "fail",
 "note": "lock-up garage is detached down by the street, plus a carport",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "16pennantavenue|denistone": {
 "garage": "fail",
 "note": "no garage - driveway parking only",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "232aspurwaystreet|dundas": {
 "garage": "match",
 "note": "lock-up garage 3.0x6.0 + dining, lounge, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "30quarryroad|dundasvalley": {
 "garage": "match",
@@ -353,13 +441,17 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "17blenheimroad|northryde": {
 "garage": "fail",
 "note": "garage is a separate building across the driveway",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "57samuelstreet|ryde": {
 "garage": "match",
@@ -369,25 +461,33 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "32warwickroad|dundasvalley": {
 "garage": "fail",
 "note": "carport 5.5x4.9, not a garage",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "25sophiestreet|telopea": {
 "garage": "fail",
 "note": "carport only, single level plus a self-contained flat",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "23bellevueavenue|denistone": {
 "garage": "fail",
 "note": "carports only, single level",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "2astroudstreet|northryde": {
 "garage": "double",
@@ -395,7 +495,9 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "double",
+"north": "not stated"
 },
 "8ahollandplace|dundas": {
 "garage": "match",
@@ -403,7 +505,9 @@
 "bed1": 14.0,
 "bed2": 12.6,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "19awarwickstreet|northryde": {
 "garage": "match",
@@ -415,19 +519,25 @@
 "pick": true,
 "forties": false,
 "floor": "neutral",
-"floorNote": "pale cream large-format tile"
+"floorNote": "pale cream large-format tile",
+"brick": "not stated",
+"north": "not stated"
 },
 "13renestreet|eastryde": {
 "garage": "match",
 "note": "garage 3.0x6.1 + living, dining, rumpus/bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "1rodneystreet|eastryde": {
 "garage": "match",
 "note": "garage 5.7x3.2 + sitting, kitchen, living, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "2sewellstreet|ryde": {
 "garage": "match",
@@ -437,13 +547,17 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "5gloucesterroad|epping": {
 "garage": "fail",
 "note": "garage is detached at the rear, carport beside the house",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "255marsdenroad|carlingford": {
 "garage": "match",
@@ -451,19 +565,25 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "11afremontavenue|ermington": {
 "garage": "match",
 "note": "garage 3.0x5.5 + living/dining, lounge, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "39apennantavenue|denistone": {
 "garage": "match",
 "note": "lock-up garage 3.0x5.9 + dining/living/kitchen/bed4 on ground",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "9ayangallastreet|marsfield": {
 "garage": "double",
@@ -471,7 +591,9 @@
 "bed1": 15.8,
 "bed2": 15.5,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "7verastreet|eastwood": {
 "garage": "match",
@@ -479,7 +601,9 @@
 "bed1": 22.0,
 "bed2": 15.1,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "double",
+"north": "north to rear aspect"
 },
 "52moncrieffdrive|eastryde": {
 "garage": "double",
@@ -489,7 +613,9 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "1ahakeaplace|epping": {
 "garage": "match",
@@ -499,13 +625,17 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "193ryderoad|westpymble": {
 "garage": "fail",
 "note": "two carports, no garage",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "2agallardstreet|denistoneeast": {
 "garage": "double",
@@ -518,7 +648,9 @@
 "rejected": "you said no - warm orange timber flooring",
 "forties": false,
 "floor": "warm",
-"floorNote": "warm orange timber - the one you photographed"
+"floorNote": "warm orange timber - the one you photographed",
+"brick": "full",
+"north": "not stated"
 },
 "41avalleyroad|epping": {
 "garage": "match",
@@ -529,13 +661,17 @@
 "newish": false,
 "pick": false,
 "rejected": "you said no; street number in the 40s",
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "9beazleystreet|ryde": {
 "garage": "fail",
 "note": "single-storey home, garage 39m2 is a DETACHED block",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "120eastviewavenue|northryde": {
 "garage": "double",
@@ -544,7 +680,9 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "13aferrabettaavenue|eastwood": {
 "garage": "match",
@@ -554,7 +692,9 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "not stated"
 },
 "4/25cookstreet|telopea": {
 "garage": "match",
@@ -564,31 +704,41 @@
 "pool": false,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "7boroniaavenue|beecroft": {
 "garage": "fail",
 "note": "no garage - open parking spaces",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "75tarrantsavenue|eastwood": {
 "garage": "fail",
 "note": "no garage or carport on the plan, driveway only",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "25roccastreet|ryde": {
 "garage": "double",
 "note": "lock-up garage 6.2x5.7 + lounge/kitchen/living on ground",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "316blaxlandroad|ryde": {
 "garage": "invert",
 "note": "double garage 5.7x5.9 on the entry level; bedrooms are BELOW",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "157aspurwaystreet|ermington": {
 "garage": "match",
@@ -596,13 +746,17 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "not stated",
+"north": "north and east facing backyard"
 },
 "2arexstreet|westryde": {
 "garage": "match",
 "note": "garage 2.5x5.5 + study/living/dining/kitchen on ground",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "4lyndelleplace|carlingford": {
 "garage": "double",
@@ -612,7 +766,9 @@
 "pool": true,
 "newish": false,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "6astuartstreet|ryde": {
 "garage": "match",
@@ -622,13 +778,17 @@
 "pool": false,
 "newish": true,
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "38wyunaroad|westpymble": {
 "garage": "fail",
 "note": "lock-up garage 3.0x4.6 is DETACHED from the house",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "49afitzgeraldroad|ermington": {
 "garage": "match",
@@ -639,34 +799,45 @@
 "newish": true,
 "pick": false,
 "rejected": "you said no; street number in the 40s",
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "41baldwinstreet|gordon": {
 "garage": "invert",
 "note": "double garage 5.8x6.8 shares the ground floor with all 4 bedrooms; living is BELOW",
 "pick": false,
-"forties": true
+"forties": true,
+"brick": "unread",
+"north": "unread"
 },
 "9kywongstreet|telopea": {
 "garage": "match",
 "note": "garage 3.1x6.0 + dining, lounge, bed 5 downstairs",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "52finlayroad|turramurra": {
 "garage": "fail",
 "note": "parking is a DETACHED carport 3.7x5.5",
 "pick": false,
-"forties": false
+"forties": false,
+"brick": "unread",
+"north": "unread"
 },
 "21beltanastreet|denistone": {
 "garage": "n/a",
 "note": "",
 "rejected": "inspected 18 Nov - poor build quality",
 "forties": false,
-"pick": false
+"pick": false,
+"brick": "unread",
+"north": "unread"
 }
 },
 "rule": "pick = bottom-floor garage, no pool, a bedroom of 20sqm or more, street number not in the 40s, and not rejected",
-"floorRule": "floor is advisory: \"herringbone\" or \"warm\" is flagged on the card and never removes a place"
+"floorRule": "floor is advisory: \"herringbone\" or \"warm\" is flagged on the card and never removes a place",
+"brickRule": "brick and north read from the listing text with hyphens normalised and suburb names (north ryde, north rocks) excluded; \"unread\" means Domain blocked the fetch"
 }
