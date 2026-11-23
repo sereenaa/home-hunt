@@ -53,10 +53,27 @@ details.insp summary { cursor: pointer; font-family: var(--font-display); font-w
 .day li .nw { color: var(--new); font-weight: 600; font-size: 12px; margin-left: 4px; }
 .muted { color: var(--muted); }
 .controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
-.ctl { display: grid; gap: 4px; min-width: 0; }
+.wrap { grid-template-columns: minmax(0, 1fr); }
+.ctl { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; min-width: 0; max-width: 100%; }
 .ctl label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
 select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; max-width: 100%; }
 select:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ctl.qbox { flex: 1 1 240px; }
+input[type=search] { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; width: 100%; min-width: 0; }
+.ctl.pricebox { flex: 0 1 260px; min-width: 200px; }
+.pricebox .pv { font-family: var(--font-mono); font-size: 13px; color: var(--fg); font-variant-numeric: tabular-nums; }
+.range { position: relative; height: 28px; }
+.range .track, .range .fill { position: absolute; top: 12px; height: 4px; border-radius: 2px; }
+.range .track { left: 0; right: 0; background: var(--line); }
+.range .fill { background: var(--accent); }
+.range input { position: absolute; inset: 0; width: 100%; height: 28px; margin: 0; background: none; pointer-events: none; -webkit-appearance: none; appearance: none; }
+.range input::-webkit-slider-runnable-track { background: none; height: 28px; }
+.range input::-moz-range-track { background: none; }
+.range input::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 20px; height: 20px; margin-top: 4px; border-radius: 50%; background: var(--accent); border: 2px solid var(--surface); box-shadow: 0 0 0 1px var(--accent); cursor: pointer; }
+.range input::-moz-range-thumb { pointer-events: auto; width: 16px; height: 16px; border-radius: 50%; background: var(--accent); border: 2px solid var(--surface); box-shadow: 0 0 0 1px var(--accent); cursor: pointer; }
+.range input:focus-visible { outline: none; }
+.range input:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--accent); outline-offset: 2px; }
+.range input:focus-visible::-moz-range-thumb { outline: 2px solid var(--accent); outline-offset: 2px; }
 .chk { display: flex; gap: 6px; align-items: center; font-size: 14px; padding-block: 7px; }
 .count { margin-left: auto; font-family: var(--font-mono); font-size: 13px; color: var(--muted); align-self: center; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
@@ -115,6 +132,11 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
   </details>
 
   <div class="controls">
+    <div class="ctl qbox"><label for="q">Search address</label><input type="search" id="q" placeholder="e.g. 12 Bowman St or Five Dock" autocomplete="off" spellcheck="false"></div>
+    <div class="ctl pricebox"><label for="pmin">Price <span class="pv" id="pv">Any</span></label>
+      <div class="range"><div class="track"></div><div class="fill" id="pfill"></div>
+        <input type="range" id="pmin" min="1000000" max="3000000" step="50000" value="1000000" aria-label="Minimum price">
+        <input type="range" id="pmax" min="1000000" max="3000000" step="50000" value="3000000" aria-label="Maximum price"></div></div>
     <div class="ctl"><label for="area">Area</label>
       <select id="area">
         <option value="core">Ryde, Epping, Hunters Hill, North Shore &amp; Bay Run</option>
@@ -137,7 +159,7 @@ footer { color: var(--muted); font-size: 13px; max-width: 80ch; }
 
   <div class="grid" id="grid"><div class="empty">Loading listings…</div></div>
 
-  <footer>"Search price" is the hidden price the agent entered for search filters, worked out by re-running both searches in three bands: under $2m, $2m–$2.25m and $2.25m–$2.5m. It is the agent's estimate, not a reserve, and auctions can go higher. Listings on both sites appear once, with a link to each. "New" means the listing wasn't in the previous week's search. Inspection times come from the listing pages, so check with the agent before you go.</footer>
+  <footer>"Search price" is the hidden price the agent entered for search filters, worked out by re-running both searches in three bands: under $2m, $2m–$2.25m and $2.25m–$2.5m. It is the agent's estimate, not a reserve, and auctions can go higher. The price slider uses the advertised guide, or the search price band when no guide is published; listings with neither only show when the slider is set to Any. The address search looks across every suburb, ignoring the Area and Suburb filters. Listings on both sites appear once, with a link to each. "New" means the listing wasn't in the previous week's search. Inspection times come from the listing pages, so check with the agent before you go.</footer>
 </div>
 
 <script>
@@ -172,13 +194,46 @@ function prep(data) {
   LISTINGS = data.listings.map((l, i) => {
     const prices = parsePrices(l.price);
     const low = prices.length ? Math.min(...prices) : null;
+    const bk = (l.bands || []).filter(k => BAND_DEFS[k]);
+    const pr = prices.length ? [low, Math.max(...prices)]
+      : bk.length ? [Math.min(...bk.map(k => BAND_DEFS[k][0])), Math.max(...bk.map(k => BAND_DEFS[k][1]))] : null;
+    const hay = normQ((l.street || "") + " " + (l.suburb || ""));
     const auction = l.auction ? new Date(l.auction) : null;
-    return { ...l, i, low, core: CORE.has(l.suburb), over: low !== null && low > 2500000,
+    return { ...l, i, low, pr, hay, core: CORE.has(l.suburb), over: low !== null && low > 2500000,
       contract: /under contract/i.test(l.price || ""),
       auctionD: auction && auction >= NOW ? auction : null,
       insp: (l.inspections || []).map(x => ({ s: new Date(x.start), e: x.end ? new Date(x.end) : null })).filter(x => x.s >= NOW) };
   });
   $("updated").textContent = "Updated " + NOW.toLocaleDateString("en-AU", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: TZ }) + ".";
+}
+
+const normQ = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const ABBR = { st: "street", rd: "road", ave: "avenue", av: "avenue", pde: "parade", cres: "crescent", cr: "crescent", pl: "place", dr: "drive", ct: "court", hwy: "highway", ln: "lane", tce: "terrace", cl: "close" };
+function qTokens() { return normQ($("q").value).split(" ").filter(Boolean); }
+function qMatch(l, toks) {
+  const words = l.hay.split(" ");
+  return toks.every((t, i) => {
+    const full = ABBR[t];
+    // last token can be a partial word while typing
+    return words.some(w => w === t || (full && w === full) || (i === toks.length - 1 && w.startsWith(t))) || (/^\d/.test(t) && words.some(w => w.startsWith(t)));
+  });
+}
+const P_MIN = 1000000, P_MAX = 3000000;
+function priceSel() {
+  let lo = +$("pmin").value, hi = +$("pmax").value;
+  return { lo: lo <= P_MIN ? -Infinity : lo, hi: hi >= P_MAX ? Infinity : hi, any: lo <= P_MIN && hi >= P_MAX };
+}
+function priceMatch(l, ps) { if (ps.any) return true; if (!l.pr) return false; return l.pr[1] >= ps.lo && l.pr[0] <= ps.hi; }
+const fmtP = (v) => "$" + (v / 1e6).toFixed(v % 1e5 ? 2 : (v % 1e6 ? 1 : 0)) + "m";
+function syncPrice(e) {
+  let lo = +$("pmin").value, hi = +$("pmax").value;
+  if (lo > hi) { if (e && e.target.id === "pmin") { $("pmin").value = hi; lo = hi; } else { $("pmax").value = lo; hi = lo; } }
+  const pct = (v) => (v - P_MIN) / (P_MAX - P_MIN) * 100;
+  $("pfill").style.left = pct(lo) + "%"; $("pfill").style.right = (100 - pct(hi)) + "%";
+  const a = lo <= P_MIN, b = hi >= P_MAX;
+  $("pv").textContent = a && b ? "Any" : a ? "Up to " + fmtP(hi) : b ? fmtP(lo) + "+" : fmtP(lo) + " – " + fmtP(hi);
+  // keep the upper thumb reachable when both sit at the minimum
+  $("pmin").style.zIndex = lo >= P_MAX - 50000 ? 3 : "";
 }
 
 function inArea(l) { const a = $("area").value; return a === "all" || (a === "core") === l.core; }
@@ -216,7 +271,9 @@ function renderGrid() {
   const sub = $("suburb").value, pt = $("ptype").value, sort = $("sort").value, band = $("band").value;
   const hide = $("hideover").checked, noPrice = $("nopriceonly").checked, newOnly = $("newonly").checked;
   const slOnly = $("slonly").checked;
-  let rows = LISTINGS.filter(l => inArea(l) && (!sub || l.suburb === sub) && typeMatch(l, pt) && !(hide && l.over) &&
+  const toks = qTokens(), ps = priceSel();
+  // an address search looks across every area and suburb so a known address is always found
+  let rows = LISTINGS.filter(l => (toks.length ? qMatch(l, toks) : inArea(l) && (!sub || l.suburb === sub)) && priceMatch(l, ps) && typeMatch(l, pt) && !(hide && l.over) &&
     (!band || (l.bands || []).includes(band)) && !(noPrice && l.low !== null) && !(newOnly && !l.isNew) &&
     !(slOnly && !(pickOf(l) || {}).pick));
   const big = 9e15;
@@ -226,7 +283,7 @@ function renderGrid() {
   if (sort === "auction") rows.sort((a, b) => (a.auctionD ? a.auctionD.getTime() : big) - (b.auctionD ? b.auctionD.getTime() : big));
   if (sort === "land") rows.sort((a, b) => (b.landM2 ?? -1) - (a.landM2 ?? -1));
   $("count").textContent = rows.length + (rows.length === 1 ? " listing" : " listings");
-  if (!rows.length) { $("grid").innerHTML = '<div class="empty">No listings match these filters. Try "Include nearby suburbs" or another type.</div>'; return; }
+  if (!rows.length) { $("grid").innerHTML = (toks.length ? '<div class="empty">No address matches that search with the current filters. Check the spelling, or widen the price and type filters.</div>' : '<div class="empty">No listings match these filters. Try "Include nearby suburbs", a wider price range or another type.</div>'); return; }
   $("grid").innerHTML = rows.map(l => {
     const badges = [];
     if ((pickOf(l) || {}).pick) badges.push('<span class="badge pick">Our shortlist</span>');
@@ -315,7 +372,9 @@ Promise.all([
   fetch("shortlist.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null)
 ]).then(([data, sl]) => {
   SL = (sl && sl.listings) || {};
-  prep(data); fillSuburbs(); renderAll();
+  prep(data); fillSuburbs(); syncPrice(); renderAll();
+  $("q").addEventListener("input", renderGrid);
+  ["pmin", "pmax"].forEach(id => $(id).addEventListener("input", (e) => { syncPrice(e); renderGrid(); }));
   $("area").addEventListener("change", () => { fillSuburbs(); renderAll(); });
   ["suburb", "ptype", "sort", "band", "hideover", "nopriceonly", "newonly", "slonly"].forEach(id => $(id).addEventListener("change", renderGrid));
 }).catch(() => { $("grid").innerHTML = '<div class="empty">The listings data didn\'t load. Refresh the page to try again.</div>'; });
